@@ -1,5 +1,7 @@
-# TODO
+# TODO
 # 1. Add play audio button
+# 2. Toggle audio speed
+# 3. Switch audio (original, alt, alt2)
 
 import json
 
@@ -15,7 +17,10 @@ from pygame import mixer
 mixer.init()
 
 # global labels
-global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, lang
+global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, lang, voice
+
+# default audio voice
+voice = 1
 
 # which audio should be played
 lang = 'zh'  # en -> English, zh -> Chinese
@@ -34,7 +39,7 @@ data = json.load(f)
 # get card info from json
 def getCard(nav='n'):
 
-    global n, cn, py, wt, div, en, c_num, nav_prev, nav_next
+    global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, voice
 
     # next card
     if (nav == 'n'):
@@ -63,8 +68,23 @@ def getCard(nav='n'):
     en.config(text=english)
     c_num.config(text=card_number)
 
+    play_audio()
+
+
+def play_audio(arg=0):
+
+    global voice, n, lang
+
+    if (voice == 1):
+        selectedAudio = ""
+    if (voice == 2):
+        selectedAudio = "_alt"
+    if (voice == 3):
+        selectedAudio = "_alt2"
+
     # update audio file path
-    audio_path = ''.join(["audio/", lang, "/", card_number, ".mp3"])
+    audio_path = ''.join(
+        ["audio/", lang, "/", str(n), selectedAudio, ".mp3"])
     mixer.music.load(audio_path)
     # play Chinese audio
     mixer.music.play()
@@ -184,12 +204,14 @@ def callback(sv):
     # go to card
     getCard(query)
 
+
 # nav on click
 nav_next.bind('<Button-1>', lambda x: getCard())
 nav_prev.bind('<Button-1>', lambda x: getCard('p'))
 # nav on arrow keys
 root.bind('<Right>', lambda x: getCard())
 root.bind('<Left>', lambda x: getCard('p'))
+
 
 def changeLang():
 
@@ -212,9 +234,65 @@ def changeLang():
 toggleLang = tk.Button(text="audio: 中文",
                        width=15,
                        relief="raised",
-                       fg="black",
+                       fg="#7314C0",
                        font="Helvetica 10 bold",
                        command=changeLang)
 toggleLang.place(relx=0.0, rely=0.0, anchor=NW)
+
+# global var
+global voiceToggle, voiceStr
+
+
+# switch audio voice on click
+def selectVoice():
+
+    global voice, voiceStr
+    # construct voiceToggle text
+    voiceStr = "".join(["voice: ", str(voice)])
+
+    if (voice < 3):
+        voice = voice + 1
+    else:
+        voice = 1
+
+    # update voiceToggle text
+    voiceToggle.config(text=voiceStr)
+
+
+voiceStr = "".join(["voice: ", str(voice)])
+# Choose Audio Voice
+voiceToggle = tk.Button(text=voiceStr,
+                        width=15,
+                        relief="raised",
+                        fg="#7314C0",
+                        font="Helvetica 10 bold",
+                        command=selectVoice)
+voiceToggle.place(relx=0.0, rely=0.03, anchor=NW)
+
+# Play Audio button
+audioBtn = tk.Label(root,
+                    text="▶",
+                    fg="white",
+                    bg="#7314C0",
+                    font="Helvetica 25 bold")
+# position next to top-left buttons
+audioBtn.place(relx=0.12, rely=0.03, anchor=W)
+# play audio on click
+audioBtn.bind('<Button-1>', play_audio)
+
+# global speedToggle
+
+# def audioSpeed():
+#    print('audioSpeed clicked')
+
+# audio speed toggle
+# speedToggle = tk.Button(
+#                       text="speed: slow",
+#                       width=15,
+#                       relief="raised",
+#                       fg="#7314C0",
+#                       font="Helvetica 10 bold",
+#                       command=audioSpeed)
+# speedToggle.place(relx=0.0, rely=0.03, anchor=NW)
 
 root.mainloop()
