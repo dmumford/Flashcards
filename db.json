@@ -1,0 +1,4066 @@
+[
+    {
+        "type": "database",
+        "name": "Chinese"
+    },
+    {
+        "type": "table",
+        "name": "DC2",
+        "database": "Chinese",
+        "data": [
+            {
+                "id": "1",
+                "zh": "\t阿姨\t",
+                "pinyin": "\tĀyí\t",
+                "type": "\tn\t",
+                "en": "\tAunt\t"
+            },
+            {
+                "id": "2",
+                "zh": "\t啊\t",
+                "pinyin": "\tĀ\t",
+                "type": "\tinterj\t",
+                "en": "\tAh\t"
+            },
+            {
+                "id": "3",
+                "zh": "\t矮\t",
+                "pinyin": "\tǍi\t",
+                "type": "\tadj\t",
+                "en": "\tShort (height)\t"
+            },
+            {
+                "id": "4",
+                "zh": "\t爱\t",
+                "pinyin": "\tÀi\t",
+                "type": "\tv\t",
+                "en": "\tLove, like\t"
+            },
+            {
+                "id": "5",
+                "zh": "\t安静\t",
+                "pinyin": "\tĀnjìng\t",
+                "type": "\tadj\t",
+                "en": "\tsilent, be quiet\t"
+            },
+            {
+                "id": "6",
+                "zh": "\t按时\t",
+                "pinyin": "\tÀnshí\t",
+                "type": "\tadv\t",
+                "en": "\tOn time\t"
+            },
+            {
+                "id": "7",
+                "zh": "\t巴西\t",
+                "pinyin": "\tBāxī\t",
+                "type": "\tn\t",
+                "en": "\tBrazil\t"
+            },
+            {
+                "id": "8",
+                "zh": "\t把\t",
+                "pinyin": "\tBǎ\t",
+                "type": "\tprep\t",
+                "en": "\tPut (Used to put the object of a verb before it)\t"
+            },
+            {
+                "id": "9",
+                "zh": "\t白酒\t",
+                "pinyin": "\tBáijiǔ\t",
+                "type": "\tn\t",
+                "en": "\tRice wine, white spirit\t"
+            },
+            {
+                "id": "10",
+                "zh": "\t白天\t",
+                "pinyin": "\tBáitiān\t",
+                "type": "\tn\t",
+                "en": "\tDaytime\t"
+            },
+            {
+                "id": "11",
+                "zh": "\t白羊座\t",
+                "pinyin": "\tBáiyángzuò\t",
+                "type": "\tn\t",
+                "en": "\tAries\t"
+            },
+            {
+                "id": "12",
+                "zh": "\t百分之\t",
+                "pinyin": "\tBǎi fēn zhī\t",
+                "type": "\tn\t",
+                "en": "\tpercent\t"
+            },
+            {
+                "id": "13",
+                "zh": "\t拜年\t",
+                "pinyin": "\tBàinián\t",
+                "type": "\tv\t",
+                "en": "\tPay a New Year visit\t"
+            },
+            {
+                "id": "14",
+                "zh": "\t办理\t",
+                "pinyin": "\tBànlǐ\t",
+                "type": "\tv\t",
+                "en": "\tHandle, process\t"
+            },
+            {
+                "id": "15",
+                "zh": "\t帮助\t",
+                "pinyin": "\tBāngzhù\t",
+                "type": "\tv\/n\t",
+                "en": "\tHelp\t"
+            },
+            {
+                "id": "16",
+                "zh": "\t包\t",
+                "pinyin": "\tBāo\t",
+                "type": "\tv\t",
+                "en": "\tWrap, make\t"
+            },
+            {
+                "id": "17",
+                "zh": "\t包裹\t",
+                "pinyin": "\tBāoguǒ\t",
+                "type": "\tn\t",
+                "en": "\tParcel, package\t"
+            },
+            {
+                "id": "18",
+                "zh": "\t饱\t",
+                "pinyin": "\tBǎo\t",
+                "type": "\tadj\t",
+                "en": "\tFull, replete\t"
+            },
+            {
+                "id": "19",
+                "zh": "\t保护\t",
+                "pinyin": "\tBǎohù\t",
+                "type": "\tv\/n\t",
+                "en": "\tProtect; protection\t"
+            },
+            {
+                "id": "20",
+                "zh": "\t保护区\t",
+                "pinyin": "\tBǎohù qū\t",
+                "type": "\tn\t",
+                "en": "\tNature reserve\t"
+            },
+            {
+                "id": "21",
+                "zh": "\t报纸\t",
+                "pinyin": "\tBàozhǐ\t",
+                "type": "\tn\t",
+                "en": "\tNewspaper\t"
+            },
+            {
+                "id": "22",
+                "zh": "\t杯\t",
+                "pinyin": "\tBēi\t",
+                "type": "\tn\t",
+                "en": "\tGlass, cup\t"
+            },
+            {
+                "id": "23",
+                "zh": "\t悲观\t",
+                "pinyin": "\tBēiguān\t",
+                "type": "\tadj\t",
+                "en": "\tPessimistic\t"
+            },
+            {
+                "id": "24",
+                "zh": "\t被\t",
+                "pinyin": "\tBèi\t",
+                "type": "\tauxiliary word\t",
+                "en": "\t(For passive voice)\t"
+            },
+            {
+                "id": "25",
+                "zh": "\t被子\t",
+                "pinyin": "\tBèizi\t",
+                "type": "\tn\t",
+                "en": "\tQuilt\t"
+            },
+            {
+                "id": "26",
+                "zh": "\t本\t",
+                "pinyin": "\tBěn\t",
+                "type": "\tmeasure word\t",
+                "en": "\t[Measure word for books]\t"
+            },
+            {
+                "id": "27",
+                "zh": "\t本地\t",
+                "pinyin": "\tBěndì\t",
+                "type": "\tn\t",
+                "en": "\tLocal area, place\t"
+            },
+            {
+                "id": "28",
+                "zh": "\t鼻塞\t",
+                "pinyin": "\tBísè\t",
+                "type": "\tn\t",
+                "en": "\tStuffy nose\t"
+            },
+            {
+                "id": "29",
+                "zh": "\t鼻子\t",
+                "pinyin": "\tBízi\t",
+                "type": "\tn\t",
+                "en": "\tNose\t"
+            },
+            {
+                "id": "30",
+                "zh": "\t比\t",
+                "pinyin": "\tBǐ\t",
+                "type": "\tv\t",
+                "en": "\tCompare, contrast\t"
+            },
+            {
+                "id": "31",
+                "zh": "\t比较\t",
+                "pinyin": "\tBǐjiào\t",
+                "type": "\tadv\t",
+                "en": "\tComparatively, in comparison\t"
+            },
+            {
+                "id": "32",
+                "zh": "\t变成\t",
+                "pinyin": "\tBiàn chéng\t",
+                "type": "\tv\t",
+                "en": "\tChange into\t"
+            },
+            {
+                "id": "33",
+                "zh": "\t标准\t",
+                "pinyin": "\tBiāozhǔn\t",
+                "type": "\tn\t",
+                "en": "\tStandard\t"
+            },
+            {
+                "id": "34",
+                "zh": "\t表（格）\t",
+                "pinyin": "\tBiǎogé\t",
+                "type": "\tn\t",
+                "en": "\tForm; table\t"
+            },
+            {
+                "id": "35",
+                "zh": "\t表弟\t",
+                "pinyin": "\tBiǎo dì\t",
+                "type": "\tn\t",
+                "en": "\tCousin (younger male)\t"
+            },
+            {
+                "id": "36",
+                "zh": "\t宾馆\t",
+                "pinyin": "\tBīnguǎn\t",
+                "type": "\tn\t",
+                "en": "\tHotel\t"
+            },
+            {
+                "id": "37",
+                "zh": "\t博物馆\t",
+                "pinyin": "\tBówùguǎn\t",
+                "type": "\tn\t",
+                "en": "\tMuseum\t"
+            },
+            {
+                "id": "38",
+                "zh": "\t不得不\t",
+                "pinyin": "\tBùdé bù\t",
+                "type": "\tphrase\t",
+                "en": "\tHave to, no choice but\t"
+            },
+            {
+                "id": "39",
+                "zh": "\t不过\t",
+                "pinyin": "\tBùguò\t",
+                "type": "\tconj\t",
+                "en": "\tHowever, but\t"
+            },
+            {
+                "id": "40",
+                "zh": "\t不好意思\t",
+                "pinyin": "\tBù hǎoyìsi\t",
+                "type": "\tv\t",
+                "en": "\tFeel embarrassed\t"
+            },
+            {
+                "id": "41",
+                "zh": "\t不客气\t",
+                "pinyin": "\tBù kèqì\t",
+                "type": "\tphrase\t",
+                "en": "\tYou’re Welcome; Don’t mention it\t"
+            },
+            {
+                "id": "42",
+                "zh": "\t不同\t",
+                "pinyin": "\tBùtóng\t",
+                "type": "\tadj\t",
+                "en": "\tDifferent\t"
+            },
+            {
+                "id": "43",
+                "zh": "\t部分\t",
+                "pinyin": "\tBùfèn\t",
+                "type": "\tn\t",
+                "en": "\tpart, section\t"
+            },
+            {
+                "id": "44",
+                "zh": "\t猜\t",
+                "pinyin": "\tCāi\t",
+                "type": "\tv\t",
+                "en": "\tGuess\t"
+            },
+            {
+                "id": "45",
+                "zh": "\t才\t",
+                "pinyin": "\tCái\t",
+                "type": "\tadv\t",
+                "en": "\tNot until\t"
+            },
+            {
+                "id": "46",
+                "zh": "\t彩\t",
+                "pinyin": "\tCǎi\t",
+                "type": "\tn\t",
+                "en": "\tColour\t"
+            },
+            {
+                "id": "47",
+                "zh": "\t菜单\t",
+                "pinyin": "\tCàidān\t",
+                "type": "\tn\t",
+                "en": "\tMenu\t"
+            },
+            {
+                "id": "48",
+                "zh": "\t参加\t",
+                "pinyin": "\tCānjiā\t",
+                "type": "\tv\t",
+                "en": "\tTake part in, participate\t"
+            },
+            {
+                "id": "49",
+                "zh": "\t差别\t",
+                "pinyin": "\tChābié\t",
+                "type": "\tn\t",
+                "en": "\tDifference\t"
+            },
+            {
+                "id": "50",
+                "zh": "\t茶\t",
+                "pinyin": "\tChá\t",
+                "type": "\tn\t",
+                "en": "\tTea (drink)\t"
+            },
+            {
+                "id": "51",
+                "zh": "\t茶具\t",
+                "pinyin": "\tChájù\t",
+                "type": "\tn\t",
+                "en": "\tTea set\t"
+            },
+            {
+                "id": "52",
+                "zh": "\t差不多\t",
+                "pinyin": "\tChàbùduō\t",
+                "type": "\tadj\t",
+                "en": "\tAlmost, nearly the same\t"
+            },
+            {
+                "id": "53",
+                "zh": "\t长\t",
+                "pinyin": "\tChǎng\/Zhǎng\t",
+                "type": "\tadj\/n\t",
+                "en": "\tLong, length\t"
+            },
+            {
+                "id": "54",
+                "zh": "\t尝试\t",
+                "pinyin": "\tChángshì\t",
+                "type": "\tn\t",
+                "en": "\tGeneral knowledge, common sense\t"
+            },
+            {
+                "id": "55",
+                "zh": "\t朝代\t",
+                "pinyin": "\tCháodài\t",
+                "type": "\tn\t",
+                "en": "\tDynasty\t"
+            },
+            {
+                "id": "56",
+                "zh": "\t炒\t",
+                "pinyin": "\tChǎo\t",
+                "type": "\tv\t",
+                "en": "\tStir-fry\t"
+            },
+            {
+                "id": "57",
+                "zh": "\t吵架\t",
+                "pinyin": "\tChǎojià\t",
+                "type": "\tv\t",
+                "en": "\tQuarrel, argue\t"
+            },
+            {
+                "id": "58",
+                "zh": "\t车\t",
+                "pinyin": "\tChē\t",
+                "type": "\tn\t",
+                "en": "\tCar; Carriage of a train\t"
+            },
+            {
+                "id": "59",
+                "zh": "\t车费\t",
+                "pinyin": "\tChē fèi\t",
+                "type": "\tn\t",
+                "en": "\tFare (for bus\/train\/taxi)\t"
+            },
+            {
+                "id": "60",
+                "zh": "\t称\t",
+                "pinyin": "\tChēng\t",
+                "type": "\tv\t",
+                "en": "\tCall; weigh\t"
+            },
+            {
+                "id": "61",
+                "zh": "\t诚实\t",
+                "pinyin": "\tChéngshí\t",
+                "type": "\tadj\t",
+                "en": "\tHonest\t"
+            },
+            {
+                "id": "62",
+                "zh": "\t橙子\t",
+                "pinyin": "\tChéngzi\t",
+                "type": "\tn\t",
+                "en": "\tOrange\t"
+            },
+            {
+                "id": "63",
+                "zh": "\t池\t",
+                "pinyin": "\tChí\t",
+                "type": "\tn\t",
+                "en": "\tPond, pool\t"
+            },
+            {
+                "id": "64",
+                "zh": "\t迟到\t",
+                "pinyin": "\tChídào\t",
+                "type": "\tv\t",
+                "en": "\tBe late\t"
+            },
+            {
+                "id": "65",
+                "zh": "\t宠物\t",
+                "pinyin": "\tChǒngwù\t",
+                "type": "\tn\t",
+                "en": "\tPet\t"
+            },
+            {
+                "id": "66",
+                "zh": "\t出\t",
+                "pinyin": "\tChū\t",
+                "type": "\tv\t",
+                "en": "\tGo\/come out\t"
+            },
+            {
+                "id": "67",
+                "zh": "\t除了...以外\t",
+                "pinyin": "\tChúle…Yǐwài\t",
+                "type": "\tprep\t",
+                "en": "\tExcept for, besides\t"
+            },
+            {
+                "id": "68",
+                "zh": "\t除夕\t",
+                "pinyin": "\tChúxì\t",
+                "type": "\tn\t",
+                "en": "\tNew Year’s Eve\t"
+            },
+            {
+                "id": "69",
+                "zh": "\t穿\t",
+                "pinyin": "\tChuān\t",
+                "type": "\tv\t",
+                "en": "\tWear (clothes)\t"
+            },
+            {
+                "id": "70",
+                "zh": "\t床\t",
+                "pinyin": "\tChuáng\t",
+                "type": "\tmeasure word \/ n\t",
+                "en": "\tBed\t"
+            },
+            {
+                "id": "71",
+                "zh": "\t床单\t",
+                "pinyin": "\tChuángdān\t",
+                "type": "\tn\t",
+                "en": "\tBedsheet\t"
+            },
+            {
+                "id": "72",
+                "zh": "\t春节\t",
+                "pinyin": "\tChūnjié\t",
+                "type": "\tn\t",
+                "en": "\tSpring Festival, Chinese New Year\t"
+            },
+            {
+                "id": "73",
+                "zh": "\t春联\t",
+                "pinyin": "\tChūnlián\t",
+                "type": "\tn\t",
+                "en": "\tSpring couplets\t"
+            },
+            {
+                "id": "74",
+                "zh": "\t春天\t",
+                "pinyin": "\tChūntiān\t",
+                "type": "\tn\t",
+                "en": "\tSpring\t"
+            },
+            {
+                "id": "75",
+                "zh": "\t次\t",
+                "pinyin": "\tCì\t",
+                "type": "\tn\t",
+                "en": "\tnth order; service number of a train\t"
+            },
+            {
+                "id": "76",
+                "zh": "\t刺激\t",
+                "pinyin": "\tCìjī\t",
+                "type": "\tv\t",
+                "en": "\tStimulating, exciting\t"
+            },
+            {
+                "id": "77",
+                "zh": "\t葱\t",
+                "pinyin": "\tCōng\t",
+                "type": "\tn\t",
+                "en": "\tSpring onion\t"
+            },
+            {
+                "id": "78",
+                "zh": "\t聪明\t",
+                "pinyin": "\tCōngmíng\t",
+                "type": "\tadj\t",
+                "en": "\tClever\t"
+            },
+            {
+                "id": "79",
+                "zh": "\t错\t",
+                "pinyin": "\tCuò\t",
+                "type": "\tadj\t",
+                "en": "\tWrong\t"
+            },
+            {
+                "id": "80",
+                "zh": "\t达到\t",
+                "pinyin": "\tDádào\t",
+                "type": "\tv\t",
+                "en": "\tReach, get up to; achieve \/ attain\t"
+            },
+            {
+                "id": "81",
+                "zh": "\t打工\t",
+                "pinyin": "\tDǎgōng\t",
+                "type": "\tv\t",
+                "en": "\tWork, labour\t"
+            },
+            {
+                "id": "82",
+                "zh": "\t打井\t",
+                "pinyin": "\tDǎ jǐng\t",
+                "type": "\tv\t",
+                "en": "\tDig a well\t"
+            },
+            {
+                "id": "83",
+                "zh": "\t打喷嚏\t",
+                "pinyin": "\tDǎ pēntì\t",
+                "type": "\tv\t",
+                "en": "\tSneeze\t"
+            },
+            {
+                "id": "84",
+                "zh": "\t打针\t",
+                "pinyin": "\tDǎzhēn\t",
+                "type": "\tv\t",
+                "en": "\thave\/give an injection\t"
+            },
+            {
+                "id": "85",
+                "zh": "\t大\t",
+                "pinyin": "\tDà\t",
+                "type": "\tadj\t",
+                "en": "\tbig, large\t"
+            },
+            {
+                "id": "86",
+                "zh": "\t大方\t",
+                "pinyin": "\tDàfāng\t",
+                "type": "\tadj\t",
+                "en": "\tgenerous\t"
+            },
+            {
+                "id": "87",
+                "zh": "\t大年\t",
+                "pinyin": "\tDà nián\t",
+                "type": "\tevent\t",
+                "en": "\tFirst day of Lunar Year\t"
+            },
+            {
+                "id": "88",
+                "zh": "\t初一\t",
+                "pinyin": "\tChū yī\t",
+                "type": "\tevent\t",
+                "en": "\tNew Year\t"
+            },
+            {
+                "id": "89",
+                "zh": "\t大约\t",
+                "pinyin": "\tDàyuē\t",
+                "type": "\tadv\t",
+                "en": "\tapproximately\t"
+            },
+            {
+                "id": "90",
+                "zh": "\t带\t",
+                "pinyin": "\tDài\t",
+                "type": "\tv\t",
+                "en": "\tbring, take, carry\t"
+            },
+            {
+                "id": "91",
+                "zh": "\t戴\t",
+                "pinyin": "\tDài\t",
+                "type": "\tv\t",
+                "en": "\twear (clothing accessories like hat, scarf ..)\t"
+            },
+            {
+                "id": "92",
+                "zh": "\t单人\t",
+                "pinyin": "\tDān rén\t",
+                "type": "\tn\t",
+                "en": "\tsingle (person), individual\t"
+            },
+            {
+                "id": "93",
+                "zh": "\t当地\t",
+                "pinyin": "\tDāngdì\t",
+                "type": "\tn\t",
+                "en": "\tlocal person\t"
+            },
+            {
+                "id": "94",
+                "zh": "\t当时\t",
+                "pinyin": "\tDāngshí\t",
+                "type": "\tn\t",
+                "en": "\tat that time\t"
+            },
+            {
+                "id": "95",
+                "zh": "\t当日\t",
+                "pinyin": "\tDāngrì\t",
+                "type": "\tn\t",
+                "en": "\ton the date stated\t"
+            },
+            {
+                "id": "96",
+                "zh": "\t导游\t",
+                "pinyin": "\tDǎoyóu\t",
+                "type": "\tn\t",
+                "en": "\ttour guide\t"
+            },
+            {
+                "id": "97",
+                "zh": "\t岛\t",
+                "pinyin": "\tDǎo\t",
+                "type": "\tn\t",
+                "en": "\tisland\t"
+            },
+            {
+                "id": "98",
+                "zh": "\t到达\t",
+                "pinyin": "\tDàodá\t",
+                "type": "\tv\t",
+                "en": "\tarrive\t"
+            },
+            {
+                "id": "99",
+                "zh": "\t倒映\t",
+                "pinyin": "\tDàoyìng\t",
+                "type": "\tv\t",
+                "en": "\treflect, mirror\t"
+            },
+            {
+                "id": "100",
+                "zh": "\t得病\t",
+                "pinyin": "\tDébìng\t",
+                "type": "\tv\t",
+                "en": "\tcontract a disease\t"
+            },
+            {
+                "id": "101",
+                "zh": "\t得名\t",
+                "pinyin": "\tDé míng\t",
+                "type": "\tv\t",
+                "en": "\tget one’s name, be named\t"
+            },
+            {
+                "id": "102",
+                "zh": "\t德国\t",
+                "pinyin": "\tDéguó\t",
+                "type": "\tn\t",
+                "en": "\tGermany\t"
+            },
+            {
+                "id": "103",
+                "zh": "\t地\t",
+                "pinyin": "\tde\t",
+                "type": "\tparticle\t",
+                "en": "\t(used to indicate an adverbial phrase)\t"
+            },
+            {
+                "id": "104",
+                "zh": "\t得\t",
+                "pinyin": "\tde\t",
+                "type": "\tauxiliary word\t",
+                "en": "\t(to indicate result, degree, or condition)\t"
+            },
+            {
+                "id": "105",
+                "zh": "\t灯笼\t",
+                "pinyin": "\tDēnglóng\t",
+                "type": "\tn\t",
+                "en": "\tlantern\t"
+            },
+            {
+                "id": "106",
+                "zh": "\t登记\t",
+                "pinyin": "\tDēngjì\t",
+                "type": "\tv\t",
+                "en": "\tregister\t"
+            },
+            {
+                "id": "107",
+                "zh": "\t等\t",
+                "pinyin": "\tDěng\t",
+                "type": "\tv\t",
+                "en": "\twait\t"
+            },
+            {
+                "id": "108",
+                "zh": "\t底\t",
+                "pinyin": "\tDǐ\t",
+                "type": "\tn\t",
+                "en": "\tbottom\t"
+            },
+            {
+                "id": "109",
+                "zh": "\t地道\t",
+                "pinyin": "\tDìdào\t",
+                "type": "\tadj\t",
+                "en": "\ttypical, authentic\t"
+            },
+            {
+                "id": "110",
+                "zh": "\t地区\t",
+                "pinyin": "\tDìqū\t",
+                "type": "\tn\t",
+                "en": "\tarea\t"
+            },
+            {
+                "id": "111",
+                "zh": "\t点\t",
+                "pinyin": "\tDiǎn\t",
+                "type": "\tv\t",
+                "en": "\torder\t"
+            },
+            {
+                "id": "112",
+                "zh": "\t电脑\t",
+                "pinyin": "\tDiànnǎo\t",
+                "type": "\tn\t",
+                "en": "\tcomputer\t"
+            },
+            {
+                "id": "113",
+                "zh": "\t电视\t",
+                "pinyin": "\tDiànshì\t",
+                "type": "\tn\t",
+                "en": "\tTV\t"
+            },
+            {
+                "id": "114",
+                "zh": "\t定量\t",
+                "pinyin": "\tDìngliàng\t",
+                "type": "\tv\t",
+                "en": "\twith fixed quantity\t"
+            },
+            {
+                "id": "115",
+                "zh": "\t定时\t",
+                "pinyin": "\tDìngshí\t",
+                "type": "\tv\t",
+                "en": "\tat a fixed time\t"
+            },
+            {
+                "id": "116",
+                "zh": "\t冬天\t",
+                "pinyin": "\tDōngtiān\t",
+                "type": "\tn\t",
+                "en": "\tWinter\t"
+            },
+            {
+                "id": "117",
+                "zh": "\t懂\t",
+                "pinyin": "\tDǒng\t",
+                "type": "\tv\t",
+                "en": "\tunderstand\t"
+            },
+            {
+                "id": "118",
+                "zh": "\t豆瓣酱\t",
+                "pinyin": "\tDòubàn jiàng\t",
+                "type": "\tn\t",
+                "en": "\tspicy soybean paste\t"
+            },
+            {
+                "id": "119",
+                "zh": "\t独立\t",
+                "pinyin": "\tDúlì\t",
+                "type": "\tadj\t",
+                "en": "\tindependent\t"
+            },
+            {
+                "id": "120",
+                "zh": "\t读\t",
+                "pinyin": "\tDú\t",
+                "type": "\tv\t",
+                "en": "\tread\t"
+            },
+            {
+                "id": "121",
+                "zh": "\t堵车\t",
+                "pinyin": "\tDǔchē\t",
+                "type": "\tv\t",
+                "en": "\ttraffic jam\t"
+            },
+            {
+                "id": "122",
+                "zh": "\t肚子痛\t",
+                "pinyin": "\tDùzi tòng\t",
+                "type": "\tv\t",
+                "en": "\tstomach ache\t"
+            },
+            {
+                "id": "123",
+                "zh": "\t度\t",
+                "pinyin": "\tDù\t",
+                "type": "\tn\t",
+                "en": "\tdegree\t"
+            },
+            {
+                "id": "124",
+                "zh": "\t短\t",
+                "pinyin": "\tDuǎn\t",
+                "type": "\tadj\t",
+                "en": "\tshort (length)\t"
+            },
+            {
+                "id": "125",
+                "zh": "\t短裤\t",
+                "pinyin": "\tDuǎnkù\t",
+                "type": "\tn\t",
+                "en": "\tshorts\t"
+            },
+            {
+                "id": "126",
+                "zh": "\t对了\t",
+                "pinyin": "\tDuìle\t",
+                "type": "\tphrase\t",
+                "en": "\tby the way; that’s right!\t"
+            },
+            {
+                "id": "127",
+                "zh": "\t对面\t",
+                "pinyin": "\tDuìmiàn\t",
+                "type": "\tn\t",
+                "en": "\topposite\t"
+            },
+            {
+                "id": "128",
+                "zh": "\t多云\t",
+                "pinyin": "\tDuōyún\t",
+                "type": "\tn\t",
+                "en": "\tcloudy\t"
+            },
+            {
+                "id": "129",
+                "zh": "\t而且\t",
+                "pinyin": "\tÉrqiě\t",
+                "type": "\tconj\t",
+                "en": "\tand, but also\t"
+            },
+            {
+                "id": "130",
+                "zh": "\t耳朵\t",
+                "pinyin": "\tĚrduǒ\t",
+                "type": "\tn\t",
+                "en": "\tear\t"
+            },
+            {
+                "id": "131",
+                "zh": "\t发烧\t",
+                "pinyin": "\tFāshāo\t",
+                "type": "\tv\t",
+                "en": "\thave a fever\t"
+            },
+            {
+                "id": "132",
+                "zh": "\t发现\t",
+                "pinyin": "\tFāxiàn\t",
+                "type": "\tv\t",
+                "en": "\tdiscover\t"
+            },
+            {
+                "id": "133",
+                "zh": "\t饭厅\t",
+                "pinyin": "\tFàntīng\t",
+                "type": "\tn\t",
+                "en": "\tdining room\t"
+            },
+            {
+                "id": "134",
+                "zh": "\t放\t",
+                "pinyin": "\tFàng\t",
+                "type": "\tv\t",
+                "en": "\tput, place\t"
+            },
+            {
+                "id": "135",
+                "zh": "\t放学\t",
+                "pinyin": "\tFàngxué\t",
+                "type": "\tv\t",
+                "en": "\tschool is over, after school, let out\t"
+            },
+            {
+                "id": "136",
+                "zh": "\t非常\t",
+                "pinyin": "\tFēicháng\t",
+                "type": "\tadv\t",
+                "en": "\tvery\/extremely\t"
+            },
+            {
+                "id": "137",
+                "zh": "\t肥皂\t",
+                "pinyin": "\tFéizào\t",
+                "type": "\tn\t",
+                "en": "\tsoap (bar)\t"
+            },
+            {
+                "id": "138",
+                "zh": "\t肺\t",
+                "pinyin": "\tFèi\t",
+                "type": "\tn\t",
+                "en": "\tlung\t"
+            },
+            {
+                "id": "139",
+                "zh": "\t风\t",
+                "pinyin": "\tFēng\t",
+                "type": "\tn\t",
+                "en": "\twind\t"
+            },
+            {
+                "id": "140",
+                "zh": "\t风景\t",
+                "pinyin": "\tFēngjǐng\t",
+                "type": "\tn\t",
+                "en": "\tscenery, landscape\t"
+            },
+            {
+                "id": "141",
+                "zh": "\t风衣\t",
+                "pinyin": "\tFēngyī\t",
+                "type": "\tn\t",
+                "en": "\twindbreaker\t"
+            },
+            {
+                "id": "142",
+                "zh": "\t服务员\t",
+                "pinyin": "\tFúwùyuán\t",
+                "type": "\tn\t",
+                "en": "\twaiter \/ waitress, attendant\t"
+            },
+            {
+                "id": "143",
+                "zh": "\t服用\t",
+                "pinyin": "\tFúyòng\t",
+                "type": "\tv\t",
+                "en": "\ttake (medicine)\t"
+            },
+            {
+                "id": "144",
+                "zh": "\t复习\t",
+                "pinyin": "\tFùxí\t",
+                "type": "\tv\t",
+                "en": "\trevise, review\t"
+            },
+            {
+                "id": "145",
+                "zh": "\t干净\t",
+                "pinyin": "\tGānjìng\t",
+                "type": "\tadj\t",
+                "en": "\tclean\t"
+            },
+            {
+                "id": "146",
+                "zh": "\t感觉\t",
+                "pinyin": "\tGǎnjué\t",
+                "type": "\tv\/n\t",
+                "en": "\tfeel\/feelings\t"
+            },
+            {
+                "id": "147",
+                "zh": "\t感冒\t",
+                "pinyin": "\tGǎnmào\t",
+                "type": "\tn\/v\t",
+                "en": "\tcold\t"
+            },
+            {
+                "id": "148",
+                "zh": "\t刚才\t",
+                "pinyin": "\tGāngcái\t",
+                "type": "\tn\t",
+                "en": "\tjust now, a moment ago\t"
+            },
+            {
+                "id": "149",
+                "zh": "\t高速公路\t",
+                "pinyin": "\tGāosù gōnglù\t",
+                "type": "\tn\t",
+                "en": "\tmotorway, freeway, highway\t"
+            },
+            {
+                "id": "150",
+                "zh": "\t告示牌\t",
+                "pinyin": "\tGàoshì pái\t",
+                "type": "\tn\t",
+                "en": "\tsign, noticeboard, billboard\t"
+            },
+            {
+                "id": "151",
+                "zh": "\t告诉\t",
+                "pinyin": "\tGàosù\t",
+                "type": "\tv\t",
+                "en": "\ttell; inform\t"
+            },
+            {
+                "id": "152",
+                "zh": "\t歌曲\t",
+                "pinyin": "\tGēqǔ\t",
+                "type": "\tn\t",
+                "en": "\tsong\t"
+            },
+            {
+                "id": "153",
+                "zh": "\t个子\t",
+                "pinyin": "\tGèzi\t",
+                "type": "\tn\t",
+                "en": "\theight, stature\t"
+            },
+            {
+                "id": "154",
+                "zh": "\t更\t",
+                "pinyin": "\tGèng\t",
+                "type": "\tadv\t",
+                "en": "\tmore, even more\t"
+            },
+            {
+                "id": "155",
+                "zh": "\t公斤\t",
+                "pinyin": "\tGōngjīn\t",
+                "type": "\tmeasure word\t",
+                "en": "\tkilogram\t"
+            },
+            {
+                "id": "156",
+                "zh": "\t公里\t",
+                "pinyin": "\tGōnglǐ\t",
+                "type": "\tn\t",
+                "en": "\tkilometre\t"
+            },
+            {
+                "id": "157",
+                "zh": "\t狗\t",
+                "pinyin": "\tGǒu\t",
+                "type": "\tn\t",
+                "en": "\tdog\t"
+            },
+            {
+                "id": "158",
+                "zh": "\t够\t",
+                "pinyin": "\tGòu\t",
+                "type": "\tv\t",
+                "en": "\tadequate, enough\t"
+            },
+            {
+                "id": "159",
+                "zh": "\t古\t",
+                "pinyin": "\tGǔ\t",
+                "type": "\tadj\t",
+                "en": "\told, ancient\t"
+            },
+            {
+                "id": "160",
+                "zh": "\t固执\t",
+                "pinyin": "\tGùzhí\t",
+                "type": "\tadj\t",
+                "en": "\tstubborn\t"
+            },
+            {
+                "id": "161",
+                "zh": "\t故事\t",
+                "pinyin": "\tGùshì\t",
+                "type": "\tn\t",
+                "en": "\tstory\t"
+            },
+            {
+                "id": "162",
+                "zh": "\t挂\t",
+                "pinyin": "\tGuà\t",
+                "type": "\tv\t",
+                "en": "\thang up\t"
+            },
+            {
+                "id": "163",
+                "zh": "\t拐\t",
+                "pinyin": "\tGuǎi\t",
+                "type": "\tv\t",
+                "en": "\tturn; abduct\/kidnap\t"
+            },
+            {
+                "id": "164",
+                "zh": "\t关系\t",
+                "pinyin": "\tGuānxì\t",
+                "type": "\tn\t",
+                "en": "\trelationship, connection\t"
+            },
+            {
+                "id": "165",
+                "zh": "\t关心\t",
+                "pinyin": "\tGuānxīn\t",
+                "type": "\tv\t",
+                "en": "\tcare about, care\t"
+            },
+            {
+                "id": "166",
+                "zh": "\t光\t",
+                "pinyin": "\tGuāng\t",
+                "type": "\tadj\t",
+                "en": "\tused up, all gone\t"
+            },
+            {
+                "id": "167",
+                "zh": "\t光临\t",
+                "pinyin": "\tGuānglín\t",
+                "type": "\tv\t",
+                "en": "\tcome, be present\t"
+            },
+            {
+                "id": "168",
+                "zh": "\t锅\t",
+                "pinyin": "\tGuō\t",
+                "type": "\tn\t",
+                "en": "\twok, pan, cauldron\t"
+            },
+            {
+                "id": "169",
+                "zh": "\t果汁\t",
+                "pinyin": "\tGuǒzhī\t",
+                "type": "\tn\t",
+                "en": "\tfruit juice\t"
+            },
+            {
+                "id": "170",
+                "zh": "\t还\t",
+                "pinyin": "\tHái\t",
+                "type": "\tadv\t",
+                "en": "\tstil, yet; also\t"
+            },
+            {
+                "id": "171",
+                "zh": "\t海浪\t",
+                "pinyin": "\tHǎilàng\t",
+                "type": "\tn\t",
+                "en": "\twave\t"
+            },
+            {
+                "id": "172",
+                "zh": "\t海滩\t",
+                "pinyin": "\tHǎitān\t",
+                "type": "\tn\t",
+                "en": "\tbeach\t"
+            },
+            {
+                "id": "173",
+                "zh": "\t海外\t",
+                "pinyin": "\tHǎiwài\t",
+                "type": "\tn\t",
+                "en": "\toverseas, abroad\t"
+            },
+            {
+                "id": "174",
+                "zh": "\t韩国\t",
+                "pinyin": "\tHánguó\t",
+                "type": "\tn\t",
+                "en": "\tRepublic of Korea\t"
+            },
+            {
+                "id": "175",
+                "zh": "\t汉语\t",
+                "pinyin": "\tHànyǔ\t",
+                "type": "\tn\t",
+                "en": "\tChinese language\t"
+            },
+            {
+                "id": "176",
+                "zh": "\t汉族\t",
+                "pinyin": "\tHànzú\t",
+                "type": "\tn\t",
+                "en": "\tChinese Han ethnicity\t"
+            },
+            {
+                "id": "177",
+                "zh": "\t好笑\t",
+                "pinyin": "\tHǎoxiào\t",
+                "type": "\tadj\t",
+                "en": "\tfunny\t"
+            },
+            {
+                "id": "178",
+                "zh": "\t喝\t",
+                "pinyin": "\tHē\t",
+                "type": "\tv\t",
+                "en": "\t(to) drink\t"
+            },
+            {
+                "id": "179",
+                "zh": "\t河流\t",
+                "pinyin": "\tHéliú\t",
+                "type": "\tn\t",
+                "en": "\triver\t"
+            },
+            {
+                "id": "180",
+                "zh": "\t褐色\t",
+                "pinyin": "\tHésè\t",
+                "type": "\tadj\t",
+                "en": "\tbrown\t"
+            },
+            {
+                "id": "181",
+                "zh": "\t红包\t",
+                "pinyin": "\tHóngbāo\t",
+                "type": "\tn\t",
+                "en": "\tred packet (for gift money)\t"
+            },
+            {
+                "id": "182",
+                "zh": "\t红茶\t",
+                "pinyin": "\tHóngchá\t",
+                "type": "\tn\t",
+                "en": "\tblack tea\t"
+            },
+            {
+                "id": "183",
+                "zh": "\t红酒\t",
+                "pinyin": "\tHóngjiǔ\t",
+                "type": "\tn\t",
+                "en": "\tred wine\t"
+            },
+            {
+                "id": "184",
+                "zh": "\t喉咙\t",
+                "pinyin": "\tHóulóng\t",
+                "type": "\tn\t",
+                "en": "\tthroat\t"
+            },
+            {
+                "id": "185",
+                "zh": "\t胡子\t",
+                "pinyin": "\tHúzi\t",
+                "type": "\tn\t",
+                "en": "\tmoustache\t"
+            },
+            {
+                "id": "186",
+                "zh": "\t湖(泊)\t",
+                "pinyin": "\tHú pō\t",
+                "type": "\tn\t",
+                "en": "\tlake\t"
+            },
+            {
+                "id": "187",
+                "zh": "\t互联网\t",
+                "pinyin": "\tHùliánwǎng\t",
+                "type": "\tn\t",
+                "en": "\tthe internet\t"
+            },
+            {
+                "id": "188",
+                "zh": "\t护士\t",
+                "pinyin": "\tHùshì\t",
+                "type": "\tn\t",
+                "en": "\t(a) nurse\t"
+            },
+            {
+                "id": "189",
+                "zh": "\t护照\t",
+                "pinyin": "\tHùzhào\t",
+                "type": "\tn\t",
+                "en": "\tpassport\t"
+            },
+            {
+                "id": "190",
+                "zh": "\t花椒粉\t",
+                "pinyin": "\tHuājiāo fěn\t",
+                "type": "\tn\t",
+                "en": "\tpepper powder\t"
+            },
+            {
+                "id": "191",
+                "zh": "\t欢迎\t",
+                "pinyin": "\tHuānyíng\t",
+                "type": "\tv\t",
+                "en": "\twelcome\t"
+            },
+            {
+                "id": "192",
+                "zh": "\t灰色\t",
+                "pinyin": "\tHuīsè\t",
+                "type": "\tadj\t",
+                "en": "\tgrey, gray\t"
+            },
+            {
+                "id": "193",
+                "zh": "\t机场\t",
+                "pinyin": "\tJīchǎng\t",
+                "type": "\tn\t",
+                "en": "\tairport\t"
+            },
+            {
+                "id": "194",
+                "zh": "\t鸡\t",
+                "pinyin": "\tJī\t",
+                "type": "\tn\t",
+                "en": "\tchicken\t"
+            },
+            {
+                "id": "195",
+                "zh": "\t鸡蛋\t",
+                "pinyin": "\tJīdàn\t",
+                "type": "\tn\t",
+                "en": "\t(chicken) egg\t"
+            },
+            {
+                "id": "196",
+                "zh": "\t急\t",
+                "pinyin": "\tJí\t",
+                "type": "\tadj\t",
+                "en": "\tirritable, anxious; fast, quick\t"
+            },
+            {
+                "id": "197",
+                "zh": "\t记事本\t",
+                "pinyin": "\tJìshì běn\t",
+                "type": "\tn\t",
+                "en": "\tnotebook\t"
+            },
+            {
+                "id": "198",
+                "zh": "\t纪念品\t",
+                "pinyin": "\tJìniànpǐn\t",
+                "type": "\tn\t",
+                "en": "\tsouvenir\t"
+            },
+            {
+                "id": "199",
+                "zh": "\t加\t",
+                "pinyin": "\tJiā\t",
+                "type": "\tv\t",
+                "en": "\t(to) add, plus +\t"
+            },
+            {
+                "id": "200",
+                "zh": "\t加大号\t",
+                "pinyin": "\tJiā dà hào\t",
+                "type": "\tn\t",
+                "en": "\textra large size\t"
+            },
+            {
+                "id": "201",
+                "zh": "\t加热\t",
+                "pinyin": "\tJiārè\t",
+                "type": "\tv\t",
+                "en": "\theat up\t"
+            },
+            {
+                "id": "202",
+                "zh": "\t家\t",
+                "pinyin": "\tJiā\t",
+                "type": "\tmeasure word\t",
+                "en": "\t[Measure word for families or companies]\t"
+            },
+            {
+                "id": "203",
+                "zh": "\t夹克\t",
+                "pinyin": "\tJiákè\t",
+                "type": "\tn\t",
+                "en": "\tjacket\t"
+            },
+            {
+                "id": "204",
+                "zh": "\t间\t",
+                "pinyin": "\tJiān\t",
+                "type": "\tmeasure word \/ n\t",
+                "en": "\t[Measure word for rooms]; room\t"
+            },
+            {
+                "id": "205",
+                "zh": "\t检查\t",
+                "pinyin": "\tJiǎnchá\t",
+                "type": "\tv\t",
+                "en": "\tcheck up, examine\t"
+            },
+            {
+                "id": "206",
+                "zh": "\t健康\t",
+                "pinyin": "\tJiànkāng\t",
+                "type": "\tadj\t",
+                "en": "\thealthy, health\t"
+            },
+            {
+                "id": "207",
+                "zh": "\t将\t",
+                "pinyin": "\tJiāng\t",
+                "type": "\tadv\t",
+                "en": "\t(for future tense written)\t"
+            },
+            {
+                "id": "208",
+                "zh": "\t姜\t",
+                "pinyin": "\tJiāng\t",
+                "type": "\tn\t",
+                "en": "\tginger\t"
+            },
+            {
+                "id": "209",
+                "zh": "\t讲价\t",
+                "pinyin": "\tJiǎngjià\t",
+                "type": "\tv\t",
+                "en": "\tbargain\t"
+            },
+            {
+                "id": "210",
+                "zh": "\t交\t",
+                "pinyin": "\tJiāo\t",
+                "type": "\tv\t",
+                "en": "\thand in, submit\t"
+            },
+            {
+                "id": "211",
+                "zh": "\t饺子\t",
+                "pinyin": "\tJiǎozi\t",
+                "type": "\tn\t",
+                "en": "\tdumplings\t"
+            },
+            {
+                "id": "212",
+                "zh": "\t教师\t",
+                "pinyin": "\tJiàoshī\t",
+                "type": "\tn\t",
+                "en": "\tclassroom\t"
+            },
+            {
+                "id": "213",
+                "zh": "\t接口\t",
+                "pinyin": "\tJiēkǒu\t",
+                "type": "\tn\t",
+                "en": "\tinterface, connection, port\t"
+            },
+            {
+                "id": "214",
+                "zh": "\t街\t",
+                "pinyin": "\tJiē\t",
+                "type": "\tn\t",
+                "en": "\tstreet\t"
+            },
+            {
+                "id": "215",
+                "zh": "\t节日\t",
+                "pinyin": "\tJiérì\t",
+                "type": "\tn\t",
+                "en": "\tfestival\t"
+            },
+            {
+                "id": "216",
+                "zh": "\t介绍\t",
+                "pinyin": "\tJièshào\t",
+                "type": "\tv\t",
+                "en": "\tintroduce\t"
+            },
+            {
+                "id": "217",
+                "zh": "\t借\t",
+                "pinyin": "\tJiè\t",
+                "type": "\tv\t",
+                "en": "\tborrow; lend\t"
+            },
+            {
+                "id": "218",
+                "zh": "\t金色\t",
+                "pinyin": "\tJīnsè\t",
+                "type": "\tadj\t",
+                "en": "\tgolden; blonde\t"
+            },
+            {
+                "id": "219",
+                "zh": "\t进\t",
+                "pinyin": "\tJìn\t",
+                "type": "\tv\t",
+                "en": "\tcome in, enter\t"
+            },
+            {
+                "id": "220",
+                "zh": "\t进入\t",
+                "pinyin": "\tJìnrù\t",
+                "type": "\tv\t",
+                "en": "\tenter\t"
+            },
+            {
+                "id": "221",
+                "zh": "\t禁止\t",
+                "pinyin": "\tJìnzhǐ\t",
+                "type": "\tv\t",
+                "en": "\tforbid, prohibit\t"
+            },
+            {
+                "id": "222",
+                "zh": "\t经常\t",
+                "pinyin": "\tJīngcháng\t",
+                "type": "\tadv\t",
+                "en": "\toften\t"
+            },
+            {
+                "id": "223",
+                "zh": "\t久\t",
+                "pinyin": "\tJiǔ\t",
+                "type": "\tadj\t",
+                "en": "\tlong (time)\t"
+            },
+            {
+                "id": "224",
+                "zh": "\t就\t",
+                "pinyin": "\tJiù\t",
+                "type": "\tadv\/conj\t",
+                "en": "\texactly; as soon as\t"
+            },
+            {
+                "id": "225",
+                "zh": "\t卷发\t",
+                "pinyin": "\tJuǎnfǎ\t",
+                "type": "\tn\t",
+                "en": "\tcurly hair\t"
+            },
+            {
+                "id": "226",
+                "zh": "\t咖啡\t",
+                "pinyin": "\tKāfēi\t",
+                "type": "\tn\t",
+                "en": "\tcoffee\t"
+            },
+            {
+                "id": "227",
+                "zh": "\t开\t",
+                "pinyin": "\tKāi\t",
+                "type": "\tv\t",
+                "en": "\tdrive (a car); open; prescribe\t"
+            },
+            {
+                "id": "228",
+                "zh": "\t开玩笑\t",
+                "pinyin": "\tKāiwánxiào\t",
+                "type": "\tv\t",
+                "en": "\tmake a joke\t"
+            },
+            {
+                "id": "229",
+                "zh": "\t开心\t",
+                "pinyin": "\tKāixīn\t",
+                "type": "\tadj\t",
+                "en": "\thappy\t"
+            },
+            {
+                "id": "230",
+                "zh": "\t考虑\t",
+                "pinyin": "\tKǎolǜ\t",
+                "type": "\tv\t",
+                "en": "\tconsider\t"
+            },
+            {
+                "id": "231",
+                "zh": "\t考试\t",
+                "pinyin": "\tKǎoshì\t",
+                "type": "\tn\t",
+                "en": "\texam, test\t"
+            },
+            {
+                "id": "232",
+                "zh": "\t咳嗽\t",
+                "pinyin": "\tKésòu\t",
+                "type": "\tn\t",
+                "en": "\tcough\t"
+            },
+            {
+                "id": "233",
+                "zh": "\t可乐\t",
+                "pinyin": "\tKělè\t",
+                "type": "\tn\t",
+                "en": "\tcola, coke\t"
+            },
+            {
+                "id": "234",
+                "zh": "\t可能\t",
+                "pinyin": "\tKěnéng\t",
+                "type": "\tadj\t",
+                "en": "\tpossible; probable\t"
+            },
+            {
+                "id": "235",
+                "zh": "\t克\t",
+                "pinyin": "\tKè\t",
+                "type": "\tmeasure word\t",
+                "en": "\tgram (g)\t"
+            },
+            {
+                "id": "236",
+                "zh": "\t客房部\t",
+                "pinyin": "\tKèfáng bù\t",
+                "type": "\tn\t",
+                "en": "\thousekeeping\t"
+            },
+            {
+                "id": "237",
+                "zh": "\t客厅\t",
+                "pinyin": "\tKètīng\t",
+                "type": "\tn\t",
+                "en": "\tliving room\t"
+            },
+            {
+                "id": "238",
+                "zh": "\t肯德基\t",
+                "pinyin": "\tKěndéjī\t",
+                "type": "\tn\t",
+                "en": "\tKFC\t"
+            },
+            {
+                "id": "239",
+                "zh": "\t空气\t",
+                "pinyin": "\tKōngqì\t",
+                "type": "\tn\t",
+                "en": "\tair\t"
+            },
+            {
+                "id": "240",
+                "zh": "\t空邮\t",
+                "pinyin": "\tKōng yóu\t",
+                "type": "\tv\t",
+                "en": "\tair mail\t"
+            },
+            {
+                "id": "241",
+                "zh": "\t哭\t",
+                "pinyin": "\tKū\t",
+                "type": "\tv\t",
+                "en": "\tcry\t"
+            },
+            {
+                "id": "242",
+                "zh": "\t块\t",
+                "pinyin": "\tKuài\t",
+                "type": "\tn\t",
+                "en": "\tpiece\t"
+            },
+            {
+                "id": "243",
+                "zh": "\t快\t",
+                "pinyin": "\tKuài\t",
+                "type": "\tadj\t",
+                "en": "\tfast\t"
+            },
+            {
+                "id": "244",
+                "zh": "\t快乐\t",
+                "pinyin": "\tKuàilè\t",
+                "type": "\tadj\t",
+                "en": "\thappy\t"
+            },
+            {
+                "id": "245",
+                "zh": "\t筷子\t",
+                "pinyin": "\tKuàizi\t",
+                "type": "\tn\t",
+                "en": "\tchopsticks\t"
+            },
+            {
+                "id": "246",
+                "zh": "\t宽\t",
+                "pinyin": "\tKuān\t",
+                "type": "\tadj\/n\t",
+                "en": "\twide; width\t"
+            },
+            {
+                "id": "247",
+                "zh": "\t拉肚子\t",
+                "pinyin": "\tLādùzi\t",
+                "type": "\tv\t",
+                "en": "\tsuffer from diarrhoea\t"
+            },
+            {
+                "id": "248",
+                "zh": "\t辣\t",
+                "pinyin": "\tLà\t",
+                "type": "\tadj\t",
+                "en": "\tspicy, hot\t"
+            },
+            {
+                "id": "249",
+                "zh": "\t老\t",
+                "pinyin": "\tLǎo\t",
+                "type": "\tadj\t",
+                "en": "\told\t"
+            },
+            {
+                "id": "250",
+                "zh": "\t乐观\t",
+                "pinyin": "\tLèguān\t",
+                "type": "\tadj\t",
+                "en": "\toptimistic\t"
+            },
+            {
+                "id": "251",
+                "zh": "\t累\t",
+                "pinyin": "\tLèi\t",
+                "type": "\tadj\t",
+                "en": "\ttired\t"
+            },
+            {
+                "id": "252",
+                "zh": "\t冷\t",
+                "pinyin": "\tLěng\t",
+                "type": "\tadj\t",
+                "en": "\tcold\t"
+            },
+            {
+                "id": "253",
+                "zh": "\t离开\t",
+                "pinyin": "\tLíkāi\t",
+                "type": "\tv\t",
+                "en": "\tleave\t"
+            },
+            {
+                "id": "254",
+                "zh": "\t梨\t",
+                "pinyin": "\tLí\t",
+                "type": "\tn\t",
+                "en": "\tpear\t"
+            },
+            {
+                "id": "255",
+                "zh": "\t里\t",
+                "pinyin": "\tLǐ\t",
+                "type": "\tn\t",
+                "en": "\tin, inside\t"
+            },
+            {
+                "id": "256",
+                "zh": "\t俩\t",
+                "pinyin": "\tLiǎ\t",
+                "type": "\tnum\t",
+                "en": "\ttwo (coll.)\t"
+            },
+            {
+                "id": "257",
+                "zh": "\t脸\t",
+                "pinyin": "\tLiǎn\t",
+                "type": "\tn\t",
+                "en": "\tface\t"
+            },
+            {
+                "id": "258",
+                "zh": "\t凉爽\t",
+                "pinyin": "\tLiángshuǎng\t",
+                "type": "\tadj\t",
+                "en": "\tcool\t"
+            },
+            {
+                "id": "259",
+                "zh": "\t了解\t",
+                "pinyin": "\tLiǎojiě\t",
+                "type": "\tv\t",
+                "en": "\tget to know, understand\t"
+            },
+            {
+                "id": "260",
+                "zh": "\t零下\t",
+                "pinyin": "\tLíngxià\t",
+                "type": "\tn\t",
+                "en": "\tbelow zero\t"
+            },
+            {
+                "id": "261",
+                "zh": "\t领带\t",
+                "pinyin": "\tLǐngdài\t",
+                "type": "\tn\t",
+                "en": "\ttie\t"
+            },
+            {
+                "id": "262",
+                "zh": "\t另\t",
+                "pinyin": "\tLìng\t",
+                "type": "\tpron\t",
+                "en": "\tother, another\t"
+            },
+            {
+                "id": "263",
+                "zh": "\t另外\t",
+                "pinyin": "\tLìngwài\t",
+                "type": "\tconj\t",
+                "en": "\tin addition, besides\t"
+            },
+            {
+                "id": "264",
+                "zh": "\t流鼻涕\t",
+                "pinyin": "\tLiú bítì\t",
+                "type": "\tv\t",
+                "en": "\trunny nose\t"
+            },
+            {
+                "id": "265",
+                "zh": "\t留学生\t",
+                "pinyin": "\tLiú xuéshēng\t",
+                "type": "\tn\t",
+                "en": "\toverseas student\t"
+            },
+            {
+                "id": "266",
+                "zh": "\t流行\t",
+                "pinyin": "\tLiúxíng\t",
+                "type": "\tadj\t",
+                "en": "\tpopular\t"
+            },
+            {
+                "id": "267",
+                "zh": "\t旅游\t",
+                "pinyin": "\tLǚyóu\t",
+                "type": "\tv\t",
+                "en": "\ttour, tourism\t"
+            },
+            {
+                "id": "268",
+                "zh": "\t麻\t",
+                "pinyin": "\tMá\t",
+                "type": "\tadj\/n\t",
+                "en": "\tnumb, numbing; cannabis, hemp\t"
+            },
+            {
+                "id": "269",
+                "zh": "\t麻烦\t",
+                "pinyin": "\tMáfan\t",
+                "type": "\tv\t",
+                "en": "\tbother, trouble\t"
+            },
+            {
+                "id": "270",
+                "zh": "\t马上\t",
+                "pinyin": "\tMǎshàng\t",
+                "type": "\tadv\t",
+                "en": "\timmediately, at once\t"
+            },
+            {
+                "id": "271",
+                "zh": "\t麦当劳\t",
+                "pinyin": "\tMàidāngláo\t",
+                "type": "\tn\t",
+                "en": "\tMcDonald’s\t"
+            },
+            {
+                "id": "272",
+                "zh": "\t卖\t",
+                "pinyin": "\tMài\t",
+                "type": "\tv\t",
+                "en": "\tsell\t"
+            },
+            {
+                "id": "273",
+                "zh": "\t慢\t",
+                "pinyin": "\tMàn\t",
+                "type": "\tadj\t",
+                "en": "\tslow\t"
+            },
+            {
+                "id": "274",
+                "zh": "\t忙\t",
+                "pinyin": "\tMáng\t",
+                "type": "\tadj\t",
+                "en": "\tbusy\t"
+            },
+            {
+                "id": "275",
+                "zh": "\t猫\t",
+                "pinyin": "\tMāo\t",
+                "type": "\tn\t",
+                "en": "\tcat\t"
+            },
+            {
+                "id": "276",
+                "zh": "\t毛\t",
+                "pinyin": "\tMáo\t",
+                "type": "\tmeasure word\t",
+                "en": "\tChinese currency unit; jiao (coll.)\t"
+            },
+            {
+                "id": "277",
+                "zh": "\t毛笔\t",
+                "pinyin": "\tMáobǐ\t",
+                "type": "\tn\t",
+                "en": "\twriting brush\t"
+            },
+            {
+                "id": "278",
+                "zh": "\t毛巾\t",
+                "pinyin": "\tMáojīn\t",
+                "type": "\tn\t",
+                "en": "\ttowel\t"
+            },
+            {
+                "id": "279",
+                "zh": "\t毛衣\t",
+                "pinyin": "\tMáoyī\t",
+                "type": "\tn\t",
+                "en": "\tsweater, jumper\t"
+            },
+            {
+                "id": "280",
+                "zh": "\t帽子\t",
+                "pinyin": "\tMàozi\t",
+                "type": "\tn\t",
+                "en": "\that\t"
+            },
+            {
+                "id": "281",
+                "zh": "\t没错\t",
+                "pinyin": "\tMéi cuò\t",
+                "type": "\t\t",
+                "en": "\tright， yes\t"
+            },
+            {
+                "id": "282",
+                "zh": "\t没关系\t",
+                "pinyin": "\tMéiguānxì\t",
+                "type": "\tphrase\t",
+                "en": "\tIt doesn’t matter， It’s ok\t"
+            },
+            {
+                "id": "283",
+                "zh": "\t眉毛\t",
+                "pinyin": "\tMéimáo\t",
+                "type": "\tn\t",
+                "en": "\teyebrow\t"
+            },
+            {
+                "id": "284",
+                "zh": "\t美\t",
+                "pinyin": "\tMěi\t",
+                "type": "\tadj\t",
+                "en": "\tbeautiful, good, pretty\t"
+            },
+            {
+                "id": "285",
+                "zh": "\t美极了\t",
+                "pinyin": "\tMěi jíle\t",
+                "type": "\tadj\t",
+                "en": "\tamazing; very beautiful\t"
+            },
+            {
+                "id": "286",
+                "zh": "\t米饭\t",
+                "pinyin": "\tMǐfàn\t",
+                "type": "\tn\t",
+                "en": "\trice\t"
+            },
+            {
+                "id": "287",
+                "zh": "\t免费\t",
+                "pinyin": "\tMiǎnfèi\t",
+                "type": "\tadj\t",
+                "en": "\tfree of charge\t"
+            },
+            {
+                "id": "288",
+                "zh": "\t苗条\t",
+                "pinyin": "\tMiáotiáo\t",
+                "type": "\tadj\t",
+                "en": "\tslim, slender\t"
+            },
+            {
+                "id": "289",
+                "zh": "\t民歌\t",
+                "pinyin": "\tMíngē\t",
+                "type": "\tn\t",
+                "en": "\tfolk song\t"
+            },
+            {
+                "id": "290",
+                "zh": "\t民族\t",
+                "pinyin": "\tMínzú\t",
+                "type": "\tn\t",
+                "en": "\tethnic group\t"
+            },
+            {
+                "id": "291",
+                "zh": "\t明信片\t",
+                "pinyin": "\tMíngxìnpiàn\t",
+                "type": "\tn\t",
+                "en": "\tpostcard\t"
+            },
+            {
+                "id": "292",
+                "zh": "\t墨镜\t",
+                "pinyin": "\tMòjìng\t",
+                "type": "\tn\t",
+                "en": "\tsunglasses\t"
+            },
+            {
+                "id": "293",
+                "zh": "\t拿\t",
+                "pinyin": "\tNá\t",
+                "type": "\tv\t",
+                "en": "\ttake\t"
+            },
+            {
+                "id": "294",
+                "zh": "\t拿手菜\t",
+                "pinyin": "\tNáshǒu cài\t",
+                "type": "\tn\t",
+                "en": "\tsignature dish, speciality\t"
+            },
+            {
+                "id": "295",
+                "zh": "\t耐心\t",
+                "pinyin": "\tNàixīn\t",
+                "type": "\tadj\t",
+                "en": "\tpatient\t"
+            },
+            {
+                "id": "296",
+                "zh": "\t难\t",
+                "pinyin": "\tNán\t",
+                "type": "\tadj\t",
+                "en": "\tdifficult\t"
+            },
+            {
+                "id": "297",
+                "zh": "\t能\t",
+                "pinyin": "\tNéng\t",
+                "type": "\tmodal v\t",
+                "en": "\tcan\t"
+            },
+            {
+                "id": "298",
+                "zh": "\t鸟\t",
+                "pinyin": "\tNiǎo\t",
+                "type": "\tn\t",
+                "en": "\tbird\t"
+            },
+            {
+                "id": "299",
+                "zh": "\t您\t",
+                "pinyin": "\tNín\t",
+                "type": "\tpron\t",
+                "en": "\tyou (polite\/respectful form)\t"
+            },
+            {
+                "id": "300",
+                "zh": "\t牛奶\t",
+                "pinyin": "\tNiúnǎi\t",
+                "type": "\tn\t",
+                "en": "\tmilk\t"
+            },
+            {
+                "id": "301",
+                "zh": "\t牛肉末\t",
+                "pinyin": "\tNiúròu mò\t",
+                "type": "\tn\t",
+                "en": "\tminced beef\t"
+            },
+            {
+                "id": "302",
+                "zh": "\t牛仔裤\t",
+                "pinyin": "\tNiúzǎikù\t",
+                "type": "\tn\t",
+                "en": "\tjeans\t"
+            },
+            {
+                "id": "303",
+                "zh": "\t农民\t",
+                "pinyin": "\tNóngmín\t",
+                "type": "\tn\t",
+                "en": "\tfarmer; rural people\t"
+            },
+            {
+                "id": "304",
+                "zh": "\t女孩\t",
+                "pinyin": "\tNǚhái\t",
+                "type": "\tn\t",
+                "en": "\tgirl\t"
+            },
+            {
+                "id": "305",
+                "zh": "\t暖和\t",
+                "pinyin": "\tNuǎnhuo\t",
+                "type": "\tadj\t",
+                "en": "\twarm\t"
+            },
+            {
+                "id": "306",
+                "zh": "\t呕吐\t",
+                "pinyin": "\tǑutù\t",
+                "type": "\tv\t",
+                "en": "\tvomit\t"
+            },
+            {
+                "id": "307",
+                "zh": "\t怕\t",
+                "pinyin": "\tPà\t",
+                "type": "\tv\t",
+                "en": "\tbe afraid, fear\t"
+            },
+            {
+                "id": "308",
+                "zh": "\t旁边\t",
+                "pinyin": "\tPángbiān\t",
+                "type": "\tn\t",
+                "en": "\tnext to, beside\t"
+            },
+            {
+                "id": "309",
+                "zh": "\t胖\t",
+                "pinyin": "\tPàng\t",
+                "type": "\tadj\t",
+                "en": "\tplump, fat\t"
+            },
+            {
+                "id": "310",
+                "zh": "\t配\t",
+                "pinyin": "\tPèi\t",
+                "type": "\tv\t",
+                "en": "\tmatch\t"
+            },
+            {
+                "id": "311",
+                "zh": "\t皮带\t",
+                "pinyin": "\tPídài\t",
+                "type": "\tn\t",
+                "en": "\tbelt\t"
+            },
+            {
+                "id": "312",
+                "zh": "\t皮肤\t",
+                "pinyin": "\tPífū\t",
+                "type": "\tn\t",
+                "en": "\tskin\t"
+            },
+            {
+                "id": "313",
+                "zh": "\t皮鞋\t",
+                "pinyin": "\tPíxié\t",
+                "type": "\tn\t",
+                "en": "\tleather shoes\t"
+            },
+            {
+                "id": "314",
+                "zh": "\t脾气\t",
+                "pinyin": "\tPíqì\t",
+                "type": "\tn\t",
+                "en": "\ttemper, disposition\t"
+            },
+            {
+                "id": "315",
+                "zh": "\t片\t",
+                "pinyin": "\tPiàn\t",
+                "type": "\tmeasure word\t",
+                "en": "\ttablet\t"
+            },
+            {
+                "id": "316",
+                "zh": "\t票\t",
+                "pinyin": "\tPiào\t",
+                "type": "\tn\t",
+                "en": "\tticket\t"
+            },
+            {
+                "id": "317",
+                "zh": "\t平邮\t",
+                "pinyin": "\tPíngyóu\t",
+                "type": "\tv\t",
+                "en": "\tordinary postage, surface mail\t"
+            },
+            {
+                "id": "318",
+                "zh": "\t苹果\t",
+                "pinyin": "\tPíngguǒ\t",
+                "type": "\tn\t",
+                "en": "\tapple\t"
+            },
+            {
+                "id": "319",
+                "zh": "\t瓶\t",
+                "pinyin": "\tPíng\t",
+                "type": "\tn\t",
+                "en": "\tbottle\t"
+            },
+            {
+                "id": "320",
+                "zh": "\t葡萄\t",
+                "pinyin": "\tPútáo\t",
+                "type": "\tn\t",
+                "en": "\tgrape\t"
+            },
+            {
+                "id": "321",
+                "zh": "\t普通\t",
+                "pinyin": "\tPǔtōng\t",
+                "type": "\tadj\t",
+                "en": "\tordinary, common\t"
+            },
+            {
+                "id": "322",
+                "zh": "\t普通话\t",
+                "pinyin": "\tPǔtōnghuà\t",
+                "type": "\tn\t",
+                "en": "\tMandarin Chinese\t"
+            },
+            {
+                "id": "323",
+                "zh": "\t瀑布\t",
+                "pinyin": "\tPùbù\t",
+                "type": "\tn\t",
+                "en": "\twaterfall\t"
+            },
+            {
+                "id": "324",
+                "zh": "\t其中\t",
+                "pinyin": "\tQízhōng\t",
+                "type": "\tn\t",
+                "en": "\tamong\t"
+            },
+            {
+                "id": "325",
+                "zh": "\t起\t",
+                "pinyin": "\tQǐ\t",
+                "type": "\tv\t",
+                "en": "\tsince, starting from\t"
+            },
+            {
+                "id": "326",
+                "zh": "\t起床\t",
+                "pinyin": "\tQǐchuáng\t",
+                "type": "\tv\t",
+                "en": "\tget up\t"
+            },
+            {
+                "id": "327",
+                "zh": "\t气温\t",
+                "pinyin": "\tQìwēn\t",
+                "type": "\tn\t",
+                "en": "\tair temperature\t"
+            },
+            {
+                "id": "328",
+                "zh": "\t汽水\t",
+                "pinyin": "\tQìshuǐ\t",
+                "type": "\tn\t",
+                "en": "\tsoft drink, soda\t"
+            },
+            {
+                "id": "329",
+                "zh": "\t前\t",
+                "pinyin": "\tQián\t",
+                "type": "\tn\t",
+                "en": "\tbefore\t"
+            },
+            {
+                "id": "330",
+                "zh": "\t前台\t",
+                "pinyin": "\tQiántái\t",
+                "type": "\tn\t",
+                "en": "\tfront desk, reception\t"
+            },
+            {
+                "id": "331",
+                "zh": "\t钱包\t",
+                "pinyin": "\tQiánbāo\t",
+                "type": "\tn\t",
+                "en": "\twallet\t"
+            },
+            {
+                "id": "332",
+                "zh": "\t强盛\t",
+                "pinyin": "\tQiángshèng\t",
+                "type": "\tadj\t",
+                "en": "\tpowerful, prosperous\t"
+            },
+            {
+                "id": "333",
+                "zh": "\t墙\t",
+                "pinyin": "\tQiáng\t",
+                "type": "\tn\t",
+                "en": "\twall\t"
+            },
+            {
+                "id": "334",
+                "zh": "\t切\t",
+                "pinyin": "\tQiè\t",
+                "type": "\tv\t",
+                "en": "\tcut\t"
+            },
+            {
+                "id": "335",
+                "zh": "\t清澈\t",
+                "pinyin": "\tQīngchè\t",
+                "type": "\tadj\t",
+                "en": "\tclear, transparent\t"
+            },
+            {
+                "id": "336",
+                "zh": "\t清淡\t",
+                "pinyin": "\tQīngdàn\t",
+                "type": "\tadj\t",
+                "en": "\tlightly flavoured\t"
+            },
+            {
+                "id": "337",
+                "zh": "\t晴\t",
+                "pinyin": "\tQíng\t",
+                "type": "\tadj\t",
+                "en": "\tsunny; clear\/fine\t"
+            },
+            {
+                "id": "338",
+                "zh": "\t庆祝\t",
+                "pinyin": "\tQìngzhù\t",
+                "type": "\tv\t",
+                "en": "\tcelebrate\t"
+            },
+            {
+                "id": "339",
+                "zh": "\t秋天\t",
+                "pinyin": "\tQiūtiān\t",
+                "type": "\tn\t",
+                "en": "\tAutumn\t"
+            },
+            {
+                "id": "340",
+                "zh": "\t球鞋\t",
+                "pinyin": "\tQiúxié\t",
+                "type": "\tn\t",
+                "en": "\tsports shoes， sneakers\/trainers\t"
+            },
+            {
+                "id": "341",
+                "zh": "\t球衣\t",
+                "pinyin": "\tQiúyī\t",
+                "type": "\tn\t",
+                "en": "\tjersey, kit for sports games\t"
+            },
+            {
+                "id": "342",
+                "zh": "\t去年\t",
+                "pinyin": "\tQùnián\t",
+                "type": "\tn\t",
+                "en": "\tlast year\t"
+            },
+            {
+                "id": "343",
+                "zh": "\t让\t",
+                "pinyin": "\tRàng\t",
+                "type": "\tv\t",
+                "en": "\tlet, allow\t"
+            },
+            {
+                "id": "344",
+                "zh": "\t热\t",
+                "pinyin": "\tRè\t",
+                "type": "\tadj\t",
+                "en": "\thot\t"
+            },
+            {
+                "id": "345",
+                "zh": "\t热闹\t",
+                "pinyin": "\tRènào\t",
+                "type": "\tadj\t",
+                "en": "\tbustling and exciting\t"
+            },
+            {
+                "id": "346",
+                "zh": "\t人间\t",
+                "pinyin": "\tRénjiān\t",
+                "type": "\tn\t",
+                "en": "\t(human) world, the Earth\t"
+            },
+            {
+                "id": "347",
+                "zh": "\t认真\t",
+                "pinyin": "\tRènzhēn\t",
+                "type": "\tadj\t",
+                "en": "\tcareful; serious\t"
+            },
+            {
+                "id": "348",
+                "zh": "\t日记\t",
+                "pinyin": "\tRìjì\t",
+                "type": "\tn\t",
+                "en": "\tdiary\t"
+            },
+            {
+                "id": "349",
+                "zh": "\t日用品\t",
+                "pinyin": "\tRìyòngpǐn\t",
+                "type": "\tn\t",
+                "en": "\tdaily necessities\t"
+            },
+            {
+                "id": "350",
+                "zh": "\t容易\t",
+                "pinyin": "\tRóngyì\t",
+                "type": "\tadj\t",
+                "en": "\teasy\t"
+            },
+            {
+                "id": "351",
+                "zh": "\t如果\t",
+                "pinyin": "\tRúguǒ\t",
+                "type": "\tconj\t",
+                "en": "\tif\t"
+            },
+            {
+                "id": "352",
+                "zh": "\t入口处\t",
+                "pinyin": "\tRùkǒu chù\t",
+                "type": "\tn\t",
+                "en": "\tentrance\t"
+            },
+            {
+                "id": "353",
+                "zh": "\t入内\t",
+                "pinyin": "\tRùnèi\t",
+                "type": "\tv\t",
+                "en": "\tenter\t"
+            },
+            {
+                "id": "354",
+                "zh": "\t入住\t",
+                "pinyin": "\tRùzhù\t",
+                "type": "\tv\t",
+                "en": "\tcheck in\t"
+            },
+            {
+                "id": "355",
+                "zh": "\t嗓子疼\t",
+                "pinyin": "\tSǎngzi téng\t",
+                "type": "\tv\t",
+                "en": "\tsore throat\t"
+            },
+            {
+                "id": "356",
+                "zh": "\t森林\t",
+                "pinyin": "\tSēnlín\t",
+                "type": "\tn\t",
+                "en": "\tforest\t"
+            },
+            {
+                "id": "357",
+                "zh": "\t沙发\t",
+                "pinyin": "\tShāfā\t",
+                "type": "\tn\t",
+                "en": "\tsofa\t"
+            },
+            {
+                "id": "358",
+                "zh": "\t山\t",
+                "pinyin": "\tShān\t",
+                "type": "\tn\t",
+                "en": "\tmountain, hill\t"
+            },
+            {
+                "id": "359",
+                "zh": "\t山水\t",
+                "pinyin": "\tShānshuǐ\t",
+                "type": "\tn\t",
+                "en": "\tscenery\t"
+            },
+            {
+                "id": "360",
+                "zh": "\t伤心\t",
+                "pinyin": "\tShāngxīn\t",
+                "type": "\tadj\t",
+                "en": "\tsad; broken-hearted\t"
+            },
+            {
+                "id": "361",
+                "zh": "\t商店\t",
+                "pinyin": "\tShāngdiàn\t",
+                "type": "\tn\t",
+                "en": "\tshop\t"
+            },
+            {
+                "id": "362",
+                "zh": "\t上\t",
+                "pinyin": "\tShàng\t",
+                "type": "\tn\/v\t",
+                "en": "\tabove, on top of; begin to do\t"
+            },
+            {
+                "id": "363",
+                "zh": "\t（上 \/ 下） 车\t",
+                "pinyin": "\t(Shàng \/ xià) chē\t",
+                "type": "\tv\t",
+                "en": "\tget on\/off (a vehicle)\t"
+            },
+            {
+                "id": "364",
+                "zh": "\t上床\t",
+                "pinyin": "\tShàngchuáng\t",
+                "type": "\tv\t",
+                "en": "\tget in bed, go to bed\t"
+            },
+            {
+                "id": "365",
+                "zh": "\t上课\t",
+                "pinyin": "\tShàngkè\t",
+                "type": "\tv\t",
+                "en": "\thave class\t"
+            },
+            {
+                "id": "366",
+                "zh": "\t上网\t",
+                "pinyin": "\tShàngwǎng\t",
+                "type": "\tv\t",
+                "en": "\tgo online\t"
+            },
+            {
+                "id": "367",
+                "zh": "\t稍\t",
+                "pinyin": "\tShāo\t",
+                "type": "\tadv\t",
+                "en": "\ta little, slightly\t"
+            },
+            {
+                "id": "368",
+                "zh": "\t勺子\t",
+                "pinyin": "\tSháozi\t",
+                "type": "\tn\t",
+                "en": "\tspoon\t"
+            },
+            {
+                "id": "369",
+                "zh": "\t少量\t",
+                "pinyin": "\tShǎoliàng\t",
+                "type": "\tadj\t",
+                "en": "\tsmall quantity\t"
+            },
+            {
+                "id": "370",
+                "zh": "\t身材\t",
+                "pinyin": "\tShēncái\t",
+                "type": "\tn\t",
+                "en": "\tfigure, stature\t"
+            },
+            {
+                "id": "371",
+                "zh": "\t身体\t",
+                "pinyin": "\tShēntǐ\t",
+                "type": "\tn\t",
+                "en": "\tbody\t"
+            },
+            {
+                "id": "372",
+                "zh": "\t生病\t",
+                "pinyin": "\tShēngbìng\t",
+                "type": "\tv\t",
+                "en": "\tget sick\t"
+            },
+            {
+                "id": "373",
+                "zh": "\t生活\t",
+                "pinyin": "\tShēnghuó\t",
+                "type": "\tv\/n\t",
+                "en": "\tlive; life\t"
+            },
+            {
+                "id": "374",
+                "zh": "\t生气\t",
+                "pinyin": "\tShēngqì\t",
+                "type": "\tadj\t",
+                "en": "\tangry, pissed off\t"
+            },
+            {
+                "id": "375",
+                "zh": "\t声\t",
+                "pinyin": "\tShēng\t",
+                "type": "\tn\t",
+                "en": "\tvoice, sound\t"
+            },
+            {
+                "id": "376",
+                "zh": "\t失物招领\t",
+                "pinyin": "\tShīwù zhāolǐng\t",
+                "type": "\t\t",
+                "en": "\tlost and found\t"
+            },
+            {
+                "id": "377",
+                "zh": "\t狮子\t",
+                "pinyin": "\tShīzi\t",
+                "type": "\tn\t",
+                "en": "\tlion\t"
+            },
+            {
+                "id": "378",
+                "zh": "\t石头\t",
+                "pinyin": "\tShítou\t",
+                "type": "\tn\t",
+                "en": "\tstone, rock\t"
+            },
+            {
+                "id": "379",
+                "zh": "\t实际\t",
+                "pinyin": "\tShíjì\t",
+                "type": "\tadj\t",
+                "en": "\tpractical\t"
+            },
+            {
+                "id": "380",
+                "zh": "\t手表\t",
+                "pinyin": "\tShǒubiǎo\t",
+                "type": "\tn\t",
+                "en": "\t(wrist) watch\t"
+            },
+            {
+                "id": "381",
+                "zh": "\t手套\t",
+                "pinyin": "\tShǒutào\t",
+                "type": "\tn\t",
+                "en": "\tgloves\t"
+            },
+            {
+                "id": "382",
+                "zh": "\t受\t",
+                "pinyin": "\tShòu\t",
+                "type": "\tv\t",
+                "en": "\tsuffer, receive, be subjected to\t"
+            },
+            {
+                "id": "383",
+                "zh": "\t售票员\t",
+                "pinyin": "\tShòupiàoyuán\t",
+                "type": "\tn\t",
+                "en": "\tticket seller\t"
+            },
+            {
+                "id": "384",
+                "zh": "\t瘦\t",
+                "pinyin": "\tShòu\t",
+                "type": "\tadj\t",
+                "en": "\tthin, skinny\t"
+            },
+            {
+                "id": "385",
+                "zh": "\t叔叔\t",
+                "pinyin": "\tShūshu\t",
+                "type": "\tn\t",
+                "en": "\tuncle\t"
+            },
+            {
+                "id": "386",
+                "zh": "\t梳子\t",
+                "pinyin": "\tShūzi\t",
+                "type": "\tn\t",
+                "en": "\tcomb\t"
+            },
+            {
+                "id": "387",
+                "zh": "\t舒服\t",
+                "pinyin": "\tShūfú\t",
+                "type": "\tadj\t",
+                "en": "\tcomfortable\t"
+            },
+            {
+                "id": "388",
+                "zh": "\t蔬菜\t",
+                "pinyin": "\tShūcài\t",
+                "type": "\tn\t",
+                "en": "\tvegetable\t"
+            },
+            {
+                "id": "389",
+                "zh": "\t熟\t",
+                "pinyin": "\tShú\t",
+                "type": "\tadj\t",
+                "en": "\twell done; ripe; experienced\t"
+            },
+            {
+                "id": "390",
+                "zh": "\t属相\t",
+                "pinyin": "\tShǔxiang\t",
+                "type": "\tn\t",
+                "en": "\tChinese zodiac\t"
+            },
+            {
+                "id": "391",
+                "zh": "\t树木\t",
+                "pinyin": "\tShùmù\t",
+                "type": "\tn\t",
+                "en": "\ttrees\t"
+            },
+            {
+                "id": "392",
+                "zh": "\t数\t",
+                "pinyin": "\tShù\t",
+                "type": "\tn\t",
+                "en": "\tnumber, figure\t"
+            },
+            {
+                "id": "393",
+                "zh": "\t水\t",
+                "pinyin": "\tShuǐ\t",
+                "type": "\tn\t",
+                "en": "\twater\t"
+            },
+            {
+                "id": "394",
+                "zh": "\t水果\t",
+                "pinyin": "\tShuǐguǒ\t",
+                "type": "\tn\t",
+                "en": "\tfruit\t"
+            },
+            {
+                "id": "395",
+                "zh": "\t睡觉\t",
+                "pinyin": "\tShuìjiào\t",
+                "type": "\tv\t",
+                "en": "\tsleep, go to bed\t"
+            },
+            {
+                "id": "396",
+                "zh": "\t说话\t",
+                "pinyin": "\tShuōhuà\t",
+                "type": "\tv\t",
+                "en": "\tspeak\t"
+            },
+            {
+                "id": "397",
+                "zh": "\t丝巾\t",
+                "pinyin": "\tSī jīn\t",
+                "type": "\tn\t",
+                "en": "\tsilk scarf\t"
+            },
+            {
+                "id": "398",
+                "zh": "\t送\t",
+                "pinyin": "\tSòng\t",
+                "type": "\tv\t",
+                "en": "\tgive (as a gift)； send\t"
+            },
+            {
+                "id": "399",
+                "zh": "\t送餐服务\t",
+                "pinyin": "\tSòng cān fúwù\t",
+                "type": "\tn\t",
+                "en": "\troom service\t"
+            },
+            {
+                "id": "400",
+                "zh": "\t酸\t",
+                "pinyin": "\tSuān\t",
+                "type": "\tadj\t",
+                "en": "\tsour；acid\t"
+            },
+            {
+                "id": "401",
+                "zh": "\t蒜\t",
+                "pinyin": "\tSuàn\t",
+                "type": "\tn\t",
+                "en": "\tgarlic\t"
+            },
+            {
+                "id": "402",
+                "zh": "\t虽然\t",
+                "pinyin": "\tSuīrán\t",
+                "type": "\tconj\t",
+                "en": "\talthough\t"
+            },
+            {
+                "id": "403",
+                "zh": "\t所以\t",
+                "pinyin": "\tSuǒyǐ\t",
+                "type": "\tconj\t",
+                "en": "\ttherefore, so\t"
+            },
+            {
+                "id": "404",
+                "zh": "\t所有\t",
+                "pinyin": "\tSuǒyǒu\t",
+                "type": "\tadj\t",
+                "en": "\tall\t"
+            },
+            {
+                "id": "405",
+                "zh": "\t太阳\t",
+                "pinyin": "\tTàiyáng\t",
+                "type": "\tn\t",
+                "en": "\tsun\t"
+            },
+            {
+                "id": "406",
+                "zh": "\t汤\t",
+                "pinyin": "\tTāng\t",
+                "type": "\tn\t",
+                "en": "\tsoup\t"
+            },
+            {
+                "id": "407",
+                "zh": "\t唐装\t",
+                "pinyin": "\tTángzhuāng\t",
+                "type": "\tn\t",
+                "en": "\tTraditional Chinese clothes\t"
+            },
+            {
+                "id": "408",
+                "zh": "\t糖\t",
+                "pinyin": "\tTáng\t",
+                "type": "\tn\t",
+                "en": "\tsugar, sweets\t"
+            },
+            {
+                "id": "409",
+                "zh": "\t糖醋鱼\t",
+                "pinyin": "\tTáng cù yú\t",
+                "type": "\tn\t",
+                "en": "\tsweet and sour fish\t"
+            },
+            {
+                "id": "410",
+                "zh": "\t套\t",
+                "pinyin": "\tTào\t",
+                "type": "\tn\t",
+                "en": "\tset\t"
+            },
+            {
+                "id": "411",
+                "zh": "\t特别\t",
+                "pinyin": "\tTèbié\t",
+                "type": "\tadv\t",
+                "en": "\tespecially, particularly\t"
+            },
+            {
+                "id": "412",
+                "zh": "\t剃须刀\t",
+                "pinyin": "\tTì xū dāo\t",
+                "type": "\tn\t",
+                "en": "\trazor\t"
+            },
+            {
+                "id": "413",
+                "zh": "\t天气\t",
+                "pinyin": "\tTiānqì\t",
+                "type": "\tn\t",
+                "en": "\tweather\t"
+            },
+            {
+                "id": "414",
+                "zh": "\t甜\t",
+                "pinyin": "\tTián\t",
+                "type": "\tadj\t",
+                "en": "\tsweet\t"
+            },
+            {
+                "id": "415",
+                "zh": "\t填\t",
+                "pinyin": "\tTián\t",
+                "type": "\tv\t",
+                "en": "\tfill in\t"
+            },
+            {
+                "id": "416",
+                "zh": "\t挑选\t",
+                "pinyin": "\tTiāoxuǎn\t",
+                "type": "\tv\t",
+                "en": "\tchoose, pick, select\t"
+            },
+            {
+                "id": "417",
+                "zh": "\t贴\t",
+                "pinyin": "\tTiē\t",
+                "type": "\tv\t",
+                "en": "\tpaste, glue; put up\t"
+            },
+            {
+                "id": "418",
+                "zh": "\t听说\t",
+                "pinyin": "\tTīng shuō\t",
+                "type": "\tv\t",
+                "en": "\tit is said that, I hear that\t"
+            },
+            {
+                "id": "419",
+                "zh": "\t停\t",
+                "pinyin": "\tTíng\t",
+                "type": "\tv\t",
+                "en": "\tstop\t"
+            },
+            {
+                "id": "420",
+                "zh": "\t同学\t",
+                "pinyin": "\tTóngxué\t",
+                "type": "\tn\t",
+                "en": "\tclassmate\t"
+            },
+            {
+                "id": "421",
+                "zh": "\t头发\t",
+                "pinyin": "\tTóufǎ\t",
+                "type": "\tn\t",
+                "en": "\thair\t"
+            },
+            {
+                "id": "422",
+                "zh": "\t头痛\t",
+                "pinyin": "\tTóutòng\t",
+                "type": "\tv\t",
+                "en": "\theadache\t"
+            },
+            {
+                "id": "423",
+                "zh": "\t头晕\t",
+                "pinyin": "\tTóuyūn\t",
+                "type": "\tv\t",
+                "en": "\tdizzy\t"
+            },
+            {
+                "id": "424",
+                "zh": "\t图画\t",
+                "pinyin": "\tTúhuà\t",
+                "type": "\tn\t",
+                "en": "\tpicture, drawing\t"
+            },
+            {
+                "id": "425",
+                "zh": "\t图书馆\t",
+                "pinyin": "\tTúshū guǎn\t",
+                "type": "\tn\t",
+                "en": "\tlibrary\t"
+            },
+            {
+                "id": "426",
+                "zh": "\t团圆\t",
+                "pinyin": "\tTuányuán\t",
+                "type": "\tv\t",
+                "en": "\tget together, have a reunion\t"
+            },
+            {
+                "id": "427",
+                "zh": "\t退钱\t",
+                "pinyin": "\tTuì qián\t",
+                "type": "\tv\t",
+                "en": "\trefund\t"
+            },
+            {
+                "id": "428",
+                "zh": "\t退烧\t",
+                "pinyin": "\tTuìshāo\t",
+                "type": "\tv\t",
+                "en": "\tbring down a fever\t"
+            },
+            {
+                "id": "429",
+                "zh": "\t袜子\t",
+                "pinyin": "\tWàzi\t",
+                "type": "\tn\t",
+                "en": "\tsocks\t"
+            },
+            {
+                "id": "430",
+                "zh": "\t外面\t",
+                "pinyin": "\tWàimiàn\t",
+                "type": "\tn\t",
+                "en": "\toutside\t"
+            },
+            {
+                "id": "431",
+                "zh": "\t完\t",
+                "pinyin": "\tWán\t",
+                "type": "\tv\t",
+                "en": "\tcomplete\t"
+            },
+            {
+                "id": "432",
+                "zh": "\t完全\t",
+                "pinyin": "\tWánquán\t",
+                "type": "\tadv\/adj\t",
+                "en": "\tcompletely; entire\t"
+            },
+            {
+                "id": "433",
+                "zh": "\t玩\t",
+                "pinyin": "\tWán\t",
+                "type": "\tv\t",
+                "en": "\tplay\t"
+            },
+            {
+                "id": "434",
+                "zh": "\t玩具\t",
+                "pinyin": "\tWánjù\t",
+                "type": "\tn\t",
+                "en": "\ttoy\t"
+            },
+            {
+                "id": "435",
+                "zh": "\t晚\t",
+                "pinyin": "\tWǎn\t",
+                "type": "\tadv\t",
+                "en": "\tlate\t"
+            },
+            {
+                "id": "436",
+                "zh": "\t晚点\t",
+                "pinyin": "\tWǎndiǎn\t",
+                "type": "\tadj\t",
+                "en": "\tdelayed, behind schedule\t"
+            },
+            {
+                "id": "437",
+                "zh": "\t碗\t",
+                "pinyin": "\tWǎn\t",
+                "type": "\tn\t",
+                "en": "\tbowl\t"
+            },
+            {
+                "id": "438",
+                "zh": "\t万\t",
+                "pinyin": "\tWàn\t",
+                "type": "\tnum\t",
+                "en": "\tten thousand (10,000)\t"
+            },
+            {
+                "id": "439",
+                "zh": "\t围巾\t",
+                "pinyin": "\tWéijīn\t",
+                "type": "\tn\t",
+                "en": "\tscarf\t"
+            },
+            {
+                "id": "440",
+                "zh": "\t喂\t",
+                "pinyin": "\tWèi\t",
+                "type": "\tinterj\t",
+                "en": "\thello, hey\t"
+            },
+            {
+                "id": "441",
+                "zh": "\t卫生间\t",
+                "pinyin": "\tWèishēngjiān\t",
+                "type": "\tn\t",
+                "en": "\ttoilet, washroom\t"
+            },
+            {
+                "id": "442",
+                "zh": "\t为什么\t",
+                "pinyin": "\tWèishéme\t",
+                "type": "\tadv\t",
+                "en": "\twhy\t"
+            },
+            {
+                "id": "443",
+                "zh": "\t位\t",
+                "pinyin": "\tWèi\t",
+                "type": "\tmeasure word\t",
+                "en": "\t(for a person, respectful)\t"
+            },
+            {
+                "id": "444",
+                "zh": "\t位于\t",
+                "pinyin": "\tWèiyú\t",
+                "type": "\tv\t",
+                "en": "\tbe located in\t"
+            },
+            {
+                "id": "445",
+                "zh": "\t味道\t",
+                "pinyin": "\tWèidào\t",
+                "type": "\tn\t",
+                "en": "\ttaste, feel, flavour\t"
+            },
+            {
+                "id": "446",
+                "zh": "\t文物\t",
+                "pinyin": "\tWénwù\t",
+                "type": "\tn\t",
+                "en": "\tcultural relic, artefact\t"
+            },
+            {
+                "id": "447",
+                "zh": "\t文字\t",
+                "pinyin": "\tWénzì\t",
+                "type": "\tn\t",
+                "en": "\twriting, script\t"
+            },
+            {
+                "id": "448",
+                "zh": "\t问题\t",
+                "pinyin": "\tWèntí\t",
+                "type": "\tn\t",
+                "en": "\tquestion, problem\t"
+            },
+            {
+                "id": "449",
+                "zh": "\t卧室\t",
+                "pinyin": "\tWòshì\t",
+                "type": "\tn\t",
+                "en": "\tbedroom\t"
+            },
+            {
+                "id": "450",
+                "zh": "\t西瓜\t",
+                "pinyin": "\tXīguā\t",
+                "type": "\tn\t",
+                "en": "\twatermelon\t"
+            },
+            {
+                "id": "451",
+                "zh": "\t吸烟\t",
+                "pinyin": "\tXīyān\t",
+                "type": "\tv\t",
+                "en": "\tsmoke tobacco\t"
+            },
+            {
+                "id": "452",
+                "zh": "\t洗\t",
+                "pinyin": "\tXǐ\t",
+                "type": "\tv\t",
+                "en": "\twash\t"
+            },
+            {
+                "id": "453",
+                "zh": "\t洗衣\t",
+                "pinyin": "\tXǐyī\t",
+                "type": "\tv\t",
+                "en": "\twash clothes\t"
+            },
+            {
+                "id": "454",
+                "zh": "\t下次\t",
+                "pinyin": "\tXià cì\t",
+                "type": "\tn\t",
+                "en": "\tnext time\t"
+            },
+            {
+                "id": "455",
+                "zh": "\t下降\t",
+                "pinyin": "\tXiàjiàng\t",
+                "type": "\tv\t",
+                "en": "\tdecrease\t"
+            },
+            {
+                "id": "456",
+                "zh": "\t下面\t",
+                "pinyin": "\tXiàmiàn\t",
+                "type": "\tn\t",
+                "en": "\tunder, beneath\t"
+            },
+            {
+                "id": "457",
+                "zh": "\t下雪\t",
+                "pinyin": "\tXià xuě\t",
+                "type": "\tv\t",
+                "en": "\tsnow\t"
+            },
+            {
+                "id": "458",
+                "zh": "\t夏天\t",
+                "pinyin": "\tXiàtiān\t",
+                "type": "\tn\t",
+                "en": "\tSummer\t"
+            },
+            {
+                "id": "459",
+                "zh": "\t先\t",
+                "pinyin": "\tXiān\t",
+                "type": "\tadv\t",
+                "en": "\tfirst\t"
+            },
+            {
+                "id": "460",
+                "zh": "\t仙境\t",
+                "pinyin": "\tXiānjìng\t",
+                "type": "\tn\t",
+                "en": "\tparadise\t"
+            },
+            {
+                "id": "461",
+                "zh": "\t咸\t",
+                "pinyin": "\tXián\t",
+                "type": "\tadj\t",
+                "en": "\tsalty\t"
+            },
+            {
+                "id": "462",
+                "zh": "\t乡\t",
+                "pinyin": "\tXiāng\t",
+                "type": "\tn\t",
+                "en": "\thometown, countryside\t"
+            },
+            {
+                "id": "463",
+                "zh": "\t相信\t",
+                "pinyin": "\tXiāngxìn\t",
+                "type": "\tv\t",
+                "en": "\tbelieve\t"
+            },
+            {
+                "id": "464",
+                "zh": "\t香\t",
+                "pinyin": "\tXiāng\t",
+                "type": "\tadj\t",
+                "en": "\tfragrant (smell or taste)\t"
+            },
+            {
+                "id": "465",
+                "zh": "\t香蕉\t",
+                "pinyin": "\tXiāngjiāo\t",
+                "type": "\tn\t",
+                "en": "\tbanana\t"
+            },
+            {
+                "id": "466",
+                "zh": "\t向\t",
+                "pinyin": "\tXiàng\t",
+                "type": "\tprep\t",
+                "en": "\tto, towards\t"
+            },
+            {
+                "id": "467",
+                "zh": "\t象\t",
+                "pinyin": "\tXiàng\t",
+                "type": "\tv\t",
+                "en": "\tlook like\t"
+            },
+            {
+                "id": "468",
+                "zh": "\t小\t",
+                "pinyin": "\tXiǎo\t",
+                "type": "\tadj\t",
+                "en": "\tsmall\t"
+            },
+            {
+                "id": "469",
+                "zh": "\t小心\t",
+                "pinyin": "\tXiǎoxīn\t",
+                "type": "\tadj\t",
+                "en": "\tcareful\t"
+            },
+            {
+                "id": "470",
+                "zh": "\t笑\t",
+                "pinyin": "\tXiào\t",
+                "type": "\tv\t",
+                "en": "\tsmile, laugh\t"
+            },
+            {
+                "id": "471",
+                "zh": "\t星座\t",
+                "pinyin": "\tXīngzuò\t",
+                "type": "\tn\t",
+                "en": "\tconstellation, star sign\t"
+            },
+            {
+                "id": "472",
+                "zh": "\t行\t",
+                "pinyin": "\tXíng\t",
+                "type": "\tv\t",
+                "en": "\tOK, right\t"
+            },
+            {
+                "id": "473",
+                "zh": "\t行动\t",
+                "pinyin": "\tXíngdòng\t",
+                "type": "\tv\/n\t",
+                "en": "\tact; action\t"
+            },
+            {
+                "id": "474",
+                "zh": "\t行李\t",
+                "pinyin": "\tXínglǐ\t",
+                "type": "\tn\t",
+                "en": "\tluggage\t"
+            },
+            {
+                "id": "475",
+                "zh": "\t兴趣\t",
+                "pinyin": "\tXìngqù\t",
+                "type": "\tn\t",
+                "en": "\tinterest\t"
+            },
+            {
+                "id": "476",
+                "zh": "\t性格\t",
+                "pinyin": "\tXìnggé\t",
+                "type": "\tn\t",
+                "en": "\tcharacter\t"
+            },
+            {
+                "id": "477",
+                "zh": "\t羞怯\t",
+                "pinyin": "\tXiūqiè\t",
+                "type": "\tadj\t",
+                "en": "\tshy\t"
+            },
+            {
+                "id": "478",
+                "zh": "\t休息\t",
+                "pinyin": "\tXiūxí\t",
+                "type": "\tv\t",
+                "en": "\trest\t"
+            },
+            {
+                "id": "479",
+                "zh": "\t嘘\t",
+                "pinyin": "\tXū\t",
+                "type": "\tinterj\t",
+                "en": "\tshh\t"
+            },
+            {
+                "id": "480",
+                "zh": "\t悬崖\t",
+                "pinyin": "\tXuányá\t",
+                "type": "\tn\t",
+                "en": "\tcliff\t"
+            },
+            {
+                "id": "481",
+                "zh": "\t牙膏\t",
+                "pinyin": "\tYágāo\t",
+                "type": "\tn\t",
+                "en": "\ttoothpaste\t"
+            },
+            {
+                "id": "482",
+                "zh": "\t牙刷\t",
+                "pinyin": "\tYáshuā\t",
+                "type": "\tn\t",
+                "en": "\ttoothbrush\t"
+            },
+            {
+                "id": "483",
+                "zh": "\t研究\t",
+                "pinyin": "\tYánjiū\t",
+                "type": "\tv\t",
+                "en": "\tresearch, study\t"
+            },
+            {
+                "id": "484",
+                "zh": "\t盐\t",
+                "pinyin": "\tYán\t",
+                "type": "\tn\t",
+                "en": "\tsalt\t"
+            },
+            {
+                "id": "485",
+                "zh": "\t眼睛\t",
+                "pinyin": "\t眼睛\t",
+                "type": "\tn\t",
+                "en": "\teye\t"
+            },
+            {
+                "id": "486",
+                "zh": "\t养\t",
+                "pinyin": "\tYǎng\t",
+                "type": "\tv\t",
+                "en": "\traise, feed\t"
+            },
+            {
+                "id": "487",
+                "zh": "\t样子\t",
+                "pinyin": "\tYàngzi\t",
+                "type": "\tn\t",
+                "en": "\tappearance, look\t"
+            },
+            {
+                "id": "488",
+                "zh": "\t药\t",
+                "pinyin": "\tYào\t",
+                "type": "\tn\t",
+                "en": "\tmedicine\t"
+            },
+            {
+                "id": "489",
+                "zh": "\t夜间\t",
+                "pinyin": "\tYèjiān\t",
+                "type": "\tn\t",
+                "en": "\tnighttime\t"
+            },
+            {
+                "id": "490",
+                "zh": "\t一边\t",
+                "pinyin": "\tYībiān\t",
+                "type": "\tadv\t",
+                "en": "\twhile, at the same time\t"
+            },
+            {
+                "id": "491",
+                "zh": "\t一定\t",
+                "pinyin": "\tYīdìng\t",
+                "type": "\tadv\t",
+                "en": "\tdefinitely, for sure\t"
+            },
+            {
+                "id": "492",
+                "zh": "\t一共\t",
+                "pinyin": "\tYīgòng\t",
+                "type": "\tadv\t",
+                "en": "\taltogether, in total\t"
+            },
+            {
+                "id": "493",
+                "zh": "\t一会儿\t",
+                "pinyin": "\tYīhuǐ’er\t",
+                "type": "\tn\t",
+                "en": "\ta little while\t"
+            },
+            {
+                "id": "494",
+                "zh": "\t一样\t",
+                "pinyin": "\tYīyàng\t",
+                "type": "\tadj\t",
+                "en": "\tsame\t"
+            },
+            {
+                "id": "495",
+                "zh": "\t衣柜\t",
+                "pinyin": "\tYīguì\t",
+                "type": "\tn\t",
+                "en": "\twardrobe\t"
+            },
+            {
+                "id": "496",
+                "zh": "\t已经\t",
+                "pinyin": "\tYǐjīng\t",
+                "type": "\tadv\t",
+                "en": "\talready\t"
+            },
+            {
+                "id": "497",
+                "zh": "\t以上\t",
+                "pinyin": "\tYǐshàng\t",
+                "type": "\tn\t",
+                "en": "\tabove\t"
+            },
+            {
+                "id": "498",
+                "zh": "\t椅子\t",
+                "pinyin": "\tYǐzi\t",
+                "type": "\tn\t",
+                "en": "\tchair\t"
+            },
+            {
+                "id": "499",
+                "zh": "\t意见\t",
+                "pinyin": "\tYìjiàn\t",
+                "type": "\tn\t",
+                "en": "\tadvice, opinion\t"
+            },
+            {
+                "id": "500",
+                "zh": "\t因为\t",
+                "pinyin": "\tYīnwèi\t",
+                "type": "\tconj\t",
+                "en": "\tbecause\t"
+            },
+            {
+                "id": "501",
+                "zh": "\t阴\t",
+                "pinyin": "\tYīn\t",
+                "type": "\tadj\t",
+                "en": "\tovercast, cloudy\t"
+            },
+            {
+                "id": "502",
+                "zh": "\t引起睡意\t",
+                "pinyin": "\tYǐnqǐ shuìyì\t",
+                "type": "\tv\t",
+                "en": "\tcause drowsiness\t"
+            },
+            {
+                "id": "503",
+                "zh": "\t饮酒\t",
+                "pinyin": "\tYǐnjiǔ\t",
+                "type": "\tv\t",
+                "en": "\tdrink alcohol\t"
+            },
+            {
+                "id": "504",
+                "zh": "\t饮食\t",
+                "pinyin": "\tYǐnshí\t",
+                "type": "\tn\/v\t",
+                "en": "\tfood and drink; eat and drink\t"
+            },
+            {
+                "id": "505",
+                "zh": "\t影响\t",
+                "pinyin": "\tYǐngxiǎng\t",
+                "type": "\tv\/n\t",
+                "en": "\tinfluence; affect\t"
+            },
+            {
+                "id": "506",
+                "zh": "\t硬座\t",
+                "pinyin": "\tYìngzuò\t",
+                "type": "\tn\t",
+                "en": "\thard seat\t"
+            },
+            {
+                "id": "507",
+                "zh": "\t勇敢\t",
+                "pinyin": "\tYǒnggǎn\t",
+                "type": "\tadj\t",
+                "en": "\tbrave\t"
+            },
+            {
+                "id": "508",
+                "zh": "\t用\t",
+                "pinyin": "\tYòng\t",
+                "type": "\tn\/v\t",
+                "en": "\tuse\t"
+            },
+            {
+                "id": "509",
+                "zh": "\t邮寄\t",
+                "pinyin": "\tYóujì\t",
+                "type": "\tv\t",
+                "en": "\tpost, send by post\t"
+            },
+            {
+                "id": "510",
+                "zh": "\t油\t",
+                "pinyin": "\tYóu\t",
+                "type": "\tn\t",
+                "en": "\toil\t"
+            },
+            {
+                "id": "511",
+                "zh": "\t游戏\t",
+                "pinyin": "\tYóuxì\t",
+                "type": "\tn\t",
+                "en": "\tgame\t"
+            },
+            {
+                "id": "512",
+                "zh": "\t有趣\t",
+                "pinyin": "\tYǒuqù\t",
+                "type": "\tadj\t",
+                "en": "\tinteresting\t"
+            },
+            {
+                "id": "513",
+                "zh": "\t有时(候)\t",
+                "pinyin": "\tYǒu shíhòu\t",
+                "type": "\tadv\t",
+                "en": "\tsometimes\t"
+            },
+            {
+                "id": "514",
+                "zh": "\t有效\t",
+                "pinyin": "\tYǒuxiào\t",
+                "type": "\tv\t",
+                "en": "\tvalid, effective\t"
+            },
+            {
+                "id": "515",
+                "zh": "\t又\t",
+                "pinyin": "\tYòu\t",
+                "type": "\tadv\t",
+                "en": "\tagain; also\t"
+            },
+            {
+                "id": "516",
+                "zh": "\t右\t",
+                "pinyin": "\tYòu\t",
+                "type": "\tn\t",
+                "en": "\tright side, right\t"
+            },
+            {
+                "id": "517",
+                "zh": "\t于\t",
+                "pinyin": "\tYú\t",
+                "type": "\tprep\t",
+                "en": "\tat, in\t"
+            },
+            {
+                "id": "518",
+                "zh": "\t愉快\t",
+                "pinyin": "\tYúkuài\t",
+                "type": "\tadj\t",
+                "en": "\thappy, pleasant\t"
+            },
+            {
+                "id": "519",
+                "zh": "\t羽绒服\t",
+                "pinyin": "\tYǔróngfú\t",
+                "type": "\tn\t",
+                "en": "\tdown jacket\t"
+            },
+            {
+                "id": "520",
+                "zh": "\t雨\t",
+                "pinyin": "\tYǔ\t",
+                "type": "\tn\t",
+                "en": "\train\t"
+            },
+            {
+                "id": "521",
+                "zh": "\t雨鞋\t",
+                "pinyin": "\tYǔxié\t",
+                "type": "\tn\t",
+                "en": "\train boots\t"
+            },
+            {
+                "id": "522",
+                "zh": "\t雨伞\t",
+                "pinyin": "\tYǔsǎn\t",
+                "type": "\tn\t",
+                "en": "\tumbrella\t"
+            },
+            {
+                "id": "523",
+                "zh": "\t预报\t",
+                "pinyin": "\tYùbào\t",
+                "type": "\tn\/v\t",
+                "en": "\tforecast\t"
+            },
+            {
+                "id": "524",
+                "zh": "\t预订\t",
+                "pinyin": "\tYùdìng\t",
+                "type": "\tv\t",
+                "en": "\treserve, book\t"
+            },
+            {
+                "id": "525",
+                "zh": "\t元\t",
+                "pinyin": "\tYuán\t",
+                "type": "\tn\t",
+                "en": "\tYuan (Chinese currency unit)\t"
+            },
+            {
+                "id": "526",
+                "zh": "\t原料\t",
+                "pinyin": "\tYuánliào\t",
+                "type": "\tn\t",
+                "en": "\tingredients, raw material\t"
+            },
+            {
+                "id": "527",
+                "zh": "\t月亮\t",
+                "pinyin": "\tYuèliàng\t",
+                "type": "\tn\t",
+                "en": "\tmoon\t"
+            },
+            {
+                "id": "528",
+                "zh": "\t越\t",
+                "pinyin": "\tYuè\t",
+                "type": "\tadv\t",
+                "en": "\tmore\t"
+            },
+            {
+                "id": "529",
+                "zh": "\t再\t",
+                "pinyin": "\tZài\t",
+                "type": "\tadv\t",
+                "en": "\tthen; again\t"
+            },
+            {
+                "id": "530",
+                "zh": "\t再见\t",
+                "pinyin": "\tZàijiàn\t",
+                "type": "\tv\t",
+                "en": "\tgoodbye\t"
+            },
+            {
+                "id": "531",
+                "zh": "\t咱们\t",
+                "pinyin": "\tZánmen\t",
+                "type": "\tpron\t",
+                "en": "\twe, us\t"
+            },
+            {
+                "id": "532",
+                "zh": "\t早\t",
+                "pinyin": "\tZǎo\t",
+                "type": "\tadj\t",
+                "en": "\tearly\t"
+            },
+            {
+                "id": "533",
+                "zh": "\t占\t",
+                "pinyin": "\tZhàn\t",
+                "type": "\tv\t",
+                "en": "\toccupy, make up\t"
+            },
+            {
+                "id": "534",
+                "zh": "\t张\t",
+                "pinyin": "\tZhāng\t",
+                "type": "\tmeasure word \/ v\t",
+                "en": "\t(for thin, flat things); open\t"
+            },
+            {
+                "id": "535",
+                "zh": "\t长\t",
+                "pinyin": "\tZhǎng\t",
+                "type": "\tv\t",
+                "en": "\tgrow, develop\t"
+            },
+            {
+                "id": "536",
+                "zh": "\t着凉\t",
+                "pinyin": "\tZháoliáng\t",
+                "type": "\tv\t",
+                "en": "\tcatch a cold\t"
+            },
+            {
+                "id": "537",
+                "zh": "\t找\t",
+                "pinyin": "\tZhǎo\t",
+                "type": "\tv\t",
+                "en": "\tlook for, find\t"
+            },
+            {
+                "id": "538",
+                "zh": "\t照相\t",
+                "pinyin": "\tZhàoxiàng\t",
+                "type": "\tv\t",
+                "en": "\ttake a photo\t"
+            },
+            {
+                "id": "539",
+                "zh": "\t这么\t",
+                "pinyin": "\tZhème\t",
+                "type": "\tpron\t",
+                "en": "\tso, such\t"
+            },
+            {
+                "id": "540",
+                "zh": "\t着\t",
+                "pinyin": "\tZhe\t",
+                "type": "\tauxiliary word\t",
+                "en": "\t(used to indicate continuation of action or state)\t"
+            },
+            {
+                "id": "541",
+                "zh": "\t真丝\t",
+                "pinyin": "\tZhēnsī\t",
+                "type": "\tn\t",
+                "en": "\treal silk, 100% silk\t"
+            },
+            {
+                "id": "542",
+                "zh": "\t整天\t",
+                "pinyin": "\tZhěng tiān\t",
+                "type": "\tn\t",
+                "en": "\twhole day, all day\t"
+            },
+            {
+                "id": "543",
+                "zh": "\t正好\t",
+                "pinyin": "\tZhènghǎo\t",
+                "type": "\tadj\t",
+                "en": "\tjust right\t"
+            },
+            {
+                "id": "544",
+                "zh": "\t正在\t",
+                "pinyin": "\tZhèngzài\t",
+                "type": "\tadv\t",
+                "en": "\tin the process of\t"
+            },
+            {
+                "id": "545",
+                "zh": "\t证\t",
+                "pinyin": "\tZhèng\t",
+                "type": "\tn\t",
+                "en": "\tcertificate\t"
+            },
+            {
+                "id": "546",
+                "zh": "\t挣钱\t",
+                "pinyin": "\tZhèng qián\t",
+                "type": "\tv\t",
+                "en": "\tmake money\t"
+            },
+            {
+                "id": "547",
+                "zh": "\t之一\t",
+                "pinyin": "\tZhī yī\t",
+                "type": "\tn\t",
+                "en": "\tone of\t"
+            },
+            {
+                "id": "548",
+                "zh": "\t直接\t",
+                "pinyin": "\tZhíjiē\t",
+                "type": "\tadj\t",
+                "en": "\tdirect\t"
+            },
+            {
+                "id": "549",
+                "zh": "\t植物\t",
+                "pinyin": "\tZhíwù\t",
+                "type": "\tn\t",
+                "en": "\tplant\t"
+            },
+            {
+                "id": "550",
+                "zh": "\t治\t",
+                "pinyin": "\tZhì\t",
+                "type": "\tv\t",
+                "en": "\ttreat (a disease)\t"
+            },
+            {
+                "id": "551",
+                "zh": "\t中等\t",
+                "pinyin": "\tZhōngděng\t",
+                "type": "\tadj\t",
+                "en": "\tmedium\t"
+            },
+            {
+                "id": "552",
+                "zh": "\t中号\t",
+                "pinyin": "\tZhōng hào\t",
+                "type": "\t\t",
+                "en": "\tmedium size\t"
+            },
+            {
+                "id": "553",
+                "zh": "\t终于\t",
+                "pinyin": "\tZhōngyú\t",
+                "type": "\tadv\t",
+                "en": "\tbe at last, finally\t"
+            },
+            {
+                "id": "554",
+                "zh": "\t种\t",
+                "pinyin": "\tZhǒng\t",
+                "type": "\tmeasure word\t",
+                "en": "\tkind, type\t"
+            },
+            {
+                "id": "555",
+                "zh": "\t重量\t",
+                "pinyin": "\tZhòngliàng\t",
+                "type": "\tn\t",
+                "en": "\tweight\t"
+            },
+            {
+                "id": "556",
+                "zh": "\t重要\t",
+                "pinyin": "\tZhòngyào\t",
+                "type": "\tadj\t",
+                "en": "\timportant\t"
+            },
+            {
+                "id": "557",
+                "zh": "\t猪肉\t",
+                "pinyin": "\tZhūròu\t",
+                "type": "\tn\t",
+                "en": "\tpork\t"
+            },
+            {
+                "id": "558",
+                "zh": "\t煮\t",
+                "pinyin": "\tZhǔ\t",
+                "type": "\tv\t",
+                "en": "\tboil\t"
+            },
+            {
+                "id": "559",
+                "zh": "\t注意\t",
+                "pinyin": "\tZhùyì\t",
+                "type": "\tv\t",
+                "en": "\tnote, pay attention to\t"
+            },
+            {
+                "id": "560",
+                "zh": "\t祝\t",
+                "pinyin": "\tZhù\t",
+                "type": "\tv\t",
+                "en": "\twish\t"
+            },
+            {
+                "id": "561",
+                "zh": "\t祝好\t",
+                "pinyin": "\tZhù hǎo\t",
+                "type": "\t\t",
+                "en": "\tBest Wishes, Good Luck\t"
+            },
+            {
+                "id": "562",
+                "zh": "\t转\t",
+                "pinyin": "\tZhuǎn\t",
+                "type": "\tv\t",
+                "en": "\tchange, shift, turn\t"
+            },
+            {
+                "id": "563",
+                "zh": "\t准备\t",
+                "pinyin": "\tZhǔnbèi\t",
+                "type": "\tv\t",
+                "en": "\tprepare (for)\t"
+            },
+            {
+                "id": "564",
+                "zh": "\t桌子\t",
+                "pinyin": "\tZhuōzi\t",
+                "type": "\tn\t",
+                "en": "\tdesk, table\t"
+            },
+            {
+                "id": "565",
+                "zh": "\t资料\t",
+                "pinyin": "\tZīliào\t",
+                "type": "\tn\t",
+                "en": "\tinformation, data\t"
+            },
+            {
+                "id": "566",
+                "zh": "\t自己\t",
+                "pinyin": "\tZìjǐ\t",
+                "type": "\tpron\t",
+                "en": "\toneself\t"
+            },
+            {
+                "id": "567",
+                "zh": "\t自然\t",
+                "pinyin": "\tZìrán\t",
+                "type": "\tn\t",
+                "en": "\tnature\t"
+            },
+            {
+                "id": "568",
+                "zh": "\t自信\t",
+                "pinyin": "\tZìxìn\t",
+                "type": "\tadj\t",
+                "en": "\tself-confident\t"
+            },
+            {
+                "id": "569",
+                "zh": "\t总机\t",
+                "pinyin": "\tZǒngjī\t",
+                "type": "\tn\t",
+                "en": "\toperator\t"
+            },
+            {
+                "id": "570",
+                "zh": "\t总是\t",
+                "pinyin": "\tZǒng shì\t",
+                "type": "\tadv\t",
+                "en": "\talways\t"
+            },
+            {
+                "id": "571",
+                "zh": "\t总数\t",
+                "pinyin": "\tZǒngshù\t",
+                "type": "\tn\t",
+                "en": "\ttotal number\t"
+            },
+            {
+                "id": "572",
+                "zh": "\t走路\t",
+                "pinyin": "\tZǒulù\t",
+                "type": "\tv\t",
+                "en": "\twalk\t"
+            },
+            {
+                "id": "573",
+                "zh": "\t嘴\t",
+                "pinyin": "\tZuǐ\t",
+                "type": "\tn\t",
+                "en": "\tmouth\t"
+            },
+            {
+                "id": "574",
+                "zh": "\t最后\t",
+                "pinyin": "\tZuìhòu\t",
+                "type": "\tn\t",
+                "en": "\tfinally, at last\t"
+            },
+            {
+                "id": "575",
+                "zh": "\t最近\t",
+                "pinyin": "\tZuìjìn\t",
+                "type": "\tn\t",
+                "en": "\trecently\t"
+            },
+            {
+                "id": "576",
+                "zh": "\t昨天\t",
+                "pinyin": "\tZuótiān\t",
+                "type": "\tn\t",
+                "en": "\tyesterday\t"
+            },
+            {
+                "id": "577",
+                "zh": "\t左\t",
+                "pinyin": "\tZuǒ\t",
+                "type": "\tn\t",
+                "en": "\tleft side, left\t"
+            },
+            {
+                "id": "578",
+                "zh": "\t作业\t",
+                "pinyin": "\tZuòyè\t",
+                "type": "\tn\t",
+                "en": "\thomework\t"
+            },
+            {
+                "id": "579",
+                "zh": "\t做法\t",
+                "pinyin": "\tZuòfǎ\t",
+                "type": "\tn\t",
+                "en": "\tmethod, cooking steps\t"
+            }
+        ]
+    }
+]
