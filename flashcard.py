@@ -1,15 +1,26 @@
 # TODO
-# 1. Add audio
+# 1. Add play audio button
 
 import json
+
 # TKinter imports
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
 
-# global labels
-global n, cn, py, wt, div, en, c_num, nav_prev, nav_next
+# Pygame mixer for playing audio
+from pygame import mixer
 
+# initialise pygame mixer
+mixer.init()
+
+# global labels
+global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, lang
+
+# which audio should be played
+lang = 'zh'  # en -> English, zh -> Chinese
+
+# Card number
 n = 1
 
 # Opening JSON file
@@ -52,6 +63,12 @@ def getCard(nav='n'):
     en.config(text=english)
     c_num.config(text=card_number)
 
+    # update audio file path
+    audio_path = ''.join(["audio/", lang, "/", card_number, ".mp3"])
+    mixer.music.load(audio_path)
+    # play Chinese audio
+    mixer.music.play()
+
 
 zh = (data[1]["data"][0]["zh"]).strip()
 pinyin = (data[1]["data"][0]["pinyin"]).strip()
@@ -61,6 +78,12 @@ card_number = (data[1]["data"][0]["id"]).strip()
 
 prevArrow = "  «  "
 nextArrow = "  »  "
+
+# update audio file path
+audio_path = ''.join(["audio/", lang, "/", card_number, ".mp3"])
+mixer.music.load(audio_path)
+# play Chinese audio
+mixer.music.play()
 
 root = Tk()
 
@@ -167,5 +190,31 @@ nav_prev.bind('<Button-1>', lambda x: getCard('p'))
 # nav on arrow keys
 root.bind('<Right>', lambda x: getCard())
 root.bind('<Left>', lambda x: getCard('p'))
+
+def changeLang():
+
+    global lang
+
+    # switch language (audio)
+    if (lang == "zh"):
+        lang = "en"
+        toggleLang.config(text="audio: English")
+    elif (lang == "en"):
+        lang = "zh"
+        toggleLang.config(text="audio: 中文")
+    # default Chinese audio
+    else:
+        lang = "zh"
+        toggleLang.config(text="audio: 中文")
+
+
+# language audio toggle
+toggleLang = tk.Button(text="audio: 中文",
+                       width=15,
+                       relief="raised",
+                       fg="black",
+                       font="Helvetica 10 bold",
+                       command=changeLang)
+toggleLang.place(relx=0.0, rely=0.0, anchor=NW)
 
 root.mainloop()
