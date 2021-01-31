@@ -3,12 +3,18 @@
 # 2. Toggle audio speed
 # 3. Switch audio (original, alt, alt2)
 
+from datetime import datetime
 import json
 
 # TKinter imports
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
+
+import sys, os
+
+# window title
+windowTitle = "Dave's Chinese Flashcards"
 
 # Pygame mixer for playing audio
 from pygame import mixer
@@ -28,12 +34,26 @@ lang = 'zh'  # en -> English, zh -> Chinese
 # Card number
 n = 1
 
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+
 # Opening JSON file
-f = open('db.json')
+f = open( resource_path('assets/db.json') )
 
 # returns JSON object as
 # a dictionary
 data = json.load(f)
+
+total = len((data[1]["data"]))
 
 
 # get card info from json
@@ -43,10 +63,16 @@ def getCard(nav='n'):
 
     # next card
     if (nav == 'n'):
-        n = n + 1
+        if ((n + 1) > total):
+            n = 1
+        else:
+            n = n + 1
     # previous card
     elif (nav == 'p'):
-        n = n - 1
+        if ((n - 1) <= 0):
+            n = total
+        else:
+            n = n - 1
     # user specified card
     else:
         n = int(nav)
@@ -66,7 +92,10 @@ def getCard(nav='n'):
     py.config(text=pinyin)
     wt.config(text=word_type)
     en.config(text=english)
-    c_num.config(text=card_number)
+
+    # update n / total
+    card_number_full = "".join([str(card_number), "/", str(total)])
+    c_num.config(text=card_number_full)
 
     play_audio()
 
@@ -83,8 +112,7 @@ def play_audio(arg=0):
         selectedAudio = "_alt2"
 
     # update audio file path
-    audio_path = ''.join(
-        ["audio/", lang, "/", str(n), selectedAudio, ".mp3"])
+    audio_path = ''.join(["assets/audio/", lang, "/", str(n), selectedAudio, ".mp3"])
     mixer.music.load(audio_path)
     # play Chinese audio
     mixer.music.play()
@@ -95,12 +123,13 @@ pinyin = (data[1]["data"][0]["pinyin"]).strip()
 word_type = (data[1]["data"][0]["type"]).strip()
 english = (data[1]["data"][0]["en"]).strip()
 card_number = (data[1]["data"][0]["id"]).strip()
+card_number_full = "".join([str(card_number), "/", str(total)])
 
 prevArrow = "  «  "
 nextArrow = "  »  "
 
 # update audio file path
-audio_path = ''.join(["audio/", lang, "/", card_number, ".mp3"])
+audio_path = ''.join(["assets/audio/", lang, "/", card_number, ".mp3"])
 mixer.music.load(audio_path)
 # play Chinese audio
 mixer.music.play()
@@ -110,7 +139,7 @@ root = Tk()
 # This is the section of code which creates the main window
 root.geometry('700x600')
 root.configure(background='#f7f3d2')
-root.title('TLT Flashcards')
+root.title(windowTitle)
 
 # Chinese Character
 cn = tk.Label(
@@ -160,13 +189,13 @@ en.pack(expand=YES, fill=BOTH)
 
 # card number
 c_num = tk.Label(root,
-                 text=card_number,
+                 text=card_number_full,
                  fg="white",
                  bg="#7314C0",
-                 font="Helvetica 20 bold")
+                 font="Helvetica 15 bold")
 c_num.pack()
 # place bottom-center
-c_num.place(relx=0.5, rely=0.95, anchor=CENTER)
+c_num.place(relx=0.5, rely=0.94, anchor=CENTER)
 
 # Navigation arrows
 # previous arrow
@@ -294,5 +323,25 @@ audioBtn.bind('<Button-1>', play_audio)
 #                       font="Helvetica 10 bold",
 #                       command=audioSpeed)
 # speedToggle.place(relx=0.0, rely=0.03, anchor=NW)
+
+# copyright label
+currentYear = datetime.now().year
+copy = "".join(["David Mumford © ", str(currentYear)])
+author = tk.Label(root,
+                  text=copy,
+                  fg="white",
+                  bg="#7314C0",
+                  font="Helvetica 15 bold")
+# position next to top-left buttons
+author.place(relx=0.5, rely=1.0, anchor=S)
+
+
+def quitApp(arg=0):
+    root.destroy()
+    exit()
+
+
+# bind esc to quit
+root.bind('<Escape>', quitApp)
 
 root.mainloop()
