@@ -175,16 +175,18 @@ choice = StringVar(root)
 choice.set(deck_list[0])  # default value
 
 w = OptionMenu(root, choice, *deck_list)
-w.config(font='Helvetica 20 bold')
-w.pack(expand=True)
+w.config(font='Helvetica 20 bold',
+    width=20)
+w.place(relx=0.38, rely=0.3)
 
 
 def select_deck():
 
     print("value is:" + choice.get())
-    # remove choiceBtn + w on click
+    # remove title/select deck screen
     choiceBtn.destroy()
     w.destroy()
+    title.destroy()
 
     # set deck
     global deck
@@ -357,6 +359,15 @@ def select_deck():
     # position next to top-left buttons
     audioBtn.place(x=0, y=105, anchor=W)
 
+    # selected deck label
+    current_deck = tk.Label(root,
+                            text=(''.join(["Deck: ", deck])),
+                            fg="white",
+                            bg="#7314C0",
+                            font="Helvetica 13 italic",
+                            anchor=CENTER)
+    current_deck.place(relx=0.88, rely=0.08)
+
     # global speedToggle
 
     # def audioSpeed():
@@ -371,17 +382,6 @@ def select_deck():
     #                       font="Helvetica 10 bold",
     #                       command=audioSpeed)
     # speedToggle.place(relx=0.0, rely=0.03, anchor=NW)
-
-    # copyright label
-    currentYear = datetime.now().year
-    copy = "".join(["David Mumford - ", str(currentYear)])
-    author = tk.Label(root,
-                    text=copy,
-                    fg="white",
-                    bg="#7314C0",
-                    font="Helvetica 15 bold")
-    # position next to top-left buttons
-    author.place(relx=0.5, rely=1.0, anchor=S)
 
     ''' Key bindings '''
 
@@ -408,6 +408,25 @@ def select_deck():
     audioBtn.bind('<Button-1>', play_audio)
 
 
+# Title
+title = tk.Label(root,
+                 text="Dave's Flashcards",
+                 font="Helvetica 30 bold",
+                 bg="#f7f3d2",
+                 anchor=N)
+title.place(relx=0.38, rely= 0.1)
+
+# copyright label
+currentYear = datetime.now().year
+copy = "".join(["David Mumford - ", str(currentYear)])
+author = tk.Label(root,
+                    text=copy,
+                    fg="white",
+                    bg="#7314C0",
+                    font="Helvetica 15 bold")
+# position next to top-left buttons
+author.place(relx=0.5, rely=1.0, anchor=S)
+
 # Select deck button
 choiceBtn = Button(root,
         text="Open Deck",
@@ -416,7 +435,7 @@ choiceBtn = Button(root,
         highlightbackground="#7314C0",
         padx="5",
         pady="5",
-        font="Helvetica 30 bold",
-        anchor=W)
-choiceBtn.pack()
+        width=15,
+        font="Helvetica 30 bold")
+choiceBtn.place(relx=0.38, rely=0.4)
 root.mainloop()
