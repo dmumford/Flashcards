@@ -1,0 +1,34 @@
+[
+    {
+        "type": "database",
+        "name": "Chinese"
+    },
+    {
+        "type": "table",
+        "name": "test",
+        "database": "Chinese",
+        "data": [
+            {
+                "id": "1",
+                "zh": "Shoes",
+                "pinyin": "n/a",
+                "type": "n",
+                "en": "a kind of footwear"
+            },
+            {
+                "id": "2",
+                "zh": "cheese",
+                "pinyin": "n/a",
+                "type": "n",
+                "en": "A lovely, delicious food"
+            },
+            {
+                "id": "3",
+                "zh": "Triangle",
+                "pinyin": "n/a",
+                "type": "n",
+                "en": "A 3-sided pointy shape"
+            }
+        ]
+    }
+]

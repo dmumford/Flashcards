@@ -11,28 +11,14 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import *
 
-import sys, os
-
-# window title
-windowTitle = "Dave's Chinese Flashcards"
-
 # Pygame mixer for playing audio
 from pygame import mixer
 
-# initialise pygame mixer
-mixer.init()
+import sys, os
 
-# global labels
-global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, lang, voice
-
-# default audio voice
-voice = 1
-
-# which audio should be played
-lang = 'zh'  # en -> English, zh -> Chinese
-
-# Card number
-n = 1
+global deck, data
+deck = ""
+data = []
 
 
 def resource_path(relative_path):
@@ -46,23 +32,50 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 
-# Opening JSON file
-# replace encoding errors
-f = open((resource_path(('assets/db.json'))),
-         encoding="utf8",
-         errors="replace")
+def play_audio(arg=0):
 
-# returns JSON object as
-# a dictionary
-data = json.load(f)
+    global voice, n, lang
 
-total = len((data[1]["data"]))
+    if (voice == 1):
+        selectedAudio = ""
+    if (voice == 2):
+        selectedAudio = "_alt"
+    if (voice == 3):
+        selectedAudio = "_alt2"
+
+    # update audio file path
+    audio_path = ''.join([
+        "assets/decks/", deck, "/audio/", lang, "/",
+        str(n), selectedAudio, ".mp3"
+    ])
+    # if audio exists, play
+    if (os.path.isfile(resource_path(audio_path)) is True):
+        mixer.music.load(audio_path)
+        # play Chinese audio
+        mixer.music.play()
+
+
+def changeLang():
+
+    global lang
+
+    # switch language (audio)
+    if (lang == "zh"):
+        lang = "en"
+        toggleLang.config(text="English")
+    elif (lang == "en"):
+        lang = "zh"
+        toggleLang.config(text="中文")
+    # default Chinese audio
+    else:
+        lang = "zh"
+        toggleLang.config(text="中文")
 
 
 # get card info from json
 def getCard(nav='n'):
 
-    global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, voice
+    global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, voice, total
 
     # next card
     if (nav == 'n'):
@@ -103,181 +116,6 @@ def getCard(nav='n'):
     play_audio()
 
 
-def play_audio(arg=0):
-
-    global voice, n, lang
-
-    if (voice == 1):
-        selectedAudio = ""
-    if (voice == 2):
-        selectedAudio = "_alt"
-    if (voice == 3):
-        selectedAudio = "_alt2"
-
-    # update audio file path
-    audio_path = ''.join(
-        ["assets/audio/", lang, "/",
-         str(n), selectedAudio, ".mp3"])
-    mixer.music.load(audio_path)
-    # play Chinese audio
-    mixer.music.play()
-
-
-zh = (data[1]["data"][0]["zh"]).strip()
-pinyin = (data[1]["data"][0]["pinyin"]).strip()
-word_type = (data[1]["data"][0]["type"]).strip()
-english = (data[1]["data"][0]["en"]).strip()
-card_number = (data[1]["data"][0]["id"]).strip()
-card_number_full = "".join([str(card_number), "/", str(total)])
-
-prevArrow = "  <<  "
-nextArrow = "  >>  "
-
-# update audio file path
-audio_path = ''.join(["assets/audio/", lang, "/", card_number, ".mp3"])
-mixer.music.load(audio_path)
-# play Chinese audio
-mixer.music.play()
-
-root = Tk()
-# This is the section of code which creates the main window
-root.geometry('1080x720')
-# Prevent Window resize
-root.resizable(False, False)
-
-# This is the section of code which creates the main window
-root.geometry('1080x720')
-# Prevent Window resize
-root.resizable(False, False)
-root.configure(background='#f7f3d2')
-root.title(windowTitle)
-
-# Chinese Character
-cn = tk.Label(
-    root,
-    text=zh,
-    # fg="light green",
-    bg="#f7f3d2",
-    pady=10,
-    font="Helvetica 70 bold")
-cn.pack()
-
-# Pinyin
-py = tk.Label(
-    root,
-    text=pinyin,
-    fg="#44168a",
-    bg="#f7f3d2",
-    # pady=10,
-    font="Helvetica 50")
-py.pack()
-
-# Word Type
-wt = tk.Label(root,
-              text=word_type,
-              fg="grey",
-              bg="#f7f3d2",
-              pady=20,
-              font="Helvetica 30 italic")
-wt.pack()
-
-# Divide line
-div = tk.Label(root,
-               text="________________________________________",
-               fg="darkgrey",
-               bg="#f7f3d2",
-               font="Helvetica 30")
-div.pack()
-
-# show English word
-en = Label(root,
-           text=english,
-           fg="#314282",
-           bg="#f7f3d2",
-           pady=25,
-           font="Helvetica 30")
-en.pack(expand=YES, fill='both')
-
-# card number
-c_num = tk.Label(root,
-                 text=card_number_full,
-                 fg="white",
-                 bg="#7314C0",
-                 font="Helvetica 15 bold")
-c_num.pack()
-# place bottom-center
-c_num.place(relx=0.5, rely=0.94, anchor=CENTER)
-
-# Navigation arrows
-# previous arrow
-nav_prev = tk.Label(root,
-                    text=prevArrow,
-                    fg="white",
-                    bg="#7314C0",
-                    font="Helvetica 40 bold")
-# position left
-nav_prev.pack(side=LEFT)
-
-# next arrow
-nav_next = tk.Label(root,
-                    text=nextArrow,
-                    fg="white",
-                    bg="#7314C0",
-                    font="Helvetica 40 bold")
-# position left
-nav_next.pack(side=tk.RIGHT)
-
-# Card search box
-sv = StringVar()
-sv.trace("w", lambda name, index, mode, sv=sv: callback(sv))
-searchLabel = Label(text="card",
-                    fg="white",
-                    bg="#7314C0",
-                    font="Helvetica 18 bold")
-searchLabel.place(relx=0.88, rely=0.01)
-search = Entry(textvariable=sv, bd=5, width=3, font="Helvetica 18 bold")
-search.place(relx=1.0, rely=0.0, anchor=NE)
-
-
-# on search box update
-def callback(sv):
-    # remove non-numeric chars from input
-    query = ''.join(c for c in sv.get() if c.isdigit())
-    # print (query)
-    # go to card
-    getCard(query)
-
-
-def changeLang():
-
-    global lang
-
-    # switch language (audio)
-    if (lang == "zh"):
-        lang = "en"
-        toggleLang.config(text="English")
-    elif (lang == "en"):
-        lang = "zh"
-        toggleLang.config(text="中文")
-    # default Chinese audio
-    else:
-        lang = "zh"
-        toggleLang.config(text="中文")
-
-
-# language audio toggle
-toggleLang = tk.Button(text="中文",
-                       width=15,
-                       relief="raised",
-                       fg="#7314C0",
-                       font="Helvetica 18 bold",
-                       command=changeLang)
-toggleLang.place(relx=0.0, rely=0.0, anchor=NW)
-
-# global var
-global voiceToggle, voiceStr
-
-
 # switch audio voice on click
 def selectVoice():
 
@@ -294,56 +132,13 @@ def selectVoice():
     voiceToggle.config(text=voiceStr)
 
 
-voiceStr = "".join(["voice: ", str(voice)])
-# Choose Audio Voice
-voiceToggle = tk.Button(text=voiceStr,
-                        width=15,
-                        relief="raised",
-                        fg="#7314C0",
-                        font="Helvetica 18 bold",
-                        command=selectVoice)
-voiceToggle.place(relx=0.0, rely=0.04, anchor=NW)
-
-# Play Audio button
-audioBtn = tk.Label(
-    root,
-    text=
-    "Press 1 to switch between audio language\n\nPress 2 to change audio voice\n\nPress spacebar to play audio\n\nUse the arrow keys on your keyboard\n to navigate the deck",
-    fg="white",
-    bg="#7314C0",
-    width=35,
-    padx="5",
-    pady="5",
-    font="Helvetica 9 bold",
-    anchor=W)
-# position next to top-left buttons
-audioBtn.place(x=0, y=105, anchor=W)
-
-# global speedToggle
-
-# def audioSpeed():
-#    print('audioSpeed clicked')
-
-# audio speed toggle
-# speedToggle = tk.Button(
-#                       text="speed: slow",
-#                       width=15,
-#                       relief="raised",
-#                       fg="#7314C0",
-#                       font="Helvetica 10 bold",
-#                       command=audioSpeed)
-# speedToggle.place(relx=0.0, rely=0.03, anchor=NW)
-
-# copyright label
-currentYear = datetime.now().year
-copy = "".join(["David Mumford - ", str(currentYear)])
-author = tk.Label(root,
-                  text=copy,
-                  fg="white",
-                  bg="#7314C0",
-                  font="Helvetica 15 bold")
-# position next to top-left buttons
-author.place(relx=0.5, rely=1.0, anchor=S)
+# on search box update
+def callback(sv):
+    # remove non-numeric chars from input
+    query = ''.join(c for c in sv.get() if c.isdigit())
+    # print (query)
+    # go to card
+    getCard(query)
 
 
 def quitApp(arg=0):
@@ -351,28 +146,277 @@ def quitApp(arg=0):
     exit()
 
 
-''' Key bindings '''
+# initialise pygame mixer
+mixer.init()
 
-# bind esc to quit
-root.bind('<Escape>', quitApp)
+# configure Tkinter window
+root = Tk()
+# This is the section of code which creates the main window
+root.geometry('1080x720')
+# Prevent Window resize
+root.resizable(False, False)
+root.configure(background='#f7f3d2')
+# window title
+windowTitle = "Dave's Chinese Flashcards"
+root.title(windowTitle)
 
-# bind spacebar to play audio
-root.bind('<space>', play_audio)
+# used to store deck names
+deck_list = []
 
-# 1 changes audio language
-root.bind('1', lambda x: changeLang())
+# loop through dir names in decks folder
+start = resource_path('assets/decks/')
+for item in os.listdir(start):
+    if os.path.isdir(os.path.join(start, item)):
+        # add folder names to list
+        deck_list.append(item)
 
-# 2 changes TTS Voice
-root.bind('2', lambda x: selectVoice())
+# create select list with deck names
+choice = StringVar(root)
+choice.set(deck_list[0])  # default value
 
-# nav on click
-nav_next.bind('<Button-1>', lambda x: getCard())
-nav_prev.bind('<Button-1>', lambda x: getCard('p'))
-# nav on arrow keys
-root.bind('<Right>', lambda x: getCard())
-root.bind('<Left>', lambda x: getCard('p'))
+w = OptionMenu(root, choice, *deck_list)
+w.config(font='Helvetica 20 bold')
+w.pack(expand=True)
 
-# play audio on click
-audioBtn.bind('<Button-1>', play_audio)
 
+def select_deck():
+
+    print("value is:" + choice.get())
+    # remove choiceBtn + w on click
+    choiceBtn.destroy()
+    w.destroy()
+
+    # set deck
+    global deck
+    deck = choice.get()
+
+    # global labels
+    global n, cn, py, wt, div, en, c_num, nav_prev, nav_next, lang, voice, total, data, toggleLang
+
+    # default audio voice
+    voice = 1
+
+    # which audio should be played
+    lang = 'zh'  # en -> English, zh -> Chinese
+
+    # Card number
+    n = 1
+
+    # Opening JSON file
+    # replace encoding errors
+    db_path = ''.join(['assets/decks/', deck, '/db.json'])
+    f = open((resource_path(db_path)), encoding="utf8", errors="replace")
+
+    # returns JSON object as
+    # a dictionary
+    data = json.load(f)
+
+    total = len((data[1]["data"]))
+
+    zh = (data[1]["data"][0]["zh"]).strip()
+    pinyin = (data[1]["data"][0]["pinyin"]).strip()
+    word_type = (data[1]["data"][0]["type"]).strip()
+    english = (data[1]["data"][0]["en"]).strip()
+    card_number = (data[1]["data"][0]["id"]).strip()
+    card_number_full = "".join([str(card_number), "/", str(total)])
+
+    prevArrow = "  <<  "
+    nextArrow = "  >>  "
+
+    # update audio file path
+    audio_path = ''.join(
+        ["assets/decks/", deck, "/audio/", lang, "/", card_number, ".mp3"])
+
+    # if audio exists, play
+    if (os.path.isfile(resource_path(audio_path)) is True):
+        mixer.music.load(audio_path)
+        # play Chinese audio
+        mixer.music.play()
+
+    # Chinese Character
+    cn = tk.Label(
+        root,
+        text=zh,
+        # fg="light green",
+        bg="#f7f3d2",
+        pady=10,
+        font="Helvetica 70 bold")
+    cn.pack()
+
+    # Pinyin
+    py = tk.Label(
+        root,
+        text=pinyin,
+        fg="#44168a",
+        bg="#f7f3d2",
+        # pady=10,
+        font="Helvetica 50")
+    py.pack()
+
+    # Word Type
+    wt = tk.Label(root,
+                text=word_type,
+                fg="grey",
+                bg="#f7f3d2",
+                pady=20,
+                font="Helvetica 30 italic")
+    wt.pack()
+
+    # Divide line
+    div = tk.Label(root,
+                text="________________________________________",
+                fg="darkgrey",
+                bg="#f7f3d2",
+                font="Helvetica 30")
+    div.pack()
+
+    # show English word
+    en = Label(root,
+            text=english,
+            fg="#314282",
+            bg="#f7f3d2",
+            pady=25,
+            font="Helvetica 30")
+    en.pack(expand=YES, fill='both')
+
+    # card number
+    c_num = tk.Label(root,
+                    text=card_number_full,
+                    fg="white",
+                    bg="#7314C0",
+                    font="Helvetica 15 bold")
+    c_num.pack()
+    # place bottom-center
+    c_num.place(relx=0.5, rely=0.94, anchor=CENTER)
+
+    # Navigation arrows
+    # previous arrow
+    nav_prev = tk.Label(root,
+                        text=prevArrow,
+                        fg="white",
+                        bg="#7314C0",
+                        font="Helvetica 40 bold")
+    # position left
+    nav_prev.pack(side=LEFT)
+
+    # next arrow
+    nav_next = tk.Label(root,
+                        text=nextArrow,
+                        fg="white",
+                        bg="#7314C0",
+                        font="Helvetica 40 bold")
+    # position left
+    nav_next.pack(side=tk.RIGHT)
+
+    # Card search box
+    sv = StringVar()
+    sv.trace("w", lambda name, index, mode, sv=sv: callback(sv))
+    searchLabel = Label(text="card",
+                        fg="white",
+                        bg="#7314C0",
+                        font="Helvetica 18 bold")
+    searchLabel.place(relx=0.88, rely=0.01)
+    search = Entry(textvariable=sv, bd=5, width=3, font="Helvetica 18 bold")
+    search.place(relx=1.0, rely=0.0, anchor=NE)
+
+    # language audio toggle
+    toggleLang = tk.Button(text="中文",
+                        width=15,
+                        relief="raised",
+                        fg="#7314C0",
+                        font="Helvetica 18 bold",
+                        command=changeLang)
+    toggleLang.place(relx=0.0, rely=0.0, anchor=NW)
+
+    # global var
+    global voiceToggle, voiceStr
+
+
+    voiceStr = "".join(["voice: ", str(voice)])
+    # Choose Audio Voice
+    voiceToggle = tk.Button(text=voiceStr,
+                            width=15,
+                            relief="raised",
+                            fg="#7314C0",
+                            font="Helvetica 18 bold",
+                            command=selectVoice)
+    voiceToggle.place(relx=0.0, rely=0.04, anchor=NW)
+
+    # Play Audio button
+    audioBtn = tk.Label(
+        root,
+        text=
+        "Press 1 to switch between audio language\n\nPress 2 to change audio voice\n\nPress spacebar to play audio\n\nUse the arrow keys on your keyboard\n to navigate the deck",
+        fg="white",
+        bg="#7314C0",
+        width=35,
+        padx="5",
+        pady="5",
+        font="Helvetica 9 bold",
+        anchor=W)
+    # position next to top-left buttons
+    audioBtn.place(x=0, y=105, anchor=W)
+
+    # global speedToggle
+
+    # def audioSpeed():
+    #    print('audioSpeed clicked')
+
+    # audio speed toggle
+    # speedToggle = tk.Button(
+    #                       text="speed: slow",
+    #                       width=15,
+    #                       relief="raised",
+    #                       fg="#7314C0",
+    #                       font="Helvetica 10 bold",
+    #                       command=audioSpeed)
+    # speedToggle.place(relx=0.0, rely=0.03, anchor=NW)
+
+    # copyright label
+    currentYear = datetime.now().year
+    copy = "".join(["David Mumford - ", str(currentYear)])
+    author = tk.Label(root,
+                    text=copy,
+                    fg="white",
+                    bg="#7314C0",
+                    font="Helvetica 15 bold")
+    # position next to top-left buttons
+    author.place(relx=0.5, rely=1.0, anchor=S)
+
+    ''' Key bindings '''
+
+    # bind esc to quit
+    root.bind('<Escape>', quitApp)
+
+    # bind spacebar to play audio
+    root.bind('<space>', play_audio)
+
+    # 1 changes audio language
+    root.bind('1', lambda x: changeLang())
+
+    # 2 changes TTS Voice
+    root.bind('2', lambda x: selectVoice())
+
+    # nav on click
+    nav_next.bind('<Button-1>', lambda x: getCard())
+    nav_prev.bind('<Button-1>', lambda x: getCard('p'))
+    # nav on arrow keys
+    root.bind('<Right>', lambda x: getCard())
+    root.bind('<Left>', lambda x: getCard('p'))
+
+    # play audio on click
+    audioBtn.bind('<Button-1>', play_audio)
+
+
+# Select deck button
+choiceBtn = Button(root,
+        text="Open Deck",
+        command=select_deck,
+        fg="white",
+        highlightbackground="#7314C0",
+        padx="5",
+        pady="5",
+        font="Helvetica 30 bold",
+        anchor=W)
+choiceBtn.pack()
 root.mainloop()
