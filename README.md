@@ -4,6 +4,8 @@
 
 Flashcard is a simple program written in Python to review Chinese/English Flashcards.
 
+[GUI Screenshot](assets/img/screenshot.png)
+
 ## Flashcard Interface
 * Chinese Character (Simplified)
 * Romanised Pinyin

@@ -1,0 +1,2911 @@
+[
+    {
+        "type": "database",
+        "name": "Chinese"
+    },
+    {
+        "type": "table",
+        "name": "DC1",
+        "database": "Chinese",
+        "data": [
+            {
+                "id": "1",
+                "zh": "埃及",
+                "pinyin": "Āijí",
+                "type": "n",
+                "en": "Egypt"
+            },
+            {
+                "id": "2",
+                "zh": "矮",
+                "pinyin": "Ǎi",
+                "type": "adj",
+                "en": "short (height)"
+            },
+            {
+                "id": "3",
+                "zh": "澳大利亚",
+                "pinyin": "Àodàlìyǎ",
+                "type": "n",
+                "en": "Australia"
+            },
+            {
+                "id": "4",
+                "zh": "爸爸",
+                "pinyin": "Bàba",
+                "type": "n",
+                "en": "father"
+            },
+            {
+                "id": "5",
+                "zh": "吧",
+                "pinyin": "Ba",
+                "type": "particle",
+                "en": "(for making suggestions)"
+            },
+            {
+                "id": "6",
+                "zh": "百",
+                "pinyin": "Bǎi",
+                "type": "num",
+                "en": "hundred"
+            },
+            {
+                "id": "7",
+                "zh": "白色",
+                "pinyin": "Báisè",
+                "type": "n",
+                "en": "white"
+            },
+            {
+                "id": "8",
+                "zh": "班",
+                "pinyin": "Bān",
+                "type": "measure word",
+                "en": "[measure word for group of people]"
+            },
+            {
+                "id": "9",
+                "zh": "半",
+                "pinyin": "Bàn",
+                "type": "num",
+                "en": "half (an hour)"
+            },
+            {
+                "id": "10",
+                "zh": "棒球",
+                "pinyin": "Bàngqiú",
+                "type": "n",
+                "en": "baseball"
+            },
+            {
+                "id": "11",
+                "zh": "北边",
+                "pinyin": "Běibian",
+                "type": "n",
+                "en": "North"
+            },
+            {
+                "id": "12",
+                "zh": "北京",
+                "pinyin": "Běijīng",
+                "type": "n",
+                "en": "Beijing"
+            },
+            {
+                "id": "13",
+                "zh": "蹦极",
+                "pinyin": "Bèngjí",
+                "type": "v",
+                "en": "bungee jump"
+            },
+            {
+                "id": "14",
+                "zh": "比赛",
+                "pinyin": "Bǐsài",
+                "type": "n",
+                "en": "match, competition"
+            },
+            {
+                "id": "15",
+                "zh": "别",
+                "pinyin": "Bié",
+                "type": "adv",
+                "en": "do not"
+            },
+            {
+                "id": "16",
+                "zh": "兵马俑",
+                "pinyin": "Bīngmǎyǒng",
+                "type": "n",
+                "en": "Terracotta Warriors"
+            },
+            {
+                "id": "17",
+                "zh": "博客",
+                "pinyin": "Bókè",
+                "type": "n",
+                "en": "blog"
+            },
+            {
+                "id": "18",
+                "zh": "不",
+                "pinyin": "Bù",
+                "type": "adv",
+                "en": "not, no"
+            },
+            {
+                "id": "19",
+                "zh": "不错",
+                "pinyin": "Bùcuò",
+                "type": "adj",
+                "en": "not bad"
+            },
+            {
+                "id": "20",
+                "zh": "菜",
+                "pinyin": "Cài",
+                "type": "n",
+                "en": "food, dish"
+            },
+            {
+                "id": "21",
+                "zh": "餐",
+                "pinyin": "Cān",
+                "type": "n",
+                "en": "cuisine, meal"
+            },
+            {
+                "id": "22",
+                "zh": "参观",
+                "pinyin": "Cānguān",
+                "type": "v",
+                "en": "visit (a place)"
+            },
+            {
+                "id": "23",
+                "zh": "餐厅",
+                "pinyin": "Cāntīng",
+                "type": "n",
+                "en": "restaurant"
+            },
+            {
+                "id": "24",
+                "zh": "长",
+                "pinyin": "Cháng",
+                "type": "adj",
+                "en": "long"
+            },
+            {
+                "id": "25",
+                "zh": "唱歌",
+                "pinyin": "Chànggē",
+                "type": "v",
+                "en": "sing a song"
+            },
+            {
+                "id": "26",
+                "zh": "超市",
+                "pinyin": "Chāoshì",
+                "type": "n",
+                "en": "supermarket"
+            },
+            {
+                "id": "27",
+                "zh": "衬衫",
+                "pinyin": "Chènshān",
+                "type": "n",
+                "en": "shirt"
+            },
+            {
+                "id": "28",
+                "zh": "城市",
+                "pinyin": "Chéngshì",
+                "type": "n",
+                "en": "city"
+            },
+            {
+                "id": "29",
+                "zh": "吃",
+                "pinyin": "Chī",
+                "type": "v",
+                "en": "eat"
+            },
+            {
+                "id": "30",
+                "zh": "吃饭",
+                "pinyin": "Chīfàn",
+                "type": "v",
+                "en": "have a meal"
+            },
+            {
+                "id": "31",
+                "zh": "冲浪",
+                "pinyin": "Chōnglàng",
+                "type": "v",
+                "en": "surf"
+            },
+            {
+                "id": "32",
+                "zh": "出生地",
+                "pinyin": "Chūshēng dì",
+                "type": "n",
+                "en": "place of birth"
+            },
+            {
+                "id": "33",
+                "zh": "出租",
+                "pinyin": "Chūzū",
+                "type": "v",
+                "en": "rent out, lease"
+            },
+            {
+                "id": "34",
+                "zh": "出租车",
+                "pinyin": "Chūzū chē",
+                "type": "n",
+                "en": "taxi"
+            },
+            {
+                "id": "35",
+                "zh": "厨房",
+                "pinyin": "Chúfáng",
+                "type": "n",
+                "en": "kitchen"
+            },
+            {
+                "id": "36",
+                "zh": "厨师",
+                "pinyin": "Chúshī",
+                "type": "n",
+                "en": "chef"
+            },
+            {
+                "id": "37",
+                "zh": "船",
+                "pinyin": "Chuán",
+                "type": "n",
+                "en": "boat"
+            },
+            {
+                "id": "38",
+                "zh": "从",
+                "pinyin": "Cóng",
+                "type": "prep",
+                "en": "from"
+            },
+            {
+                "id": "39",
+                "zh": "打",
+                "pinyin": "Dǎ",
+                "type": "v",
+                "en": "play (ball game with hands)"
+            },
+            {
+                "id": "40",
+                "zh": "打电话",
+                "pinyin": "Dǎ diànhuà",
+                "type": "v",
+                "en": "make a phone call"
+            },
+            {
+                "id": "41",
+                "zh": "打工",
+                "pinyin": "Dǎgōng",
+                "type": "v",
+                "en": "do part-time work"
+            },
+            {
+                "id": "42",
+                "zh": "打算",
+                "pinyin": "Dǎsuàn",
+                "type": "v",
+                "en": "plan, intend"
+            },
+            {
+                "id": "43",
+                "zh": "大家",
+                "pinyin": "Dàjiā",
+                "type": "pron",
+                "en": "everybody"
+            },
+            {
+                "id": "44",
+                "zh": "大学",
+                "pinyin": "Dàxué",
+                "type": "n",
+                "en": "university"
+            },
+            {
+                "id": "45",
+                "zh": "大衣",
+                "pinyin": "Dàyī",
+                "type": "n",
+                "en": "coat"
+            },
+            {
+                "id": "46",
+                "zh": "但是",
+                "pinyin": "Dànshì",
+                "type": "conj",
+                "en": "but"
+            },
+            {
+                "id": "47",
+                "zh": "当然",
+                "pinyin": "Dāngrán",
+                "type": "adv",
+                "en": "of course"
+            },
+            {
+                "id": "48",
+                "zh": "导游",
+                "pinyin": "Dǎoyóu",
+                "type": "n",
+                "en": "tour guide"
+            },
+            {
+                "id": "49",
+                "zh": "到",
+                "pinyin": "Dào",
+                "type": "v",
+                "en": "get to (a place), arrive"
+            },
+            {
+                "id": "50",
+                "zh": "德国",
+                "pinyin": "Déguó",
+                "type": "n",
+                "en": "Germany"
+            },
+            {
+                "id": "51",
+                "zh": "的",
+                "pinyin": "de",
+                "type": "structural particle",
+                "en": "[possesive particle]"
+            },
+            {
+                "id": "52",
+                "zh": "弟弟",
+                "pinyin": "Dìdì",
+                "type": "n",
+                "en": "younger brother"
+            },
+            {
+                "id": "53",
+                "zh": "地方",
+                "pinyin": "Dìfāng",
+                "type": "n",
+                "en": "place"
+            },
+            {
+                "id": "54",
+                "zh": "地铁站",
+                "pinyin": "Dìtiě zhàn",
+                "type": "n",
+                "en": "subway station"
+            },
+            {
+                "id": "55",
+                "zh": "地址",
+                "pinyin": "Dìzhǐ",
+                "type": "n",
+                "en": "address"
+            },
+            {
+                "id": "56",
+                "zh": "第一个",
+                "pinyin": "Dì yī gè",
+                "type": "",
+                "en": "the first"
+            },
+            {
+                "id": "57",
+                "zh": "点",
+                "pinyin": "Diǎn",
+                "type": "n",
+                "en": "o’clock"
+            },
+            {
+                "id": "58",
+                "zh": "电话",
+                "pinyin": "Diànhuà",
+                "type": "n",
+                "en": "telephone"
+            },
+            {
+                "id": "59",
+                "zh": "电视",
+                "pinyin": "Diànshì",
+                "type": "n",
+                "en": "television"
+            },
+            {
+                "id": "60",
+                "zh": "电影",
+                "pinyin": "Diànyǐng",
+                "type": "n",
+                "en": "movie, film"
+            },
+            {
+                "id": "61",
+                "zh": "电影院",
+                "pinyin": "Diànyǐngyuàn",
+                "type": "n",
+                "en": "cinema"
+            },
+            {
+                "id": "62",
+                "zh": "电子邮件",
+                "pinyin": "Diànzǐ yóujiàn",
+                "type": "n",
+                "en": "email"
+            },
+            {
+                "id": "63",
+                "zh": "电子邮箱",
+                "pinyin": "Diànzǐ yóuxiāng",
+                "type": "n",
+                "en": "email box / address"
+            },
+            {
+                "id": "64",
+                "zh": "东边",
+                "pinyin": "Dōngbian",
+                "type": "n",
+                "en": "East"
+            },
+            {
+                "id": "65",
+                "zh": "东西",
+                "pinyin": "Dōngxī",
+                "type": "n",
+                "en": "thing"
+            },
+            {
+                "id": "66",
+                "zh": "动物",
+                "pinyin": "Dòngwù",
+                "type": "n",
+                "en": "animal"
+            },
+            {
+                "id": "67",
+                "zh": "都",
+                "pinyin": "Dōu",
+                "type": "adv",
+                "en": "both, all"
+            },
+            {
+                "id": "68",
+                "zh": "短",
+                "pinyin": "Duǎn",
+                "type": "adj",
+                "en": "short (length)"
+            },
+            {
+                "id": "69",
+                "zh": "短裤",
+                "pinyin": "短裤",
+                "type": "n",
+                "en": "shorts"
+            },
+            {
+                "id": "70",
+                "zh": "短信",
+                "pinyin": "Duǎnxìn",
+                "type": "n",
+                "en": "message"
+            },
+            {
+                "id": "71",
+                "zh": "队",
+                "pinyin": "Duì",
+                "type": "n",
+                "en": "team"
+            },
+            {
+                "id": "72",
+                "zh": "对",
+                "pinyin": "Duì",
+                "type": "adj",
+                "en": "right, correct"
+            },
+            {
+                "id": "73",
+                "zh": "对不起",
+                "pinyin": "Duìbùqǐ",
+                "type": "",
+                "en": "sorry"
+            },
+            {
+                "id": "74",
+                "zh": "多大",
+                "pinyin": "Duōdà",
+                "type": "",
+                "en": "how old"
+            },
+            {
+                "id": "75",
+                "zh": "多少",
+                "pinyin": "Duōshǎo",
+                "type": "pron",
+                "en": "what, how many / much"
+            },
+            {
+                "id": "76",
+                "zh": "二月",
+                "pinyin": "Èr yuè",
+                "type": "n",
+                "en": "February"
+            },
+            {
+                "id": "77",
+                "zh": "发件人",
+                "pinyin": "Fā jiàn rén",
+                "type": "n",
+                "en": "sender"
+            },
+            {
+                "id": "78",
+                "zh": "发送",
+                "pinyin": "Fāsòng",
+                "type": "v",
+                "en": "send"
+            },
+            {
+                "id": "79",
+                "zh": "法国",
+                "pinyin": "Fàguó",
+                "type": "n",
+                "en": "France"
+            },
+            {
+                "id": "80",
+                "zh": "饭馆",
+                "pinyin": "Fànguǎn",
+                "type": "n",
+                "en": "restaurant"
+            },
+            {
+                "id": "81",
+                "zh": "方便",
+                "pinyin": "Fāngbiàn",
+                "type": "adj",
+                "en": "convenient"
+            },
+            {
+                "id": "82",
+                "zh": "房间",
+                "pinyin": "Fángjiān",
+                "type": "n",
+                "en": "room"
+            },
+            {
+                "id": "83",
+                "zh": "房子",
+                "pinyin": "Fángzi",
+                "type": "n",
+                "en": "flat, house"
+            },
+            {
+                "id": "84",
+                "zh": "飞机",
+                "pinyin": "Fēijī",
+                "type": "n",
+                "en": "aeroplane"
+            },
+            {
+                "id": "85",
+                "zh": "飞机场",
+                "pinyin": "Fēijī chǎng",
+                "type": "n",
+                "en": "airport"
+            },
+            {
+                "id": "86",
+                "zh": "分",
+                "pinyin": "Fēn",
+                "type": "n",
+                "en": "minute"
+            },
+            {
+                "id": "87",
+                "zh": "分钟",
+                "pinyin": "Fēnzhōng",
+                "type": "n",
+                "en": "minute"
+            },
+            {
+                "id": "88",
+                "zh": "服务员",
+                "pinyin": "Fúwùyuán",
+                "type": "n",
+                "en": "waiter, waitress"
+            },
+            {
+                "id": "89",
+                "zh": "服装市场",
+                "pinyin": "Fúzhuāng shìchǎng",
+                "type": "n",
+                "en": "clothes market"
+            },
+            {
+                "id": "90",
+                "zh": "附近",
+                "pinyin": "Fùjìnn",
+                "type": "n/adj",
+                "en": "vicinity, nearby"
+            },
+            {
+                "id": "91",
+                "zh": "橄榄球",
+                "pinyin": "Gǎnlǎnqiú",
+                "type": "n",
+                "en": "rugby"
+            },
+            {
+                "id": "92",
+                "zh": "高",
+                "pinyin": "Gāo",
+                "type": "adj",
+                "en": "tall, high"
+            },
+            {
+                "id": "93",
+                "zh": "高兴",
+                "pinyin": "Gāoxìng",
+                "type": "adj",
+                "en": "glad, happy"
+            },
+            {
+                "id": "94",
+                "zh": "哥哥",
+                "pinyin": "Gēgē",
+                "type": "n",
+                "en": "elder brother"
+            },
+            {
+                "id": "95",
+                "zh": "个子",
+                "pinyin": "Gèzi",
+                "type": "n",
+                "en": "(person) height"
+            },
+            {
+                "id": "96",
+                "zh": "给",
+                "pinyin": "Gěi",
+                "type": "v/prep",
+                "en": "give, to"
+            },
+            {
+                "id": "97",
+                "zh": "跟",
+                "pinyin": "Gēn",
+                "type": "prep",
+                "en": "with"
+            },
+            {
+                "id": "98",
+                "zh": "工程师",
+                "pinyin": "Gōngchéngshī",
+                "type": "n",
+                "en": "engineer"
+            },
+            {
+                "id": "99",
+                "zh": "工作",
+                "pinyin": "Gōngzuò",
+                "type": "n/v",
+                "en": "work, job"
+            },
+            {
+                "id": "100",
+                "zh": "公共汽车",
+                "pinyin": "Gōnggòng qìchē",
+                "type": "n",
+                "en": "bus"
+            },
+            {
+                "id": "101",
+                "zh": "公寓",
+                "pinyin": "Gōngyù",
+                "type": "n",
+                "en": "block of flats, apartment building"
+            },
+            {
+                "id": "102",
+                "zh": "公园",
+                "pinyin": "Gōngyuán",
+                "type": "n",
+                "en": "park"
+            },
+            {
+                "id": "103",
+                "zh": "购物中心",
+                "pinyin": "Gòuwù zhòng xīn",
+                "type": "n",
+                "en": "shopping centre"
+            },
+            {
+                "id": "104",
+                "zh": "广州",
+                "pinyin": "Guǎngzhōu",
+                "type": "n",
+                "en": "Guangzhou"
+            },
+            {
+                "id": "105",
+                "zh": "贵",
+                "pinyin": "Guì",
+                "type": "adj",
+                "en": "expensive"
+            },
+            {
+                "id": "106",
+                "zh": "桂林",
+                "pinyin": "Guìlín",
+                "type": "n",
+                "en": "Guilin"
+            },
+            {
+                "id": "107",
+                "zh": "国",
+                "pinyin": "Guó",
+                "type": "n",
+                "en": "country"
+            },
+            {
+                "id": "108",
+                "zh": "国籍",
+                "pinyin": "Guójí",
+                "type": "n",
+                "en": "nationality"
+            },
+            {
+                "id": "109",
+                "zh": "过",
+                "pinyin": "Guò",
+                "type": "",
+                "en": "[indicator of past actions]"
+            },
+            {
+                "id": "110",
+                "zh": "还是",
+                "pinyin": "Háishì",
+                "type": "conj",
+                "en": "or (in a question)"
+            },
+            {
+                "id": "111",
+                "zh": "韩国",
+                "pinyin": "Hánguó",
+                "type": "n",
+                "en": "Korea"
+            },
+            {
+                "id": "112",
+                "zh": "好",
+                "pinyin": "Hǎo",
+                "type": "adj",
+                "en": "good, OK"
+            },
+            {
+                "id": "113",
+                "zh": "好吃",
+                "pinyin": "Hào chī",
+                "type": "adj",
+                "en": "tasty"
+            },
+            {
+                "id": "114",
+                "zh": "好看",
+                "pinyin": "Hǎokàn",
+                "type": "adj",
+                "en": "good-looking"
+            },
+            {
+                "id": "115",
+                "zh": "好莱坞",
+                "pinyin": "Hǎoláiwù",
+                "type": "n",
+                "en": "Hollywood"
+            },
+            {
+                "id": "116",
+                "zh": "好玩",
+                "pinyin": "Hǎowán",
+                "type": "adj",
+                "en": "fun"
+            },
+            {
+                "id": "117",
+                "zh": "号",
+                "pinyin": "Hào",
+                "type": "n",
+                "en": "number, date (spoken)"
+            },
+            {
+                "id": "118",
+                "zh": "号码",
+                "pinyin": "Hàomǎ",
+                "type": "n",
+                "en": "number, code"
+            },
+            {
+                "id": "119",
+                "zh": "和",
+                "pinyin": "Hé",
+                "type": "conj",
+                "en": "and"
+            },
+            {
+                "id": "120",
+                "zh": "黑色",
+                "pinyin": "Hēisè",
+                "type": "n",
+                "en": "black"
+            },
+            {
+                "id": "121",
+                "zh": "很",
+                "pinyin": "Hěn",
+                "type": "adv",
+                "en": "very"
+            },
+            {
+                "id": "122",
+                "zh": "很多",
+                "pinyin": "Hěnduō",
+                "type": "adj",
+                "en": "a lot of"
+            },
+            {
+                "id": "123",
+                "zh": "红",
+                "pinyin": "Hóng",
+                "type": "adj",
+                "en": "red"
+            },
+            {
+                "id": "124",
+                "zh": "后边",
+                "pinyin": "Hòubian",
+                "type": "n",
+                "en": "back"
+            },
+            {
+                "id": "125",
+                "zh": "护士",
+                "pinyin": "Hùshì",
+                "type": "n",
+                "en": "nurse"
+            },
+            {
+                "id": "126",
+                "zh": "滑雪",
+                "pinyin": "Huáxuě",
+                "type": "v",
+                "en": "ski"
+            },
+            {
+                "id": "127",
+                "zh": "黄色",
+                "pinyin": "Huángsè",
+                "type": "n",
+                "en": "yellow"
+            },
+            {
+                "id": "128",
+                "zh": "回",
+                "pinyin": "Huí",
+                "type": "v",
+                "en": "go back"
+            },
+            {
+                "id": "129",
+                "zh": "会",
+                "pinyin": "Huì",
+                "type": "v",
+                "en": "can, be able to"
+            },
+            {
+                "id": "130",
+                "zh": "火车",
+                "pinyin": "Huǒchē",
+                "type": "n",
+                "en": "train"
+            },
+            {
+                "id": "131",
+                "zh": "火车站",
+                "pinyin": "Huǒchē zhàn",
+                "type": "n",
+                "en": "railway station"
+            },
+            {
+                "id": "132",
+                "zh": "或者",
+                "pinyin": "Huòzhě",
+                "type": "conj",
+                "en": "or (in a statement)"
+            },
+            {
+                "id": "133",
+                "zh": "几",
+                "pinyin": "Jǐ",
+                "type": "pron",
+                "en": "how many"
+            },
+            {
+                "id": "134",
+                "zh": "几点",
+                "pinyin": "Jǐ diǎn",
+                "type": "",
+                "en": "what time"
+            },
+            {
+                "id": "135",
+                "zh": "计划",
+                "pinyin": "Jìhuà",
+                "type": "n",
+                "en": "plan"
+            },
+            {
+                "id": "136",
+                "zh": "记者",
+                "pinyin": "Jìzhě",
+                "type": "n",
+                "en": "journalist"
+            },
+            {
+                "id": "137",
+                "zh": "家",
+                "pinyin": "Jiā",
+                "type": "n",
+                "en": "family, home"
+            },
+            {
+                "id": "138",
+                "zh": "加拿大",
+                "pinyin": "Jiānádà",
+                "type": "n",
+                "en": "Canada"
+            },
+            {
+                "id": "139",
+                "zh": "加油站",
+                "pinyin": "Jiāyóu zhàn",
+                "type": "n",
+                "en": "petrol station"
+            },
+            {
+                "id": "140",
+                "zh": "假期",
+                "pinyin": "Jiàqī",
+                "type": "n",
+                "en": "holiday"
+            },
+            {
+                "id": "141",
+                "zh": "价钱",
+                "pinyin": "Jiàqián",
+                "type": "n",
+                "en": "price"
+            },
+            {
+                "id": "142",
+                "zh": "见",
+                "pinyin": "Jiàn",
+                "type": "v",
+                "en": "see, meet"
+            },
+            {
+                "id": "143",
+                "zh": "件",
+                "pinyin": "Jiàn",
+                "type": "measure word",
+                "en": "item, piece"
+            },
+            {
+                "id": "144",
+                "zh": "见面",
+                "pinyin": "Jiànmiàn",
+                "type": "v",
+                "en": "meet up"
+            },
+            {
+                "id": "145",
+                "zh": "健身房",
+                "pinyin": "Jiànshēnfáng",
+                "type": "n",
+                "en": "gymnasium"
+            },
+            {
+                "id": "146",
+                "zh": "交通",
+                "pinyin": "Jiāotōng",
+                "type": "n",
+                "en": "transportation; traffic"
+            },
+            {
+                "id": "147",
+                "zh": "叫",
+                "pinyin": "Jiào",
+                "type": "v",
+                "en": "be called"
+            },
+            {
+                "id": "148",
+                "zh": "街",
+                "pinyin": "Jiē",
+                "type": "n",
+                "en": "street"
+            },
+            {
+                "id": "149",
+                "zh": "姐姐",
+                "pinyin": "Jiějiě",
+                "type": "n",
+                "en": "elder sister"
+            },
+            {
+                "id": "150",
+                "zh": "今年",
+                "pinyin": "Jīnnián",
+                "type": "n",
+                "en": "this year"
+            },
+            {
+                "id": "151",
+                "zh": "今天",
+                "pinyin": "Jīntiān",
+                "type": "adv",
+                "en": "today"
+            },
+            {
+                "id": "152",
+                "zh": "近",
+                "pinyin": "Jìn",
+                "type": "adj",
+                "en": "near"
+            },
+            {
+                "id": "153",
+                "zh": "京剧",
+                "pinyin": "Jīngjù",
+                "type": "n",
+                "en": "Beijing Opera"
+            },
+            {
+                "id": "154",
+                "zh": "警察局",
+                "pinyin": "Jǐngchá jú",
+                "type": "n",
+                "en": "police station"
+            },
+            {
+                "id": "155",
+                "zh": "景点",
+                "pinyin": "Jǐngdiǎn",
+                "type": "n",
+                "en": "scenic site"
+            },
+            {
+                "id": "156",
+                "zh": "九月",
+                "pinyin": "Jiǔ yuè",
+                "type": "n",
+                "en": "September"
+            },
+            {
+                "id": "157",
+                "zh": "觉得",
+                "pinyin": "Juédé",
+                "type": "v",
+                "en": "think, feel"
+            },
+            {
+                "id": "158",
+                "zh": "咖啡店",
+                "pinyin": "Kāfēi diàn",
+                "type": "n",
+                "en": "café"
+            },
+            {
+                "id": "159",
+                "zh": "开始",
+                "pinyin": "Kāishǐ",
+                "type": "v",
+                "en": "start"
+            },
+            {
+                "id": "160",
+                "zh": "看",
+                "pinyin": "Kàn",
+                "type": "v",
+                "en": "read, see"
+            },
+            {
+                "id": "161",
+                "zh": "刻",
+                "pinyin": "Kè",
+                "type": "n",
+                "en": "quarter (of an hour)"
+            },
+            {
+                "id": "162",
+                "zh": "可爱",
+                "pinyin": "Kě’ài",
+                "type": "adj",
+                "en": "cute, lovely"
+            },
+            {
+                "id": "163",
+                "zh": "可以",
+                "pinyin": "Kěyǐ",
+                "type": "v",
+                "en": "may, can"
+            },
+            {
+                "id": "164",
+                "zh": "肯尼亚",
+                "pinyin": "Kěnníyǎ",
+                "type": "n",
+                "en": "Kenya"
+            },
+            {
+                "id": "165",
+                "zh": "酷",
+                "pinyin": "Kù",
+                "type": "adj",
+                "en": "cool"
+            },
+            {
+                "id": "166",
+                "zh": "裤子",
+                "pinyin": "裤子",
+                "type": "n",
+                "en": "trousers"
+            },
+            {
+                "id": "167",
+                "zh": "块",
+                "pinyin": "Kuài",
+                "type": "measure word",
+                "en": "currency unit of China (yuan)"
+            },
+            {
+                "id": "168",
+                "zh": "来",
+                "pinyin": "Lái",
+                "type": "v",
+                "en": "come"
+            },
+            {
+                "id": "169",
+                "zh": "篮球",
+                "pinyin": "Lánqiú",
+                "type": "n",
+                "en": "basketball"
+            },
+            {
+                "id": "170",
+                "zh": "蓝色",
+                "pinyin": "Lán sè",
+                "type": "n",
+                "en": "blue"
+            },
+            {
+                "id": "171",
+                "zh": "老",
+                "pinyin": "Lǎo",
+                "type": "adj",
+                "en": "old"
+            },
+            {
+                "id": "172",
+                "zh": "老师",
+                "pinyin": "Lǎoshī",
+                "type": "n",
+                "en": "teacher"
+            },
+            {
+                "id": "173",
+                "zh": "离",
+                "pinyin": "Lí",
+                "type": "v",
+                "en": "away from"
+            },
+            {
+                "id": "174",
+                "zh": "理发师",
+                "pinyin": "Lǐfǎ shī",
+                "type": "n",
+                "en": "barber, hairdresser"
+            },
+            {
+                "id": "175",
+                "zh": "历史",
+                "pinyin": "Lìshǐ",
+                "type": "n",
+                "en": "History"
+            },
+            {
+                "id": "176",
+                "zh": "联系",
+                "pinyin": "Liánxì",
+                "type": "v/n",
+                "en": "contact"
+            },
+            {
+                "id": "177",
+                "zh": "连衣裙",
+                "pinyin": "Liányīqún",
+                "type": "n",
+                "en": "one-piece dress"
+            },
+            {
+                "id": "178",
+                "zh": "了",
+                "pinyin": "Le",
+                "type": "particle",
+                "en": "[past tense marker]"
+            },
+            {
+                "id": "179",
+                "zh": "六月",
+                "pinyin": "Liù yuè",
+                "type": "n",
+                "en": "June"
+            },
+            {
+                "id": "180",
+                "zh": "楼",
+                "pinyin": "Lóu",
+                "type": "n",
+                "en": "building, storey"
+            },
+            {
+                "id": "181",
+                "zh": "路",
+                "pinyin": "Lù",
+                "type": "n",
+                "en": "road"
+            },
+            {
+                "id": "182",
+                "zh": "路人",
+                "pinyin": "Lùrén",
+                "type": "n",
+                "en": "passerby"
+            },
+            {
+                "id": "183",
+                "zh": "旅馆",
+                "pinyin": "Lǚguǎn",
+                "type": "n",
+                "en": "hotel"
+            },
+            {
+                "id": "184",
+                "zh": "旅行",
+                "pinyin": "Lǚxíng",
+                "type": "v/n",
+                "en": "travel"
+            },
+            {
+                "id": "185",
+                "zh": "绿色",
+                "pinyin": "Lǜsè",
+                "type": "n",
+                "en": "green"
+            },
+            {
+                "id": "186",
+                "zh": "律师",
+                "pinyin": "Lǜshī",
+                "type": "n",
+                "en": "lawyer"
+            },
+            {
+                "id": "187",
+                "zh": "伦敦",
+                "pinyin": "Lúndūn",
+                "type": "n",
+                "en": "London"
+            },
+            {
+                "id": "188",
+                "zh": "妈妈",
+                "pinyin": "Māma",
+                "type": "n",
+                "en": "mother"
+            },
+            {
+                "id": "189",
+                "zh": "吗",
+                "pinyin": "ma",
+                "type": "particle",
+                "en": "(used to ask questions)"
+            },
+            {
+                "id": "190",
+                "zh": "买",
+                "pinyin": "Mǎi",
+                "type": "v",
+                "en": "buy"
+            },
+            {
+                "id": "191",
+                "zh": "毛衣",
+                "pinyin": "Máoyī",
+                "type": "n",
+                "en": "sweater"
+            },
+            {
+                "id": "192",
+                "zh": "帽子",
+                "pinyin": "Màozi",
+                "type": "n",
+                "en": "hat"
+            },
+            {
+                "id": "193",
+                "zh": "没问题",
+                "pinyin": "Méi wèntí",
+                "type": "",
+                "en": "no problem"
+            },
+            {
+                "id": "194",
+                "zh": "没有",
+                "pinyin": "Méiyǒu",
+                "type": "v",
+                "en": "not have"
+            },
+            {
+                "id": "195",
+                "zh": "每",
+                "pinyin": "Měi",
+                "type": "pron",
+                "en": "every, each"
+            },
+            {
+                "id": "196",
+                "zh": "美国",
+                "pinyin": "Měiguó",
+                "type": "n",
+                "en": "US"
+            },
+            {
+                "id": "197",
+                "zh": "妹妹",
+                "pinyin": "Mèimei",
+                "type": "n",
+                "en": "younger sister"
+            },
+            {
+                "id": "198",
+                "zh": "门口",
+                "pinyin": "Ménkǒu",
+                "type": "n",
+                "en": "entrance, doorway"
+            },
+            {
+                "id": "199",
+                "zh": "秘书",
+                "pinyin": "Mìshū",
+                "type": "n",
+                "en": "secretary"
+            },
+            {
+                "id": "200",
+                "zh": "明年",
+                "pinyin": "Míngnián",
+                "type": "n",
+                "en": "next year"
+            },
+            {
+                "id": "201",
+                "zh": "明天",
+                "pinyin": "Míngtiān",
+                "type": "n",
+                "en": "tomorrow"
+            },
+            {
+                "id": "202",
+                "zh": "明星",
+                "pinyin": "Míngxīng",
+                "type": "n",
+                "en": "celebrity"
+            },
+            {
+                "id": "203",
+                "zh": "名字",
+                "pinyin": "Míngzì",
+                "type": "n",
+                "en": "name"
+            },
+            {
+                "id": "204",
+                "zh": "墨尔本",
+                "pinyin": "Mò’ěrběn",
+                "type": "n",
+                "en": "Melbourne"
+            },
+            {
+                "id": "205",
+                "zh": "墨西哥",
+                "pinyin": "Mòxīgē",
+                "type": "n",
+                "en": "Mexico"
+            },
+            {
+                "id": "206",
+                "zh": "哪",
+                "pinyin": "Nǎ",
+                "type": "pron",
+                "en": "which"
+            },
+            {
+                "id": "207",
+                "zh": "哪里",
+                "pinyin": "Nǎlǐ",
+                "type": "pron",
+                "en": "where"
+            },
+            {
+                "id": "208",
+                "zh": "哪儿",
+                "pinyin": "Nǎ’r",
+                "type": "pron",
+                "en": "where"
+            },
+            {
+                "id": "209",
+                "zh": "那里",
+                "pinyin": "Nàlǐ",
+                "type": "pron",
+                "en": "there"
+            },
+            {
+                "id": "210",
+                "zh": "那么",
+                "pinyin": "Nàme",
+                "type": "conj",
+                "en": "then, so"
+            },
+            {
+                "id": "211",
+                "zh": "奶奶",
+                "pinyin": "Nǎinai",
+                "type": "n",
+                "en": "grandmother"
+            },
+            {
+                "id": "212",
+                "zh": "男",
+                "pinyin": "Nán",
+                "type": "n",
+                "en": "male"
+            },
+            {
+                "id": "213",
+                "zh": "南边",
+                "pinyin": "Nánbian",
+                "type": "n",
+                "en": "South"
+            },
+            {
+                "id": "214",
+                "zh": "南非",
+                "pinyin": "Nánfēi",
+                "type": "n",
+                "en": "South Africa"
+            },
+            {
+                "id": "215",
+                "zh": "南京",
+                "pinyin": "Nánjīng",
+                "type": "n",
+                "en": "Nanjing"
+            },
+            {
+                "id": "216",
+                "zh": "呢",
+                "pinyin": "ne",
+                "type": "particle",
+                "en": "(used to ask questions)"
+            },
+            {
+                "id": "217",
+                "zh": "你",
+                "pinyin": "Nǐ",
+                "type": "pron",
+                "en": "You"
+            },
+            {
+                "id": "218",
+                "zh": "你好",
+                "pinyin": "Nǐ hǎo",
+                "type": "phrase",
+                "en": "Hello"
+            },
+            {
+                "id": "219",
+                "zh": "你们",
+                "pinyin": "Nǐmen",
+                "type": "pron",
+                "en": "You (plural)"
+            },
+            {
+                "id": "220",
+                "zh": "年",
+                "pinyin": "Nián",
+                "type": "n",
+                "en": "year"
+            },
+            {
+                "id": "221",
+                "zh": "年龄",
+                "pinyin": "Niánlíng",
+                "type": "n",
+                "en": "age"
+            },
+            {
+                "id": "222",
+                "zh": "年轻",
+                "pinyin": "Niánqīng",
+                "type": "adj",
+                "en": "young"
+            },
+            {
+                "id": "223",
+                "zh": "牛仔裤",
+                "pinyin": "Niúzǎikù",
+                "type": "n",
+                "en": "jeans"
+            },
+            {
+                "id": "224",
+                "zh": "女士",
+                "pinyin": "Nǚshì",
+                "type": "n",
+                "en": "Ms"
+            },
+            {
+                "id": "225",
+                "zh": "爬山",
+                "pinyin": "Páshān",
+                "type": "v",
+                "en": "climb a mountain"
+            },
+            {
+                "id": "226",
+                "zh": "拍照",
+                "pinyin": "Pāizhào",
+                "type": "v",
+                "en": "take photos"
+            },
+            {
+                "id": "227",
+                "zh": "排球",
+                "pinyin": "Páiqiú",
+                "type": "n",
+                "en": "volleyball"
+            },
+            {
+                "id": "228",
+                "zh": "派对",
+                "pinyin": "Pàiduì",
+                "type": "n",
+                "en": "party"
+            },
+            {
+                "id": "229",
+                "zh": "跑步",
+                "pinyin": "Pǎobù",
+                "type": "v",
+                "en": "jog"
+            },
+            {
+                "id": "230",
+                "zh": "朋友",
+                "pinyin": "Péngyǒu",
+                "type": "n",
+                "en": "friend"
+            },
+            {
+                "id": "231",
+                "zh": "便宜",
+                "pinyin": "Piányí",
+                "type": "adj",
+                "en": "cheap"
+            },
+            {
+                "id": "232",
+                "zh": "漂亮",
+                "pinyin": "Piàoliang",
+                "type": "adj",
+                "en": "pretty"
+            },
+            {
+                "id": "233",
+                "zh": "乒乓球",
+                "pinyin": "Pīngpāng qiú",
+                "type": "n",
+                "en": "table tennis"
+            },
+            {
+                "id": "234",
+                "zh": "平方米",
+                "pinyin": "Píngfāng mǐ",
+                "type": "measure word",
+                "en": "square metre"
+            },
+            {
+                "id": "235",
+                "zh": "七月",
+                "pinyin": "Qī yuè",
+                "type": "n",
+                "en": "July"
+            },
+            {
+                "id": "236",
+                "zh": "骑",
+                "pinyin": "Qí",
+                "type": "v",
+                "en": "ride (bicycle, etc)"
+            },
+            {
+                "id": "237",
+                "zh": "其他",
+                "pinyin": "Qítā",
+                "type": "pron",
+                "en": "others, other"
+            },
+            {
+                "id": "238",
+                "zh": "千",
+                "pinyin": "Qiān",
+                "type": "num",
+                "en": "thousand"
+            },
+            {
+                "id": "239",
+                "zh": "钱",
+                "pinyin": "Qián",
+                "type": "n",
+                "en": "money"
+            },
+            {
+                "id": "240",
+                "zh": "前边",
+                "pinyin": "Qiánbian",
+                "type": "n",
+                "en": "front"
+            },
+            {
+                "id": "241",
+                "zh": "潜水",
+                "pinyin": "Qiánshuǐ",
+                "type": "v",
+                "en": "dive"
+            },
+            {
+                "id": "242",
+                "zh": "请",
+                "pinyin": "Qǐng",
+                "type": "interj/v",
+                "en": "please, invite"
+            },
+            {
+                "id": "243",
+                "zh": "请问",
+                "pinyin": "Qǐngwèn",
+                "type": "",
+                "en": "may I ask, excuse me"
+            },
+            {
+                "id": "244",
+                "zh": "球",
+                "pinyin": "Qiú",
+                "type": "n",
+                "en": "ball, ball game"
+            },
+            {
+                "id": "245",
+                "zh": "区",
+                "pinyin": "Qū",
+                "type": "n",
+                "en": "district"
+            },
+            {
+                "id": "246",
+                "zh": "曲棍球",
+                "pinyin": "Qūgùnqiú",
+                "type": "n",
+                "en": "hockey"
+            },
+            {
+                "id": "247",
+                "zh": "去",
+                "pinyin": "Qù",
+                "type": "v",
+                "en": "go"
+            },
+            {
+                "id": "248",
+                "zh": "去年",
+                "pinyin": "Qùnián",
+                "type": "n",
+                "en": "last year"
+            },
+            {
+                "id": "249",
+                "zh": "裙子",
+                "pinyin": "Qúnzi",
+                "type": "n",
+                "en": "skirt"
+            },
+            {
+                "id": "250",
+                "zh": "然后",
+                "pinyin": "然后",
+                "type": "conj",
+                "en": "then"
+            },
+            {
+                "id": "251",
+                "zh": "人",
+                "pinyin": "Rén",
+                "type": "n",
+                "en": "people"
+            },
+            {
+                "id": "252",
+                "zh": "认识",
+                "pinyin": "Rènshí",
+                "type": "v",
+                "en": "know, get to know"
+            },
+            {
+                "id": "253",
+                "zh": "日",
+                "pinyin": "Rì",
+                "type": "n",
+                "en": "date (written)"
+            },
+            {
+                "id": "254",
+                "zh": "日本",
+                "pinyin": "Rìběn",
+                "type": "n",
+                "en": "Japan"
+            },
+            {
+                "id": "255",
+                "zh": "三里屯",
+                "pinyin": "Sānlǐtún",
+                "type": "n",
+                "en": "Sanlitun (a place in Beijing)"
+            },
+            {
+                "id": "256",
+                "zh": "商店",
+                "pinyin": "Shāngdiàn",
+                "type": "n",
+                "en": "shop"
+            },
+            {
+                "id": "257",
+                "zh": "上班",
+                "pinyin": "Shàngbān",
+                "type": "v",
+                "en": "go to work"
+            },
+            {
+                "id": "258",
+                "zh": "上个",
+                "pinyin": "Shàng gè",
+                "type": "",
+                "en": "last, previous"
+            },
+            {
+                "id": "259",
+                "zh": "上海",
+                "pinyin": "Shànghǎi",
+                "type": "n",
+                "en": "Shanghai"
+            },
+            {
+                "id": "260",
+                "zh": "上午",
+                "pinyin": "Shàngwǔ",
+                "type": "n",
+                "en": "morning"
+            },
+            {
+                "id": "261",
+                "zh": "谁",
+                "pinyin": "Shéi",
+                "type": "pron",
+                "en": "who"
+            },
+            {
+                "id": "262",
+                "zh": "什么",
+                "pinyin": "Shénme",
+                "type": "pron",
+                "en": "what"
+            },
+            {
+                "id": "263",
+                "zh": "生日",
+                "pinyin": "Shēngrì",
+                "type": "n",
+                "en": "birthday"
+            },
+            {
+                "id": "264",
+                "zh": "生日卡",
+                "pinyin": "Shēngrì kǎ",
+                "type": "n",
+                "en": "birthday card"
+            },
+            {
+                "id": "265",
+                "zh": "省",
+                "pinyin": "Shěng",
+                "type": "n",
+                "en": "province"
+            },
+            {
+                "id": "266",
+                "zh": "时候",
+                "pinyin": "Shíhòu",
+                "type": "n",
+                "en": "time"
+            },
+            {
+                "id": "267",
+                "zh": "时间",
+                "pinyin": "Shíjiān",
+                "type": "n",
+                "en": "time"
+            },
+            {
+                "id": "268",
+                "zh": "实习",
+                "pinyin": "Shíxí",
+                "type": "v",
+                "en": "work as an intern"
+            },
+            {
+                "id": "269",
+                "zh": "市",
+                "pinyin": "Shì",
+                "type": "n",
+                "en": "city"
+            },
+            {
+                "id": "270",
+                "zh": "事",
+                "pinyin": "Shì",
+                "type": "n",
+                "en": "thing, matter"
+            },
+            {
+                "id": "271",
+                "zh": "试",
+                "pinyin": "Shì",
+                "type": "v",
+                "en": "test, try"
+            },
+            {
+                "id": "272",
+                "zh": "是",
+                "pinyin": "Shì",
+                "type": "v",
+                "en": "be"
+            },
+            {
+                "id": "273",
+                "zh": "收到",
+                "pinyin": "Shōu dào",
+                "type": "v",
+                "en": "receive, obtain"
+            },
+            {
+                "id": "274",
+                "zh": "收件箱",
+                "pinyin": "Shōu jiàn xiāng",
+                "type": "n",
+                "en": "inbox"
+            },
+            {
+                "id": "275",
+                "zh": "手机",
+                "pinyin": "Shǒujī",
+                "type": "n",
+                "en": "mobile phone"
+            },
+            {
+                "id": "276",
+                "zh": "售货员",
+                "pinyin": "Shòuhuòyuán",
+                "type": "n",
+                "en": "shop assistant"
+            },
+            {
+                "id": "277",
+                "zh": "书",
+                "pinyin": "Shū",
+                "type": "n",
+                "en": "book"
+            },
+            {
+                "id": "278",
+                "zh": "书店",
+                "pinyin": "Shūdiàn",
+                "type": "n",
+                "en": "bookshop"
+            },
+            {
+                "id": "279",
+                "zh": "暑假",
+                "pinyin": "Shǔjià",
+                "type": "n",
+                "en": "summer holiday"
+            },
+            {
+                "id": "280",
+                "zh": "帅",
+                "pinyin": "Shuài",
+                "type": "adj",
+                "en": "handsome"
+            },
+            {
+                "id": "281",
+                "zh": "双",
+                "pinyin": "Shuāng",
+                "type": "measure word",
+                "en": "pair"
+            },
+            {
+                "id": "282",
+                "zh": "说",
+                "pinyin": "Shuō",
+                "type": "v",
+                "en": "say"
+            },
+            {
+                "id": "283",
+                "zh": "宿舍",
+                "pinyin": "Sùshè",
+                "type": "n",
+                "en": "dormitory"
+            },
+            {
+                "id": "284",
+                "zh": "岁",
+                "pinyin": "Suì",
+                "type": "n",
+                "en": "year(s) old"
+            },
+            {
+                "id": "285",
+                "zh": "他",
+                "pinyin": "Tā",
+                "type": "pron",
+                "en": "he, him"
+            },
+            {
+                "id": "286",
+                "zh": "它",
+                "pinyin": "Tā",
+                "type": "pron",
+                "en": "it"
+            },
+            {
+                "id": "287",
+                "zh": "她",
+                "pinyin": "Tā",
+                "type": "pron",
+                "en": "she, her"
+            },
+            {
+                "id": "288",
+                "zh": "他们",
+                "pinyin": "Tāmen",
+                "type": "pron",
+                "en": "they, them"
+            },
+            {
+                "id": "289",
+                "zh": "太",
+                "pinyin": "Tài",
+                "type": "adv",
+                "en": "very, too"
+            },
+            {
+                "id": "290",
+                "zh": "太太",
+                "pinyin": "Tàitai",
+                "type": "n",
+                "en": "Mrs"
+            },
+            {
+                "id": "291",
+                "zh": "泰国",
+                "pinyin": "Tàiguó",
+                "type": "n",
+                "en": "Thailand"
+            },
+            {
+                "id": "292",
+                "zh": "踢",
+                "pinyin": "Tī",
+                "type": "v",
+                "en": "play (with feet), kick"
+            },
+            {
+                "id": "293",
+                "zh": "T恤",
+                "pinyin": "T xù",
+                "type": "n",
+                "en": "T-shirt"
+            },
+            {
+                "id": "294",
+                "zh": "体育场",
+                "pinyin": "Tǐyùchǎng",
+                "type": "n",
+                "en": "stadium, sports ground"
+            },
+            {
+                "id": "295",
+                "zh": "条",
+                "pinyin": "Tiáo",
+                "type": "measure word",
+                "en": "[measure word for long pieces]"
+            },
+            {
+                "id": "296",
+                "zh": "跳舞",
+                "pinyin": "Tiàowǔ",
+                "type": "v",
+                "en": "dance"
+            },
+            {
+                "id": "297",
+                "zh": "听",
+                "pinyin": "Tīng",
+                "type": "v",
+                "en": "listen"
+            },
+            {
+                "id": "298",
+                "zh": "停车场",
+                "pinyin": "Tíngchē chǎng",
+                "type": "n",
+                "en": "car park"
+            },
+            {
+                "id": "299",
+                "zh": "同学",
+                "pinyin": "Tóngxué",
+                "type": "n",
+                "en": "schoolmate"
+            },
+            {
+                "id": "300",
+                "zh": "头发",
+                "pinyin": "Tóufǎ",
+                "type": "n",
+                "en": "hair"
+            },
+            {
+                "id": "301",
+                "zh": "推出",
+                "pinyin": "退出",
+                "type": "v",
+                "en": "exit, go back"
+            },
+            {
+                "id": "302",
+                "zh": "晚饭",
+                "pinyin": "Wǎnfàn",
+                "type": "n",
+                "en": "dinner"
+            },
+            {
+                "id": "303",
+                "zh": "晚上",
+                "pinyin": "Wǎnshàng",
+                "type": "n",
+                "en": "evening"
+            },
+            {
+                "id": "304",
+                "zh": "往",
+                "pinyin": "Wǎng",
+                "type": "prep",
+                "en": "towards"
+            },
+            {
+                "id": "305",
+                "zh": "网球",
+                "pinyin": "Wǎngqiú",
+                "type": "n",
+                "en": "tennis"
+            },
+            {
+                "id": "306",
+                "zh": "围巾",
+                "pinyin": "Wéijīn",
+                "type": "n",
+                "en": "scarf"
+            },
+            {
+                "id": "307",
+                "zh": "问",
+                "pinyin": "Wèn",
+                "type": "v",
+                "en": "ask"
+            },
+            {
+                "id": "308",
+                "zh": "问卷",
+                "pinyin": "Wènjuàn",
+                "type": "n",
+                "en": "questionnaire"
+            },
+            {
+                "id": "309",
+                "zh": "我",
+                "pinyin": "Wǒ",
+                "type": "pron",
+                "en": "I, me"
+            },
+            {
+                "id": "310",
+                "zh": "我们",
+                "pinyin": "Wǒmen",
+                "type": "pron",
+                "en": "we, us"
+            },
+            {
+                "id": "311",
+                "zh": "五月",
+                "pinyin": "Wǔ yuè",
+                "type": "n",
+                "en": "May"
+            },
+            {
+                "id": "312",
+                "zh": "西安",
+                "pinyin": "Xī’ān",
+                "type": "n",
+                "en": "Xi’an"
+            },
+            {
+                "id": "313",
+                "zh": "西边",
+                "pinyin": "Xībian",
+                "type": "n",
+                "en": "West"
+            },
+            {
+                "id": "314",
+                "zh": "悉尼",
+                "pinyin": "Xīní",
+                "type": "n",
+                "en": "Sydney"
+            },
+            {
+                "id": "315",
+                "zh": "希望",
+                "pinyin": "Xīwàng",
+                "type": "v",
+                "en": "hope"
+            },
+            {
+                "id": "316",
+                "zh": "喜欢",
+                "pinyin": "Xǐhuān",
+                "type": "v",
+                "en": "like"
+            },
+            {
+                "id": "317",
+                "zh": "洗手间",
+                "pinyin": "Xǐshǒujiān",
+                "type": "n",
+                "en": "toilet, washroom"
+            },
+            {
+                "id": "318",
+                "zh": "下个",
+                "pinyin": "Xià gè",
+                "type": "",
+                "en": "next"
+            },
+            {
+                "id": "319",
+                "zh": "下午",
+                "pinyin": "Xiàwǔ",
+                "type": "n",
+                "en": "afternoon"
+            },
+            {
+                "id": "320",
+                "zh": "先生",
+                "pinyin": "Xiānshēng",
+                "type": "n",
+                "en": "Mr"
+            },
+            {
+                "id": "321",
+                "zh": "现在",
+                "pinyin": "Xiànzài",
+                "type": "n",
+                "en": "now"
+            },
+            {
+                "id": "322",
+                "zh": "香港",
+                "pinyin": "Xiānggǎng",
+                "type": "n",
+                "en": "Hong Kong"
+            },
+            {
+                "id": "323",
+                "zh": "想",
+                "pinyin": "Xiǎng",
+                "type": "v",
+                "en": "think, want"
+            },
+            {
+                "id": "324",
+                "zh": "小姐",
+                "pinyin": "Xiǎojiě",
+                "type": "n",
+                "en": "Miss"
+            },
+            {
+                "id": "325",
+                "zh": "小时",
+                "pinyin": "Xiǎoshí",
+                "type": "n",
+                "en": "hour"
+            },
+            {
+                "id": "326",
+                "zh": "鞋",
+                "pinyin": "Xié",
+                "type": "n",
+                "en": "shoes"
+            },
+            {
+                "id": "327",
+                "zh": "写",
+                "pinyin": "Xiě",
+                "type": "v",
+                "en": "write"
+            },
+            {
+                "id": "328",
+                "zh": "谢谢",
+                "pinyin": "Xièxiè",
+                "type": "v",
+                "en": "thank you"
+            },
+            {
+                "id": "329",
+                "zh": "新",
+                "pinyin": "Xīn",
+                "type": "adj",
+                "en": "new"
+            },
+            {
+                "id": "330",
+                "zh": "新加坡",
+                "pinyin": "Xīnjiāpō",
+                "type": "n",
+                "en": "Singapore"
+            },
+            {
+                "id": "331",
+                "zh": "新西兰",
+                "pinyin": "Xīnxīlán",
+                "type": "n",
+                "en": "New Zealand"
+            },
+            {
+                "id": "332",
+                "zh": "星期",
+                "pinyin": "Xīngqí",
+                "type": "n",
+                "en": "week"
+            },
+            {
+                "id": "333",
+                "zh": "星期二",
+                "pinyin": "Xīngqí’èr",
+                "type": "n",
+                "en": "Tuesday"
+            },
+            {
+                "id": "334",
+                "zh": "星期六",
+                "pinyin": "Xīngqíliù",
+                "type": "n",
+                "en": "Saturday"
+            },
+            {
+                "id": "335",
+                "zh": "星期日",
+                "pinyin": "Xīngqírì",
+                "type": "n",
+                "en": "Sunday (written)"
+            },
+            {
+                "id": "336",
+                "zh": "星期三",
+                "pinyin": "Xīngqísān",
+                "type": "n",
+                "en": "Wednesday"
+            },
+            {
+                "id": "337",
+                "zh": "星期四",
+                "pinyin": "Xīngqísì",
+                "type": "n",
+                "en": "Thursday"
+            },
+            {
+                "id": "338",
+                "zh": "星期天",
+                "pinyin": "Xīngqítiān",
+                "type": "n",
+                "en": "Sunday (spoken)"
+            },
+            {
+                "id": "339",
+                "zh": "星期五",
+                "pinyin": "Xīngqíwǔ",
+                "type": "n",
+                "en": "Friday"
+            },
+            {
+                "id": "340",
+                "zh": "星期一",
+                "pinyin": "Xīngqí yīn",
+                "type": "n",
+                "en": "Monday"
+            },
+            {
+                "id": "341",
+                "zh": "姓",
+                "pinyin": "Xìng",
+                "type": "v/n",
+                "en": "surname, family name"
+            },
+            {
+                "id": "342",
+                "zh": "性别",
+                "pinyin": "Xìngbié",
+                "type": "n",
+                "en": "gender"
+            },
+            {
+                "id": "343",
+                "zh": "姓名",
+                "pinyin": "Xìngmíng",
+                "type": "n",
+                "en": "full name"
+            },
+            {
+                "id": "344",
+                "zh": "熊猫",
+                "pinyin": "Xióngmāo",
+                "type": "n",
+                "en": "panda"
+            },
+            {
+                "id": "345",
+                "zh": "修理工",
+                "pinyin": "Xiūlǐgōng",
+                "type": "n",
+                "en": "mechanic, repairman"
+            },
+            {
+                "id": "346",
+                "zh": "休闲",
+                "pinyin": "Xiūxián",
+                "type": "n/v",
+                "en": "leisure, have leisure"
+            },
+            {
+                "id": "347",
+                "zh": "需要",
+                "pinyin": "Xūyào",
+                "type": "v",
+                "en": "need"
+            },
+            {
+                "id": "348",
+                "zh": "学",
+                "pinyin": "Xué",
+                "type": "v",
+                "en": "study, learn"
+            },
+            {
+                "id": "349",
+                "zh": "学生",
+                "pinyin": "Xuéshēng",
+                "type": "n",
+                "en": "student"
+            },
+            {
+                "id": "350",
+                "zh": "学校",
+                "pinyin": "Xuéxiào",
+                "type": "n",
+                "en": "school"
+            },
+            {
+                "id": "351",
+                "zh": "颜色",
+                "pinyin": "Yánsè",
+                "type": "n",
+                "en": "colour"
+            },
+            {
+                "id": "352",
+                "zh": "演员",
+                "pinyin": "Yǎnyuán",
+                "type": "n",
+                "en": "actor, actress"
+            },
+            {
+                "id": "353",
+                "zh": "要",
+                "pinyin": "Yào",
+                "type": "v",
+                "en": "want"
+            },
+            {
+                "id": "354",
+                "zh": "药店",
+                "pinyin": "Yàodiàn",
+                "type": "n",
+                "en": "pharmacy"
+            },
+            {
+                "id": "355",
+                "zh": "爷爷",
+                "pinyin": "Yéyé",
+                "type": "n",
+                "en": "grandfather"
+            },
+            {
+                "id": "356",
+                "zh": "也",
+                "pinyin": "Yě",
+                "type": "adv",
+                "en": "also"
+            },
+            {
+                "id": "357",
+                "zh": "野营",
+                "pinyin": "Yěyíng",
+                "type": "v",
+                "en": "go camping"
+            },
+            {
+                "id": "358",
+                "zh": "一点儿",
+                "pinyin": "Yīdiǎnr",
+                "type": "quantifier",
+                "en": "a little"
+            },
+            {
+                "id": "359",
+                "zh": "衣服",
+                "pinyin": "Yīfú",
+                "type": "n",
+                "en": "clothes"
+            },
+            {
+                "id": "360",
+                "zh": "一起",
+                "pinyin": "Yīqǐ",
+                "type": "adv",
+                "en": "together"
+            },
+            {
+                "id": "361",
+                "zh": "医生",
+                "pinyin": "Yīshēng",
+                "type": "n",
+                "en": "doctor"
+            },
+            {
+                "id": "362",
+                "zh": "一些",
+                "pinyin": "Yīxiē",
+                "type": "quantifier",
+                "en": "some"
+            },
+            {
+                "id": "363",
+                "zh": "医院",
+                "pinyin": "Yīyuàn",
+                "type": "n",
+                "en": "hospital"
+            },
+            {
+                "id": "364",
+                "zh": "一月",
+                "pinyin": "Yī yuè",
+                "type": "n",
+                "en": "January"
+            },
+            {
+                "id": "365",
+                "zh": "以后",
+                "pinyin": "Yǐhòu",
+                "type": "n",
+                "en": "after"
+            },
+            {
+                "id": "366",
+                "zh": "意大利",
+                "pinyin": "Yìdàlì",
+                "type": "n",
+                "en": "Italy"
+            },
+            {
+                "id": "367",
+                "zh": "音乐",
+                "pinyin": "Yīnyuè",
+                "type": "n",
+                "en": "music"
+            },
+            {
+                "id": "368",
+                "zh": "音乐会",
+                "pinyin": "Yīnyuè huì",
+                "type": "n",
+                "en": "concert"
+            },
+            {
+                "id": "369",
+                "zh": "银行",
+                "pinyin": "Yínháng",
+                "type": "n",
+                "en": "bank"
+            },
+            {
+                "id": "370",
+                "zh": "印度",
+                "pinyin": "Yìndù",
+                "type": "n",
+                "en": "India"
+            },
+            {
+                "id": "371",
+                "zh": "应该",
+                "pinyin": "Yīnggāi",
+                "type": "modal v",
+                "en": "should"
+            },
+            {
+                "id": "372",
+                "zh": "英格兰",
+                "pinyin": "Yīnggélán",
+                "type": "n",
+                "en": "England"
+            },
+            {
+                "id": "373",
+                "zh": "英国",
+                "pinyin": "Yīngguó",
+                "type": "n",
+                "en": "UK"
+            },
+            {
+                "id": "374",
+                "zh": "英语",
+                "pinyin": "Yīngyǔ",
+                "type": "n",
+                "en": "English"
+            },
+            {
+                "id": "375",
+                "zh": "赢",
+                "pinyin": "Yíng",
+                "type": "v",
+                "en": "win"
+            },
+            {
+                "id": "376",
+                "zh": "邮局",
+                "pinyin": "Yóujú",
+                "type": "n",
+                "en": "post office"
+            },
+            {
+                "id": "377",
+                "zh": "游览",
+                "pinyin": "Yóulǎn",
+                "type": "v",
+                "en": "go sightseeing"
+            },
+            {
+                "id": "378",
+                "zh": "游泳",
+                "pinyin": "Yóuyǒng",
+                "type": "v",
+                "en": "swim"
+            },
+            {
+                "id": "379",
+                "zh": "有",
+                "pinyin": "Yǒu",
+                "type": "v",
+                "en": "have"
+            },
+            {
+                "id": "380",
+                "zh": "有名",
+                "pinyin": "Yǒumíng",
+                "type": "adj",
+                "en": "famous"
+            },
+            {
+                "id": "381",
+                "zh": "远",
+                "pinyin": "Yuǎn",
+                "type": "adj",
+                "en": "far away"
+            },
+            {
+                "id": "382",
+                "zh": "月",
+                "pinyin": "Yuè",
+                "type": "n",
+                "en": "month"
+            },
+            {
+                "id": "383",
+                "zh": "运动",
+                "pinyin": "Yùndòng",
+                "type": "n",
+                "en": "sports, motion"
+            },
+            {
+                "id": "384",
+                "zh": "运动员",
+                "pinyin": "Yùndòngyuán",
+                "type": "n",
+                "en": "athlete"
+            },
+            {
+                "id": "385",
+                "zh": "在",
+                "pinyin": "Zài",
+                "type": "prep",
+                "en": "at, in"
+            },
+            {
+                "id": "386",
+                "zh": "早上好",
+                "pinyin": "Zǎoshang hǎo",
+                "type": "phrase",
+                "en": "good morning"
+            },
+            {
+                "id": "387",
+                "zh": "怎么",
+                "pinyin": "Zěnme",
+                "type": "pron",
+                "en": "how"
+            },
+            {
+                "id": "388",
+                "zh": "怎么样",
+                "pinyin": "Zěnme yàng",
+                "type": "pron",
+                "en": "how about"
+            },
+            {
+                "id": "389",
+                "zh": "照片吗",
+                "pinyin": "Zhàopiàn ma",
+                "type": "n",
+                "en": "photo"
+            },
+            {
+                "id": "390",
+                "zh": "这",
+                "pinyin": "Zhè",
+                "type": "pron",
+                "en": "this"
+            },
+            {
+                "id": "391",
+                "zh": "这边",
+                "pinyin": "Zhèbian",
+                "type": "pron",
+                "en": "this way"
+            },
+            {
+                "id": "392",
+                "zh": "这个",
+                "pinyin": "Zhège",
+                "type": "pron",
+                "en": "this"
+            },
+            {
+                "id": "393",
+                "zh": "这儿",
+                "pinyin": "Zhè’r",
+                "type": "pron",
+                "en": "here"
+            },
+            {
+                "id": "394",
+                "zh": "这里",
+                "pinyin": "Zhèlǐ",
+                "type": "pron",
+                "en": "here"
+            },
+            {
+                "id": "395",
+                "zh": "真",
+                "pinyin": "Zhēn",
+                "type": "adv",
+                "en": "really, truly"
+            },
+            {
+                "id": "396",
+                "zh": "真的",
+                "pinyin": "Zhēn de",
+                "type": "",
+                "en": "really"
+            },
+            {
+                "id": "397",
+                "zh": "知道",
+                "pinyin": "Zhīdào",
+                "type": "v",
+                "en": "know"
+            },
+            {
+                "id": "398",
+                "zh": "只",
+                "pinyin": "Zhǐ",
+                "type": "adv",
+                "en": "only"
+            },
+            {
+                "id": "399",
+                "zh": "志愿者",
+                "pinyin": "Zhìyuàn zhě",
+                "type": "n",
+                "en": "volunteer"
+            },
+            {
+                "id": "400",
+                "zh": "中餐",
+                "pinyin": "Zhōngcān",
+                "type": "n",
+                "en": "Chinese food"
+            },
+            {
+                "id": "401",
+                "zh": "中国",
+                "pinyin": "Zhōngguó",
+                "type": "n",
+                "en": "China"
+            },
+            {
+                "id": "402",
+                "zh": "中文",
+                "pinyin": "Zhōngwén",
+                "type": "n",
+                "en": "Chinese"
+            },
+            {
+                "id": "403",
+                "zh": "中午",
+                "pinyin": "Zhōngwǔ",
+                "type": "n",
+                "en": "noon"
+            },
+            {
+                "id": "404",
+                "zh": "周末",
+                "pinyin": "Zhōumò",
+                "type": "n",
+                "en": "weekend"
+            },
+            {
+                "id": "405",
+                "zh": "注意",
+                "pinyin": "Zhùyì",
+                "type": "n",
+                "en": "idea"
+            },
+            {
+                "id": "406",
+                "zh": "住",
+                "pinyin": "Zhù",
+                "type": "v",
+                "en": "live"
+            },
+            {
+                "id": "407",
+                "zh": "自行车",
+                "pinyin": "Zìxíngchē",
+                "type": "n",
+                "en": "bicycle"
+            },
+            {
+                "id": "408",
+                "zh": "走",
+                "pinyin": "Zǒu",
+                "type": "v",
+                "en": "walk, go"
+            },
+            {
+                "id": "409",
+                "zh": "足球",
+                "pinyin": "Zúqiú",
+                "type": "n",
+                "en": "football"
+            },
+            {
+                "id": "410",
+                "zh": "最",
+                "pinyin": "Zuì",
+                "type": "adv",
+                "en": "most"
+            },
+            {
+                "id": "411",
+                "zh": "昨天",
+                "pinyin": "Zuótiān",
+                "type": "n",
+                "en": "yesterday"
+            },
+            {
+                "id": "412",
+                "zh": "左右",
+                "pinyin": "Zuǒyòu",
+                "type": "n",
+                "en": "about"
+            },
+            {
+                "id": "413",
+                "zh": "坐",
+                "pinyin": "Zuò",
+                "type": "v",
+                "en": "take (a vehicle)"
+            },
+            {
+                "id": "414",
+                "zh": "做",
+                "pinyin": "Zuò",
+                "type": "v",
+                "en": "do"
+            }
+        ]
+    }
+]

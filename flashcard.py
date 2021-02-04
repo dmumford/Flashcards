@@ -3,6 +3,7 @@
 # 2. Toggle audio speed
 # 3. Switch audio (original, alt, alt2)
 
+#coding:utf-8
 from datetime import datetime
 import json
 
@@ -14,7 +15,7 @@ from tkinter import *
 # Pygame mixer for playing audio
 from pygame import mixer
 
-import sys, os
+import sys, os, random
 
 global deck, data
 deck = ""
@@ -89,6 +90,9 @@ def getCard(nav='n'):
             n = total
         else:
             n = n - 1
+    # random card from deck
+    elif (nav == 'r'):
+        n = random.randint(1, total)
     # user specified card
     else:
         n = int(nav)
@@ -175,8 +179,7 @@ choice = StringVar(root)
 choice.set(deck_list[0])  # default value
 
 w = OptionMenu(root, choice, *deck_list)
-w.config(font='Helvetica 20 bold',
-    width=20)
+w.config(font='Helvetica 20 bold', width=20)
 w.place(relx=0.38, rely=0.3)
 
 
@@ -257,36 +260,36 @@ def select_deck():
 
     # Word Type
     wt = tk.Label(root,
-                text=word_type,
-                fg="grey",
-                bg="#f7f3d2",
-                pady=20,
-                font="Helvetica 30 italic")
+                  text=word_type,
+                  fg="grey",
+                  bg="#f7f3d2",
+                  pady=20,
+                  font="Helvetica 30 italic")
     wt.pack()
 
     # Divide line
     div = tk.Label(root,
-                text="________________________________________",
-                fg="darkgrey",
-                bg="#f7f3d2",
-                font="Helvetica 30")
+                   text="________________________________________",
+                   fg="darkgrey",
+                   bg="#f7f3d2",
+                   font="Helvetica 30")
     div.pack()
 
     # show English word
     en = Label(root,
-            text=english,
-            fg="#314282",
-            bg="#f7f3d2",
-            pady=25,
-            font="Helvetica 30")
+               text=english,
+               fg="#314282",
+               bg="#f7f3d2",
+               pady=25,
+               font="Helvetica 30")
     en.pack(expand=YES, fill='both')
 
     # card number
     c_num = tk.Label(root,
-                    text=card_number_full,
-                    fg="white",
-                    bg="#7314C0",
-                    font="Helvetica 15 bold")
+                     text=card_number_full,
+                     fg="white",
+                     bg="#7314C0",
+                     font="Helvetica 15 bold")
     c_num.pack()
     # place bottom-center
     c_num.place(relx=0.5, rely=0.94, anchor=CENTER)
@@ -323,16 +326,15 @@ def select_deck():
 
     # language audio toggle
     toggleLang = tk.Button(text="中文",
-                        width=15,
-                        relief="raised",
-                        fg="#7314C0",
-                        font="Helvetica 18 bold",
-                        command=changeLang)
+                           width=15,
+                           relief="raised",
+                           fg="#7314C0",
+                           font="Helvetica 18 bold",
+                           command=changeLang)
     toggleLang.place(relx=0.0, rely=0.0, anchor=NW)
 
     # global var
     global voiceToggle, voiceStr
-
 
     voiceStr = "".join(["voice: ", str(voice)])
     # Choose Audio Voice
@@ -348,7 +350,10 @@ def select_deck():
     audioBtn = tk.Label(
         root,
         text=
-        "Press 1 to switch between audio language\n\nPress 2 to change audio voice\n\nPress spacebar to play audio\n\nUse the arrow keys on your keyboard\n to navigate the deck",
+        'Press 1 to switch between audio language\n\nPress 2 to change' \
+            ' audio voice\n\nPress spacebar to play audio\n\nUse the' \
+                ' arrow keys on your keyboard\n\n' \
+                ' to navigate the deck\nPress R for random card',
         fg="white",
         bg="#7314C0",
         width=35,
@@ -357,7 +362,7 @@ def select_deck():
         font="Helvetica 9 bold",
         anchor=W)
     # position next to top-left buttons
-    audioBtn.place(x=0, y=105, anchor=W)
+    audioBtn.place(x=0, y=115, anchor=W)
 
     # selected deck label
     current_deck = tk.Label(root,
@@ -382,7 +387,6 @@ def select_deck():
     #                       font="Helvetica 10 bold",
     #                       command=audioSpeed)
     # speedToggle.place(relx=0.0, rely=0.03, anchor=NW)
-
     ''' Key bindings '''
 
     # bind esc to quit
@@ -407,6 +411,9 @@ def select_deck():
     # play audio on click
     audioBtn.bind('<Button-1>', play_audio)
 
+    # bind 'r' to random card
+    root.bind('<r>', lambda x: getCard('r'))
+
 
 # Title
 title = tk.Label(root,
@@ -414,28 +421,28 @@ title = tk.Label(root,
                  font="Helvetica 30 bold",
                  bg="#f7f3d2",
                  anchor=N)
-title.place(relx=0.38, rely= 0.1)
+title.place(relx=0.38, rely=0.1)
 
 # copyright label
 currentYear = datetime.now().year
 copy = "".join(["David Mumford - ", str(currentYear)])
 author = tk.Label(root,
-                    text=copy,
-                    fg="white",
-                    bg="#7314C0",
-                    font="Helvetica 15 bold")
+                  text=copy,
+                  fg="white",
+                  bg="#7314C0",
+                  font="Helvetica 15 bold")
 # position next to top-left buttons
 author.place(relx=0.5, rely=1.0, anchor=S)
 
 # Select deck button
 choiceBtn = Button(root,
-        text="Open Deck",
-        command=select_deck,
-        fg="white",
-        highlightbackground="#7314C0",
-        padx="5",
-        pady="5",
-        width=15,
-        font="Helvetica 30 bold")
+                   text="Open Deck",
+                   command=select_deck,
+                   fg="white",
+                   highlightbackground="#7314C0",
+                   padx="5",
+                   pady="5",
+                   width=15,
+                   font="Helvetica 30 bold")
 choiceBtn.place(relx=0.38, rely=0.4)
 root.mainloop()
