@@ -1,0 +1,1469 @@
+[
+    {
+        "type": "database",
+        "name": "Chinese"
+    },
+    {
+        "type": "table",
+        "name": "Daves Deck",
+        "database": "Chinese",
+        "data": [
+            {
+                "id": "1",
+                "zh": "贵 ",
+                "pinyin": "Guì",
+                "type": "",
+                "en": "Expensive"
+            },
+            {
+                "id": "2",
+                "zh": "汉 ",
+                "pinyin": "Hàn",
+                "type": "",
+                "en": "ethnic Han Chinese/man; fellow"
+            },
+            {
+                "id": "3",
+                "zh": "认 ",
+                "pinyin": "Rèn",
+                "type": "",
+                "en": "recognise"
+            },
+            {
+                "id": "4",
+                "zh": "说 ",
+                "pinyin": "Shuō",
+                "type": "",
+                "en": "speak"
+            },
+            {
+                "id": "5",
+                "zh": "识 ",
+                "pinyin": "Shí",
+                "type": "",
+                "en": "know"
+            },
+            {
+                "id": "6",
+                "zh": "语 ",
+                "pinyin": "Yǔ",
+                "type": "",
+                "en": "language"
+            },
+            {
+                "id": "7",
+                "zh": "怎 ",
+                "pinyin": "Zěn",
+                "type": "",
+                "en": "how"
+            },
+            {
+                "id": "8",
+                "zh": "样 ",
+                "pinyin": "Yàng",
+                "type": "",
+                "en": "appearance"
+            },
+            {
+                "id": "9",
+                "zh": "身 ",
+                "pinyin": "Shēn",
+                "type": "",
+                "en": "body"
+            },
+            {
+                "id": "10",
+                "zh": "体 ",
+                "pinyin": "Tǐ",
+                "type": "",
+                "en": "body"
+            },
+            {
+                "id": "11",
+                "zh": "做 ",
+                "pinyin": "Zuò",
+                "type": "",
+                "en": "do"
+            },
+            {
+                "id": "12",
+                "zh": "作 ",
+                "pinyin": "Zuò",
+                "type": "",
+                "en": "do; make/works"
+            },
+            {
+                "id": "13",
+                "zh": "医 ",
+                "pinyin": "Yī",
+                "type": "",
+                "en": "cure; treat"
+            },
+            {
+                "id": "14",
+                "zh": "现 ",
+                "pinyin": "Xiàn",
+                "type": "",
+                "en": "appear"
+            },
+            {
+                "id": "15",
+                "zh": "钟 ",
+                "pinyin": "Zhōng",
+                "type": "",
+                "en": "clock"
+            },
+            {
+                "id": "16",
+                "zh": "候 ",
+                "pinyin": "Hòu",
+                "type": "",
+                "en": "time; wait"
+            },
+            {
+                "id": "17",
+                "zh": "午 ",
+                "pinyin": "Wǔ",
+                "type": "",
+                "en": "noon"
+            },
+            {
+                "id": "18",
+                "zh": "起 ",
+                "pinyin": "Qǐ",
+                "type": "",
+                "en": "rise"
+            },
+            {
+                "id": "19",
+                "zh": "星 ",
+                "pinyin": "Xīng",
+                "type": "",
+                "en": "star"
+            },
+            {
+                "id": "20",
+                "zh": "期 ",
+                "pinyin": "Qī",
+                "type": "",
+                "en": "period of time"
+            },
+            {
+                "id": "21",
+                "zh": "东 ",
+                "pinyin": "Dōng",
+                "type": "",
+                "en": "East"
+            },
+            {
+                "id": "22",
+                "zh": "西 ",
+                "pinyin": "Xī",
+                "type": "",
+                "en": "West"
+            },
+            {
+                "id": "23",
+                "zh": "商 ",
+                "pinyin": "Shāng",
+                "type": "",
+                "en": "commerce"
+            },
+            {
+                "id": "24",
+                "zh": "店 ",
+                "pinyin": "Diàn",
+                "type": "",
+                "en": "shop"
+            },
+            {
+                "id": "25",
+                "zh": "衣 ",
+                "pinyin": "Yī",
+                "type": "",
+                "en": "clothes"
+            },
+            {
+                "id": "26",
+                "zh": "件 ",
+                "pinyin": "Jiàn",
+                "type": "",
+                "en": "clothes [classifier]; document"
+            },
+            {
+                "id": "27",
+                "zh": "宜 ",
+                "pinyin": "Yí",
+                "type": "",
+                "en": "appropriate"
+            },
+            {
+                "id": "28",
+                "zh": "元 ",
+                "pinyin": "Yuán",
+                "type": "",
+                "en": "yuan (Chinese dollar); first"
+            },
+            {
+                "id": "29",
+                "zh": "就 ",
+                "pinyin": "Jiù",
+                "type": "",
+                "en": "right away / engage in; enter upon"
+            },
+            {
+                "id": "30",
+                "zh": "零 ",
+                "pinyin": "Líng",
+                "type": "",
+                "en": "zero"
+            },
+            {
+                "id": "31",
+                "zh": "读 ",
+                "pinyin": "Dú",
+                "type": "",
+                "en": "read"
+            },
+            {
+                "id": "32",
+                "zh": "习 ",
+                "pinyin": "Xí",
+                "type": "",
+                "en": "practice"
+            },
+            {
+                "id": "33",
+                "zh": "帮 ",
+                "pinyin": "Bāng",
+                "type": "",
+                "en": "help"
+            },
+            {
+                "id": "34",
+                "zh": "助 ",
+                "pinyin": "Zhù",
+                "type": "",
+                "en": "assistance"
+            },
+            {
+                "id": "35",
+                "zh": "面 ",
+                "pinyin": "Miàn",
+                "type": "",
+                "en": "face"
+            },
+            {
+                "id": "36",
+                "zh": "旁 ",
+                "pinyin": "Páng",
+                "type": "",
+                "en": "next to"
+            },
+            {
+                "id": "37",
+                "zh": "边 ",
+                "pinyin": "Biān",
+                "type": "",
+                "en": "side"
+            },
+            {
+                "id": "38",
+                "zh": "院 ",
+                "pinyin": "Yuàn",
+                "type": "",
+                "en": "courtyard"
+            },
+            {
+                "id": "39",
+                "zh": "校 ",
+                "pinyin": "Xiào",
+                "type": "",
+                "en": "school"
+            },
+            {
+                "id": "40",
+                "zh": "离 ",
+                "pinyin": "Lí",
+                "type": "",
+                "en": "depart"
+            },
+            {
+                "id": "41",
+                "zh": "远 ",
+                "pinyin": "Yuǎn",
+                "type": "",
+                "en": "far"
+            },
+            {
+                "id": "42",
+                "zh": "走 ",
+                "pinyin": "Zǒu",
+                "type": "",
+                "en": "walk"
+            },
+            {
+                "id": "43",
+                "zh": "再 ",
+                "pinyin": "Zài",
+                "type": "",
+                "en": "again"
+            },
+            {
+                "id": "44",
+                "zh": "见 ",
+                "pinyin": "Jiàn",
+                "type": "",
+                "en": "see"
+            },
+            {
+                "id": "45",
+                "zh": "外 ",
+                "pinyin": "Wài",
+                "type": "",
+                "en": "outside"
+            },
+            {
+                "id": "46",
+                "zh": "路 ",
+                "pinyin": "Lù",
+                "type": "",
+                "en": "road"
+            },
+            {
+                "id": "47",
+                "zh": "左 ",
+                "pinyin": "Zuǒ",
+                "type": "",
+                "en": "left"
+            },
+            {
+                "id": "48",
+                "zh": "右 ",
+                "pinyin": "Yòu",
+                "type": "",
+                "en": "right"
+            },
+            {
+                "id": "49",
+                "zh": "手 ",
+                "pinyin": "Shǒu",
+                "type": "",
+                "en": "hand"
+            },
+            {
+                "id": "50",
+                "zh": "到 ",
+                "pinyin": "Dào",
+                "type": "",
+                "en": "arrive"
+            },
+            {
+                "id": "51",
+                "zh": "车 ",
+                "pinyin": "Chē",
+                "type": "",
+                "en": "car"
+            },
+            {
+                "id": "52",
+                "zh": "京 ",
+                "pinyin": "Jīng",
+                "type": "",
+                "en": "capital"
+            },
+            {
+                "id": "53",
+                "zh": "经 ",
+                "pinyin": "Jīng",
+                "type": "",
+                "en": "classics; pass through"
+            },
+            {
+                "id": "54",
+                "zh": "已 ",
+                "pinyin": "Yǐ",
+                "type": "",
+                "en": "already"
+            },
+            {
+                "id": "55",
+                "zh": "间 ",
+                "pinyin": "Jiān",
+                "type": "",
+                "en": "space"
+            },
+            {
+                "id": "56",
+                "zh": "喜 ",
+                "pinyin": "Xǐ",
+                "type": "",
+                "en": "happy"
+            },
+            {
+                "id": "57",
+                "zh": "欢 ",
+                "pinyin": "Huān",
+                "type": "",
+                "en": "happy"
+            },
+            {
+                "id": "58",
+                "zh": "常 ",
+                "pinyin": "Cháng",
+                "type": "",
+                "en": "common / often / constant"
+            },
+            {
+                "id": "59",
+                "zh": "游 ",
+                "pinyin": "Yóu",
+                "type": "",
+                "en": "swim； tour"
+            },
+            {
+                "id": "60",
+                "zh": "泳 ",
+                "pinyin": "Yǒng",
+                "type": "",
+                "en": "swim"
+            },
+            {
+                "id": "61",
+                "zh": "动 ",
+                "pinyin": "Dòng",
+                "type": "",
+                "en": "move"
+            },
+            {
+                "id": "62",
+                "zh": "爱 ",
+                "pinyin": "Ài",
+                "type": "",
+                "en": "love"
+            },
+            {
+                "id": "63",
+                "zh": "睡 ",
+                "pinyin": "Shuì",
+                "type": "",
+                "en": "sleep"
+            },
+            {
+                "id": "64",
+                "zh": "知 ",
+                "pinyin": "Zhī",
+                "type": "",
+                "en": "know"
+            },
+            {
+                "id": "65",
+                "zh": "觉 ",
+                "pinyin": "Jiào/Jué",
+                "type": "",
+                "en": "sleep; feel"
+            },
+            {
+                "id": "66",
+                "zh": "运 ",
+                "pinyin": "Yùn",
+                "type": "",
+                "en": "transport"
+            },
+            {
+                "id": "67",
+                "zh": "得 ",
+                "pinyin": "dé/de/děi",
+                "type": "",
+                "en": "obtain; must; [verb particle]"
+            },
+            {
+                "id": "68",
+                "zh": "可 ",
+                "pinyin": "Kě",
+                "type": "",
+                "en": "can; may / -able"
+            },
+            {
+                "id": "69",
+                "zh": "以 ",
+                "pinyin": "Yǐ",
+                "type": "",
+                "en": "with / localiser to indicate boundary of a quantity"
+            },
+            {
+                "id": "70",
+                "zh": "共 ",
+                "pinyin": "Gòng",
+                "type": "",
+                "en": "together"
+            },
+            {
+                "id": "71",
+                "zh": "汽 ",
+                "pinyin": "Qì",
+                "type": "",
+                "en": "steam"
+            },
+            {
+                "id": "72",
+                "zh": "火 ",
+                "pinyin": "Huǒ",
+                "type": "",
+                "en": "fire"
+            },
+            {
+                "id": "73",
+                "zh": "站 ",
+                "pinyin": "Zhàn",
+                "type": "",
+                "en": "stand"
+            },
+            {
+                "id": "74",
+                "zh": "道 ",
+                "pinyin": "Dào",
+                "type": "",
+                "en": "road / the way"
+            },
+            {
+                "id": "75",
+                "zh": "话 ",
+                "pinyin": "Huà",
+                "type": "",
+                "en": "words; speech"
+            },
+            {
+                "id": "76",
+                "zh": "出 ",
+                "pinyin": "Chū",
+                "type": "",
+                "en": "come out"
+            },
+            {
+                "id": "77",
+                "zh": "懂 ",
+                "pinyin": "Dǒng",
+                "type": "",
+                "en": "understand"
+            },
+            {
+                "id": "78",
+                "zh": "要 ",
+                "pinyin": "Yào",
+                "type": "",
+                "en": "want / important / if"
+            },
+            {
+                "id": "79",
+                "zh": "先 ",
+                "pinyin": "Xiān",
+                "type": "",
+                "en": "first"
+            },
+            {
+                "id": "80",
+                "zh": "第 ",
+                "pinyin": "Dì",
+                "type": "",
+                "en": "ordinal number"
+            },
+            {
+                "id": "81",
+                "zh": "兴 ",
+                "pinyin": "Xīng/Xìng",
+                "type": "",
+                "en": "prosper / interest"
+            },
+            {
+                "id": "82",
+                "zh": "告 ",
+                "pinyin": "Gào",
+                "type": "",
+                "en": "tell / inform"
+            },
+            {
+                "id": "83",
+                "zh": "诉 ",
+                "pinyin": "Sù",
+                "type": "",
+                "en": "tell"
+            },
+            {
+                "id": "84",
+                "zh": "想 ",
+                "pinyin": "Xiǎng",
+                "type": "",
+                "en": "think"
+            },
+            {
+                "id": "85",
+                "zh": "开 ",
+                "pinyin": "Kāi",
+                "type": "",
+                "en": "open"
+            },
+            {
+                "id": "86",
+                "zh": "错 ",
+                "pinyin": "Cuò",
+                "type": "",
+                "en": "wrong"
+            },
+            {
+                "id": "87",
+                "zh": "正 ",
+                "pinyin": "Zhèng",
+                "type": "",
+                "en": "right； correct"
+            },
+            {
+                "id": "88",
+                "zh": "找 ",
+                "pinyin": "Zhǎo",
+                "type": "",
+                "en": "look for"
+            },
+            {
+                "id": "89",
+                "zh": "最 ",
+                "pinyin": "Zuì",
+                "type": "",
+                "en": "most"
+            },
+            {
+                "id": "90",
+                "zh": "歌 ",
+                "pinyin": "Gē",
+                "type": "",
+                "en": "song"
+            },
+            {
+                "id": "91",
+                "zh": "但 ",
+                "pinyin": "Dàn",
+                "type": "",
+                "en": "but; yet"
+            },
+            {
+                "id": "92",
+                "zh": "唱 ",
+                "pinyin": "Chàng",
+                "type": "",
+                "en": "sing"
+            },
+            {
+                "id": "93",
+                "zh": "教 ",
+                "pinyin": "Jiāo/Jiào",
+                "type": "",
+                "en": "teach"
+            },
+            {
+                "id": "94",
+                "zh": "给 ",
+                "pinyin": "Gěi/Jǐ",
+                "type": "",
+                "en": "give / supply"
+            },
+            {
+                "id": "95",
+                "zh": "题 ",
+                "pinyin": "Tí",
+                "type": "",
+                "en": "topic"
+            },
+            {
+                "id": "96",
+                "zh": "亮 ",
+                "pinyin": "Liàng",
+                "type": "",
+                "en": "bright"
+            },
+            {
+                "id": "97",
+                "zh": "表 ",
+                "pinyin": "Biǎo",
+                "type": "",
+                "en": "show； express"
+            },
+            {
+                "id": "98",
+                "zh": "打 ",
+                "pinyin": "Dǎ",
+                "type": "",
+                "en": "hit"
+            },
+            {
+                "id": "99",
+                "zh": "慢 ",
+                "pinyin": "Màn",
+                "type": "",
+                "en": "slow"
+            },
+            {
+                "id": "100",
+                "zh": "飞 ",
+                "pinyin": "Fēi",
+                "type": "",
+                "en": "fly"
+            },
+            {
+                "id": "101",
+                "zh": "机 ",
+                "pinyin": "Jī",
+                "type": "",
+                "en": "machine； opportunity"
+            },
+            {
+                "id": "102",
+                "zh": "快 ",
+                "pinyin": "Kuài",
+                "type": "",
+                "en": "fast"
+            },
+            {
+                "id": "103",
+                "zh": "票 ",
+                "pinyin": "Piào",
+                "type": "",
+                "en": "ticket"
+            },
+            {
+                "id": "104",
+                "zh": "旅 ",
+                "pinyin": "Lǚ",
+                "type": "",
+                "en": "travel"
+            },
+            {
+                "id": "105",
+                "zh": "行 ",
+                "pinyin": "Xíng/Háng",
+                "type": "",
+                "en": "travel； go / row / trade"
+            },
+            {
+                "id": "106",
+                "zh": "玩 ",
+                "pinyin": "Wán",
+                "type": "",
+                "en": "play"
+            },
+            {
+                "id": "107",
+                "zh": "船 ",
+                "pinyin": "Chuán",
+                "type": "",
+                "en": "boat / ship"
+            },
+            {
+                "id": "108",
+                "zh": "所 ",
+                "pinyin": "Suǒ",
+                "type": "",
+                "en": "dwelling; [classifier]; followed by a verb to form a phrasal structure"
+            },
+            {
+                "id": "109",
+                "zh": "向 ",
+                "pinyin": "Xiàng",
+                "type": "",
+                "en": "toward"
+            },
+            {
+                "id": "110",
+                "zh": "米 ",
+                "pinyin": "Mǐ",
+                "type": "",
+                "en": "rice； meter"
+            },
+            {
+                "id": "111",
+                "zh": "场 ",
+                "pinyin": "Chǎng",
+                "type": "",
+                "en": "field； [classifier]"
+            },
+            {
+                "id": "112",
+                "zh": "果 ",
+                "pinyin": "Guǒ",
+                "type": "",
+                "en": "fruit； resolute； as expected"
+            },
+            {
+                "id": "113",
+                "zh": "回 ",
+                "pinyin": "Huí",
+                "type": "",
+                "en": "return"
+            },
+            {
+                "id": "114",
+                "zh": "颜 ",
+                "pinyin": "Yán",
+                "type": "",
+                "en": "colour"
+            },
+            {
+                "id": "115",
+                "zh": "色 ",
+                "pinyin": "Sè",
+                "type": "",
+                "en": "colour"
+            },
+            {
+                "id": "116",
+                "zh": "别 ",
+                "pinyin": "Bié",
+                "type": "",
+                "en": "other； don't"
+            },
+            {
+                "id": "117",
+                "zh": "因 ",
+                "pinyin": "Yīn",
+                "type": "",
+                "en": "reason"
+            },
+            {
+                "id": "118",
+                "zh": "为 ",
+                "pinyin": "Wèi",
+                "type": "",
+                "en": "for"
+            },
+            {
+                "id": "119",
+                "zh": "真 ",
+                "pinyin": "Zhēn",
+                "type": "",
+                "en": "real； true； genuine"
+            },
+            {
+                "id": "120",
+                "zh": "新 ",
+                "pinyin": "Xīn",
+                "type": "",
+                "en": "new"
+            },
+            {
+                "id": "121",
+                "zh": "穿 ",
+                "pinyin": "Chuān",
+                "type": "",
+                "en": "wear"
+            },
+            {
+                "id": "122",
+                "zh": "服 ",
+                "pinyin": "Fú",
+                "type": "",
+                "en": "obey; clothes"
+            },
+            {
+                "id": "123",
+                "zh": "喝 ",
+                "pinyin": "Hē",
+                "type": "",
+                "en": "drink"
+            },
+            {
+                "id": "124",
+                "zh": "饮 ",
+                "pinyin": "Yǐn",
+                "type": "",
+                "en": "drink"
+            },
+            {
+                "id": "125",
+                "zh": "着 ",
+                "pinyin": "Zhe",
+                "type": "",
+                "en": "verbal particle/attach; get attached to"
+            },
+            {
+                "id": "126",
+                "zh": "气 ",
+                "pinyin": "Qì",
+                "type": "",
+                "en": "air; gas"
+            },
+            {
+                "id": "127",
+                "zh": "报 ",
+                "pinyin": "Bào",
+                "type": "",
+                "en": "report"
+            },
+            {
+                "id": "128",
+                "zh": "晴 ",
+                "pinyin": "Qíng",
+                "type": "",
+                "en": "fine; sunny"
+            },
+            {
+                "id": "129",
+                "zh": "阴 ",
+                "pinyin": "Yīn",
+                "type": "",
+                "en": "dark; cloudy"
+            },
+            {
+                "id": "130",
+                "zh": "漂 ",
+                "pinyin": "Piāo/Piǎo/Piào",
+                "type": "",
+                "en": "adrift / bleach"
+            },
+            {
+                "id": "131",
+                "zh": "务 ",
+                "pinyin": "Wù",
+                "type": "",
+                "en": "must / obligation"
+            },
+            {
+                "id": "132",
+                "zh": "望 ",
+                "pinyin": "Wàng",
+                "type": "",
+                "en": "stretch one's eyes over; visit"
+            },
+            {
+                "id": "133",
+                "zh": "球 ",
+                "pinyin": "Qiú",
+                "type": "",
+                "en": "ball"
+            },
+            {
+                "id": "134",
+                "zh": "门 ",
+                "pinyin": "Mén",
+                "type": "",
+                "en": "door/discipline; body of knowledge or skills"
+            },
+            {
+                "id": "135",
+                "zh": "希 ",
+                "pinyin": "Xī",
+                "type": "",
+                "en": "hope; scarce"
+            },
+            {
+                "id": "136",
+                "zh": "次 ",
+                "pinyin": "Cì",
+                "type": "",
+                "en": "position in a series"
+            },
+            {
+                "id": "137",
+                "zh": "始 ",
+                "pinyin": "Shǐ",
+                "type": "",
+                "en": "beginning"
+            },
+            {
+                "id": "138",
+                "zh": "班 ",
+                "pinyin": "Bān",
+                "type": "",
+                "en": "class; a trip by bus/boat; shift"
+            },
+            {
+                "id": "139",
+                "zh": "羊 ",
+                "pinyin": "Yáng",
+                "type": "",
+                "en": "sheep"
+            },
+            {
+                "id": "140",
+                "zh": "奶 ",
+                "pinyin": "Nǎi",
+                "type": "",
+                "en": "milk"
+            },
+            {
+                "id": "141",
+                "zh": "眼 ",
+                "pinyin": "Yǎn",
+                "type": "",
+                "en": "eye"
+            },
+            {
+                "id": "142",
+                "zh": "准 ",
+                "pinyin": "Zhǔn",
+                "type": "",
+                "en": "permit; follow; accurate; definitely"
+            },
+            {
+                "id": "143",
+                "zh": "夫 ",
+                "pinyin": "Fū",
+                "type": "",
+                "en": "husband"
+            },
+            {
+                "id": "144",
+                "zh": "备 ",
+                "pinyin": "Bèi",
+                "type": "",
+                "en": "be equipped with"
+            },
+            {
+                "id": "145",
+                "zh": "答 ",
+                "pinyin": "Dā/Dá",
+                "type": "",
+                "en": "answer / respond"
+            },
+            {
+                "id": "146",
+                "zh": "等 ",
+                "pinyin": "Děng",
+                "type": "",
+                "en": "wait; equal"
+            },
+            {
+                "id": "147",
+                "zh": "舞 ",
+                "pinyin": "Wǔ",
+                "type": "",
+                "en": "dance; dance with sth. in one's hands; wield/brandish"
+            },
+            {
+                "id": "148",
+                "zh": "笑 ",
+                "pinyin": "Xiào",
+                "type": "",
+                "en": "laugh at"
+            },
+            {
+                "id": "149",
+                "zh": "房 ",
+                "pinyin": "Fáng",
+                "type": "",
+                "en": "room"
+            },
+            {
+                "id": "150",
+                "zh": "迎 ",
+                "pinyin": "Yíng",
+                "type": "",
+                "en": "go to meet"
+            },
+            {
+                "id": "151",
+                "zh": "考 ",
+                "pinyin": "Kǎo",
+                "type": "",
+                "en": "test"
+            },
+            {
+                "id": "152",
+                "zh": "课 ",
+                "pinyin": "Kè",
+                "type": "",
+                "en": "class; lecture"
+            },
+            {
+                "id": "153",
+                "zh": "纸 ",
+                "pinyin": "Zhǐ",
+                "type": "",
+                "en": "paper"
+            },
+            {
+                "id": "154",
+                "zh": "让 ",
+                "pinyin": "Ràng",
+                "type": "",
+                "en": "give away"
+            },
+            {
+                "id": "155",
+                "zh": "斤 ",
+                "pinyin": "Jīn",
+                "type": "",
+                "en": "a unit of weight (half a kilogram)"
+            },
+            {
+                "id": "156",
+                "zh": "鱼 ",
+                "pinyin": "Yú",
+                "type": "",
+                "en": "fish"
+            },
+            {
+                "id": "157",
+                "zh": "牛 ",
+                "pinyin": "Niú",
+                "type": "",
+                "en": "cattle / cow"
+            },
+            {
+                "id": "158",
+                "zh": "肉 ",
+                "pinyin": "Ròu",
+                "type": "",
+                "en": "meat"
+            },
+            {
+                "id": "159",
+                "zh": "洗 ",
+                "pinyin": "Xǐ",
+                "type": "",
+                "en": "wash"
+            },
+            {
+                "id": "160",
+                "zh": "送 ",
+                "pinyin": "Sòng",
+                "type": "",
+                "en": "give as a present"
+            },
+            {
+                "id": "161",
+                "zh": "鸡 ",
+                "pinyin": "Jī",
+                "type": "",
+                "en": "chicken"
+            },
+            {
+                "id": "162",
+                "zh": "蛋 ",
+                "pinyin": "Dàn",
+                "type": "",
+                "en": "egg"
+            },
+            {
+                "id": "163",
+                "zh": "非 ",
+                "pinyin": "Fēi",
+                "type": "",
+                "en": "not (non-)"
+            },
+            {
+                "id": "164",
+                "zh": "号 ",
+                "pinyin": "Hào",
+                "type": "",
+                "en": "number"
+            },
+            {
+                "id": "165",
+                "zh": "介 ",
+                "pinyin": "Jiè",
+                "type": "",
+                "en": "be situated between"
+            },
+            {
+                "id": "166",
+                "zh": "室 ",
+                "pinyin": "Shì",
+                "type": "",
+                "en": "room"
+            },
+            {
+                "id": "167",
+                "zh": "累 ",
+                "pinyin": "Léi/Lěi/Lèi",
+                "type": "",
+                "en": "accumulate / cumbersome; tired (Lèi)"
+            },
+            {
+                "id": "168",
+                "zh": "雪 ",
+                "pinyin": "Xuě",
+                "type": "",
+                "en": "snow"
+            },
+            {
+                "id": "169",
+                "zh": "完 ",
+                "pinyin": "Wán",
+                "type": "",
+                "en": "finish"
+            },
+            {
+                "id": "170",
+                "zh": "乐 ",
+                "pinyin": "Lè/Yuè",
+                "type": "",
+                "en": "joy / music"
+            },
+            {
+                "id": "171",
+                "zh": "事 ",
+                "pinyin": "Shì",
+                "type": "",
+                "en": "matter"
+            },
+            {
+                "id": "172",
+                "zh": "休 ",
+                "pinyin": "Xiū",
+                "type": "",
+                "en": "rest"
+            },
+            {
+                "id": "173",
+                "zh": "息 ",
+                "pinyin": "Xī",
+                "type": "",
+                "en": "breath; stop; news"
+            },
+            {
+                "id": "174",
+                "zh": "跳 ",
+                "pinyin": "Tiào",
+                "type": "",
+                "en": "jump / bounce; move up and down; skip (over) / make omissions"
+            },
+            {
+                "id": "175",
+                "zh": "员 ",
+                "pinyin": "Yuán",
+                "type": "",
+                "en": "person engaged in a field of activity; clerk"
+            },
+            {
+                "id": "176",
+                "zh": "足 ",
+                "pinyin": "Zú",
+                "type": "",
+                "en": "foot; fully"
+            },
+            {
+                "id": "177",
+                "zh": "自 ",
+                "pinyin": "Zì",
+                "type": "",
+                "en": "oneself"
+            },
+            {
+                "id": "178",
+                "zh": "杯 ",
+                "pinyin": "Bēi",
+                "type": "",
+                "en": "glass; cup"
+            },
+            {
+                "id": "179",
+                "zh": "馆 ",
+                "pinyin": "Guǎn",
+                "type": "",
+                "en": "dwelling"
+            },
+            {
+                "id": "180",
+                "zh": "关 ",
+                "pinyin": "Guān",
+                "type": "",
+                "en": "shut / turn off / close"
+            },
+            {
+                "id": "181",
+                "zh": "菜 ",
+                "pinyin": "Cài",
+                "type": "",
+                "en": "vegetables"
+            },
+            {
+                "id": "182",
+                "zh": "椅 ",
+                "pinyin": "Yǐ",
+                "type": "",
+                "en": "chair"
+            },
+            {
+                "id": "183",
+                "zh": "茶 ",
+                "pinyin": "Chá",
+                "type": "",
+                "en": "tea"
+            },
+            {
+                "id": "184",
+                "zh": "租 ",
+                "pinyin": "Zū",
+                "type": "",
+                "en": "rent / hire; let out; rent"
+            },
+            {
+                "id": "185",
+                "zh": "同 ",
+                "pinyin": "Tóng",
+                "type": "",
+                "en": "common / with"
+            },
+            {
+                "id": "186",
+                "zh": "桌 ",
+                "pinyin": "Zhuō",
+                "type": "",
+                "en": "table"
+            },
+            {
+                "id": "187",
+                "zh": "些 ",
+                "pinyin": "Xiē",
+                "type": "",
+                "en": "some; a few"
+            },
+            {
+                "id": "188",
+                "zh": "视 ",
+                "pinyin": "Shì",
+                "type": "",
+                "en": "look at"
+            },
+            {
+                "id": "189",
+                "zh": "系 ",
+                "pinyin": "Xì / Jì",
+                "type": "",
+                "en": "system (Xì); relate to (Xì); fasten (Jì)"
+            },
+            {
+                "id": "190",
+                "zh": "思 ",
+                "pinyin": "Sī",
+                "type": "",
+                "en": "think"
+            },
+            {
+                "id": "191",
+                "zh": "客 ",
+                "pinyin": "Kè",
+                "type": "",
+                "en": "guest"
+            },
+            {
+                "id": "192",
+                "zh": "意 ",
+                "pinyin": "Yì",
+                "type": "",
+                "en": "idea"
+            },
+            {
+                "id": "193",
+                "zh": "药 ",
+                "pinyin": "Yào",
+                "type": "",
+                "en": "medicine"
+            },
+            {
+                "id": "194",
+                "zh": "情 ",
+                "pinyin": "Qíng",
+                "type": "",
+                "en": "emotion"
+            },
+            {
+                "id": "195",
+                "zh": "张 ",
+                "pinyin": "Zhāng",
+                "type": "",
+                "en": "[measure word]; open"
+            },
+            {
+                "id": "196",
+                "zh": "病 ",
+                "pinyin": "Bìng",
+                "type": "",
+                "en": "sick / ill"
+            },
+            {
+                "id": "197",
+                "zh": "苹 ",
+                "pinyin": "Píng",
+                "type": "",
+                "en": "apple"
+            },
+            {
+                "id": "198",
+                "zh": "喂 ",
+                "pinyin": "Wèi",
+                "type": "",
+                "en": "hey; hello (answering phone); feed animals; babies or sick people"
+            },
+            {
+                "id": "199",
+                "zh": "瓜 ",
+                "pinyin": "Guā",
+                "type": "",
+                "en": "melon; gourd"
+            },
+            {
+                "id": "200",
+                "zh": "丈 ",
+                "pinyin": "Zhàng",
+                "type": "",
+                "en": "unit of length; husband"
+            },
+            {
+                "id": "201",
+                "zh": "踢 ",
+                "pinyin": "Tī",
+                "type": "",
+                "en": "kick"
+            },
+            {
+                "id": "202",
+                "zh": "司 ",
+                "pinyin": "Sī",
+                "type": "",
+                "en": "in charge of"
+            },
+            {
+                "id": "203",
+                "zh": "咖 ",
+                "pinyin": "Kā/Gā",
+                "type": "",
+                "en": "This character is used to transliterate foreign words."
+            },
+            {
+                "id": "204",
+                "zh": "啡 ",
+                "pinyin": "Fēi",
+                "type": "",
+                "en": "This character is used for Transliteration."
+            },
+            {
+                "id": "205",
+                "zh": "试 ",
+                "pinyin": "Shì",
+                "type": "",
+                "en": "try / attempt"
+            },
+            {
+                "id": "206",
+                "zh": "绍 ",
+                "pinyin": "Shào",
+                "type": "",
+                "en": "carry on / continue"
+            },
+            {
+                "id": "207",
+                "zh": "篮 ",
+                "pinyin": "Lán",
+                "type": "",
+                "en": "basket"
+            },
+            {
+                "id": "208",
+                "zh": "妻 ",
+                "pinyin": "Qī",
+                "type": "",
+                "en": "wife"
+            }
+        ]
+    }
+]

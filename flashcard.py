@@ -1,7 +1,9 @@
 # TODO
-# 1. Add play audio button
-# 2. Toggle audio speed
-# 3. Switch audio (original, alt, alt2)
+# 1. Toggle audio speed
+
+# Executables
+# Pyinstaller - only runs console in same folder
+# cx_freeze - black screen (disable dark mode mac?)
 
 #coding:utf-8
 from datetime import datetime
@@ -50,7 +52,9 @@ def play_audio(arg=0):
         str(n), selectedAudio, ".mp3"
     ])
     # if audio exists, play
-    if (os.path.isfile(resource_path(audio_path)) is True):
+    #if (os.path.isfile(resource_path(audio_path)) is True):
+    #    mixer.music.load(resource_path(audio_path))
+    if (os.path.isfile(audio_path) is True):
         mixer.music.load(audio_path)
         # play Chinese audio
         mixer.music.play()
@@ -168,11 +172,14 @@ root.title(windowTitle)
 deck_list = []
 
 # loop through dir names in decks folder
-start = resource_path('assets/decks/')
+start = 'assets/decks/'
 for item in os.listdir(start):
     if os.path.isdir(os.path.join(start, item)):
         # add folder names to list
         deck_list.append(item)
+
+# order deck_list alphabetically
+deck_list = sorted(deck_list)
 
 # create select list with deck names
 choice = StringVar(root)
@@ -210,7 +217,7 @@ def select_deck():
     # Opening JSON file
     # replace encoding errors
     db_path = ''.join(['assets/decks/', deck, '/db.json'])
-    f = open((resource_path(db_path)), encoding="utf8", errors="replace")
+    f = open(db_path, encoding="utf8", errors="replace")
 
     # returns JSON object as
     # a dictionary
@@ -233,7 +240,7 @@ def select_deck():
         ["assets/decks/", deck, "/audio/", lang, "/", card_number, ".mp3"])
 
     # if audio exists, play
-    if (os.path.isfile(resource_path(audio_path)) is True):
+    if (os.path.isfile(audio_path) is True):
         mixer.music.load(audio_path)
         # play Chinese audio
         mixer.music.play()
