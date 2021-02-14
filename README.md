@@ -3,8 +3,10 @@
 #### Version: 1.0.0
 
 Flashcard is a simple program written in Python to review Chinese/English Flashcards.
+Please note that this has been developed on Mac, so the TKinter label's may need 
+re-positioning to run smoothly on Windows.
 
-[GUI Screenshot](assets/img/screenshot.png)
+![GUI Screenshot](https://github.com/dmumford/Flashcards/blob/main/Screenshot.png?raw=true)
 
 ## Flashcard Interface
 * Chinese Character (Simplified)
@@ -14,9 +16,10 @@ Flashcard is a simple program written in Python to review Chinese/English Flashc
 * Flashcard ID number
 
 ### Buttons
-* toggle between Chinese and English Audio (audio: ...)
-* toggle audio TTS Voice (voice: ...)
-* Play audio with the spacebar
+* Press 1 to toggle between Chinese and English Audio
+* Press 2 to toggle TTS Voices
+* Press space to play audio
+* Press r to go to random card in deck
 
 ### Navigation
 There are two ways of Navigating through the Flashcards:
@@ -32,10 +35,3 @@ You can search for a Flashcard by typing the Flashcard ID number in the search b
 ### Adding New Cards
 
 tbc
-
-## Installation
-
-1. Move the folder 'Daves Flashcards' to your desired location.
-2. Move the 'Daves Flashcards' Shortcut to your Desktop.
-
-You can run the program by opening the 'Daves Flashcards' shortcut.

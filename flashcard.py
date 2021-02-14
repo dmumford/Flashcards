@@ -5,7 +5,7 @@
 # Pyinstaller - only runs console in same folder
 # cx_freeze - black screen (disable dark mode mac?)
 
-#coding:utf-8
+# coding:utf-8
 from datetime import datetime
 import json
 
@@ -35,6 +35,14 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 
+# log include paths
+# f = open("log.txt", "a")
+# for root, dirs, files in os.walk(resource_path("")):
+#    for file in files:
+#        f.write(''.join([file, "\n"]))
+#f.close()
+
+
 def play_audio(arg=0):
 
     global voice, n, lang
@@ -52,8 +60,6 @@ def play_audio(arg=0):
         str(n), selectedAudio, ".mp3"
     ])
     # if audio exists, play
-    #if (os.path.isfile(resource_path(audio_path)) is True):
-    #    mixer.music.load(resource_path(audio_path))
     if (os.path.isfile(audio_path) is True):
         mixer.music.load(audio_path)
         # play Chinese audio
@@ -172,7 +178,7 @@ root.title(windowTitle)
 deck_list = []
 
 # loop through dir names in decks folder
-start = 'assets/decks/'
+start = 'assets/decks'
 for item in os.listdir(start):
     if os.path.isdir(os.path.join(start, item)):
         # add folder names to list
@@ -360,7 +366,7 @@ def select_deck():
         'Press 1 to switch between audio language\n\nPress 2 to change' \
             ' audio voice\n\nPress spacebar to play audio\n\nUse the' \
                 ' arrow keys on your keyboard\n\n' \
-                ' to navigate the deck\nPress R for random card',
+                ' to navigate the deck\n\nPress R for random card',
         fg="white",
         bg="#7314C0",
         width=35,
