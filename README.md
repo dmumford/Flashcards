@@ -6,6 +6,8 @@ Flashcard is a simple program written in Python to review Chinese/English Flashc
 Please note that this has been developed on Mac, so the TKinter label's may need 
 re-positioning to run smoothly on Windows.
 
+![GUI Screenshot](https://github.com/dmumford/Flashcards/blob/main/assets/img/Screenshot%202.png?raw=true)
+
 ![GUI Screenshot](https://github.com/dmumford/Flashcards/blob/main/assets/img/Screenshot.png?raw=true)
 
 ## Flashcard Interface
