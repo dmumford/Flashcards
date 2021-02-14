@@ -134,13 +134,14 @@ def getCard(nav='n'):
 def selectVoice():
 
     global voice, voiceStr
-    # construct voiceToggle text
-    voiceStr = "".join(["voice: ", str(voice)])
 
     if (voice < 3):
         voice = voice + 1
     else:
         voice = 1
+
+    # construct voiceToggle text
+    voiceStr = "".join(["voice: ", str(voice)])
 
     # update voiceToggle text
     voiceToggle.config(text=voiceStr)
